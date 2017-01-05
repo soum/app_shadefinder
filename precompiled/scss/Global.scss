@@ -1,0 +1,176 @@
+//---------------------------------------
+//
+// 	Content Path
+//
+//---------------------------------------
+$path: '../../';
+
+//---------------------------------------
+// 	UI Imports
+//---------------------------------------
+@import 'UI.scss', 'UI/Components/UI.Reset', 'UI/Components/UI.Modal';
+@import 'ShadeFinder/Core/Animations';
+
+//---------------------------------------
+// 	Global
+//---------------------------------------
+html, body, main { position: relative; height: 100%; width: 100%; overflow:hidden; display:block; }
+.wrapper { position:relative; width: 100%; }
+.container { @extend %wrapper; }
+body { background: none transparent; position:fixed; }
+%background { position: absolute; top:0; left:0; height: 100%; width: 100%; }
+
+//---------------------------------------
+// 	Random
+//---------------------------------------
+.navigate { cursor:pointer; }
+.background {
+	@extend %background;
+	background-position: center center; background-size: cover;
+}
+.background { display:none; }
+.section-0 .background { display:block; }
+.show .background { display:block; }
+.middle { @include transition-transform(400ms); }
+.full { min-height: 100%; }
+
+//---------------------------------------
+// 	Finder Imports
+//---------------------------------------
+@import 'ShadeFinder/Core/Text';
+
+//---------------------------------------
+// 	Modal
+//---------------------------------------
+.modal {
+
+	z-index: 99;
+
+	@include transition(opacity 400ms); opacity:0;
+
+	.overlay { background: rgba(255,255,255,1); cursor: pointer; z-index: -1; }
+
+	&.show { opacity: 1; }
+
+	&.shown { opacity: 1; }
+
+	&.hide { opacity: 0; }
+
+	&.hidden { height:0; width:0; opacity: 0; visibility:hidden; }
+
+	.hide {
+		z-index: 100;
+
+		position:absolute; top: 17px; right: 2em;
+
+		span {
+			background: tan;
+			height: 1px; width: 56px; display:block; margin: 18.75px 0;
+			@include transition-with-transform((background 400ms, opacity 400ms), 400ms);
+		}
+
+		span.top { @include transform-origin(100% 0); @include transform(rotate(-45deg) translateY(-1px));  }
+
+		span.mid { opacity:0; }
+
+		span.bottom { @include transform-origin(100% 100%); @include transform(rotate(45deg)); }
+
+		&:hover span { height: 2px; top: 18px; margin: 17.5px 0; }
+	}
+
+	.text-content {
+
+		text-align: center;
+
+		h4 { color: $cream; }
+
+	}
+
+}
+
+//---------------------------------------
+// 	Video Modal
+//---------------------------------------
+#VideoModal {
+
+	z-index: 102;
+
+	.overlay { background: rgba(0,0,0,0.8); cursor: pointer; }
+
+	.video-player {
+
+		position:relative; overflow:hidden; width: 100%;  top: 53.5%; background: #000;
+		@include transform(translateY(-50%));
+
+		.wrapper { position:relative; margin:0 auto; }
+
+		.wrapper-inner { position:relative; height:0; padding-bottom: 56.3%; }
+
+		iframe { position:absolute; height: 100%; width:100%; left: 0; }
+
+	}
+
+}
+
+
+//---------------------------------------
+// 	Tips Modal
+//---------------------------------------
+#TipsModal {
+
+	.content { overflow-y: scroll; height: 94vh;}
+
+	.text-content {
+
+		h1 {
+			font-size: 3em;
+			margin: 12vh auto 15px auto;
+			color: $dark-brown;
+		}
+
+		p {
+			line-height: .8em;
+			margin: 1.3em 0 1.6em 0;
+		}
+
+	}
+
+	.video-thumbnail {
+
+		margin: 1em 0 1.5em 0;
+
+		p { margin:0; }
+
+		.video {
+
+			cursor: pointer;
+
+			h4 { margin:0.3em 0; @include transition(color 400ms); }
+
+		}
+
+		.thumbnail {
+			display:block;
+			height: 300px;
+			background-image: url($path + 'images/video-thumbnail.jpg');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: 50% 0;
+		}
+
+	}
+
+}
+
+//---------------------------------------
+// 	Finder Sections
+//---------------------------------------
+section {
+
+	position:absolute; overflow:hidden; top:0; left:0; width: 100%;
+
+	@include transform(translateY(-100%));
+
+	.inner { position:absolute; top:0; left:0; width: 100%; height: 100%; }
+
+}

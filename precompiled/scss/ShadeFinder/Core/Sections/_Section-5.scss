@@ -1,0 +1,97 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 5
+::
+-----------------------------------------*/
+
+.section-5 {
+
+	.scroll-wrapper { @extend %background; }
+
+	background-color: #fff;
+	background-image: url($path + 'images/background-gradient.jpg');
+	background-size: auto 100%;
+
+	.background {
+		background-image: url($path + 'images/step-2.png'); opacity: 0;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+
+	.wrapper, .left, .right { opacity: 0; }
+
+	.wrapper { position:absolute; height: 100%; }
+
+	h3 { @include grid(1,6); color: #000; }
+
+	h5 {
+		position: absolute; top: 16%; left: 0; width: 100%; z-index: 2;
+		display: block; text-align: center; color: #000; font-size: 1.8em; font-family: 'Lato'; text-transform: uppercase;
+	}
+
+	button { margin:0;font-size:1.1em;padding:0.225em 0.8em; font-weight:800; letter-spacing:2px;
+		span { font-weight:800; letter-spacing:2px; }
+	}
+
+	.left, .right { position:absolute; height: 100%; width: 33%; }
+
+	.left { left: 56%; }
+
+	.right { right: 61%; }
+
+	.center { margin-left:auto; margin-right:auto;}
+
+	.button-0, .button-1, .button-2, .button-3, .button-4, .button-5 {
+
+		position:absolute; top:0; display: block;width:100%;
+
+		&:before {
+			@extend %icon; color: #000; font-size: 3.5em;
+			position:absolute; top: 100%; display: block;
+		}
+
+	}
+
+	.button-0, .button-1 { top: 42%; }
+	.button-2, .button-3 {
+		top: 71%;
+
+		&:before {
+			top:83%;
+		}
+	}
+
+	.button-1 {
+		right:-9%; text-align: right;
+		&:before { content: "o"; right:1%; }
+	}
+	.button-2 {
+		right:21%; text-align: right;
+		&:before { content: "m"; right:5%; }
+	}
+	.button-4 {
+		left:-49%; top: 28%;
+		&:before { content: "m"; top:105%; left:30%; @include transform(rotate(-75deg) scaleX(-1)); }
+	}
+	.button-0 {
+		left:32%;
+		&:before { content: "p"; left:23%; }
+	}
+	.button-3 {
+		left:41%;
+		&:before { content: "n"; left:13%; @include transform(rotate(-23deg)); }
+	}
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-7, .from-page-7 {
+	.section-5 {
+		.wrapper, .left, .right { display:block; }
+	}
+}

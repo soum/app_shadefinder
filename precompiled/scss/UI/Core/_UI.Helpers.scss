@@ -1,0 +1,103 @@
+//------------------------------------------
+//
+// 	UI > Helpers
+//
+//------------------------------------------
+//	transitions
+//------------------------------------------
+@mixin transition($props1) {
+	transition: $props1;
+	-webkit-transition: $props1;
+	-moz-transition: $props1;
+	-o-transition: $props1;
+	-ms-transition: $props1;
+}
+@mixin transition-transform($duration) {
+	transition: transform $duration;
+	-webkit-transition: -webkit-transform $duration;
+	-moz-transition: -moz-transform $duration;
+	-o-transition: -o-transform $duration;
+	-ms-transition: -ms-transform $duration;
+}
+@mixin transition-with-transform($props1, $duration) {
+	transition: $props1, transform $duration;
+	-webkit-transition: $props1, -webkit-transform $duration;
+	-moz-transition: $props1, -moz-transform $duration;
+	-o-transition: $props1, -o-transform $duration;
+	-ms-transition: $props1, -ms-transform $duration;
+}
+//------------------------------------------
+//	transforms
+//------------------------------------------
+@mixin transform($props1) {
+	transform: $props1;
+	-webkit-transform: $props1;
+	-moz-transform: $props1;
+	-o-transform: $props1;
+	-ms-transform: $props1;
+}
+@mixin transform-origin($props1) {
+	transform-origin: $props1;
+	-webkit-transform-origin: $props1;
+	-moz-transform-origin: $props1;
+	-o-transform-origin: $props1;
+	-ms-transform-origin: $props1;
+}
+//------------------------------------------
+//	animations
+//------------------------------------------
+@mixin keyframes($name) {
+	@-webkit-keyframes #{$name} { @content; }
+	@-moz-keyframes #{$name} { @content; }
+	@-ms-keyframes #{$name} { @content; }
+	@keyframes #{$name} { @content; } 
+}
+@mixin animation($attributes) {
+	-webkit-animation: $attributes; 
+	-moz-animation: $attributes;
+	-ms-animation: $attributes;
+	animation: $attributes;
+}
+//------------------------------------------
+//	utilities
+//------------------------------------------
+@mixin text-size-adjust($val) {
+	-webkit-text-size-adjust: $val; 
+	-moz-text-size-adjust: $val;
+	-ms-text-size-adjust: $val;
+	text-size-adjust: $val;
+}
+@mixin backface-visibility($val) {
+	-webkit-backface-visibility: $val;
+	-moz-backface-visibility: $val;
+	-ms-backface-visibility: $val;
+	backface-visibility: $val;
+}
+@mixin user-select($val) {
+	-webkit-user-select: $val;
+	-khtml-user-select: $val;
+	-moz-user-select: -moz-$val;
+	-ms-user-select: $val;
+	user-select: $val;
+}
+@mixin box-sizing($val) {
+	-webkit-box-sizing: $val; 
+	-moz-box-sizing: $val;
+	-ms-box-sizing: $val;
+	box-sizing: $val;	
+}
+//------------------------------------------
+//	font-face
+//------------------------------------------
+@mixin font-face($name, $path) {
+	@font-face {
+		font-family: '#{$name}';
+		src: url('#{$path}.eot');
+		src: url('#{$path}.eot?#iefix') format('embedded-opentype'),
+		url('#{$path}.woff') format('woff'),
+		url('#{$path}.ttf') format('truetype'),
+		url('#{$path}.svg##{$name}') format('svg');
+		@content;
+	}
+}
+

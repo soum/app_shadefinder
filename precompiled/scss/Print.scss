@@ -1,0 +1,83 @@
+//---------------------------------------
+//
+// 	Print
+//
+//---------------------------------------
+$path: '../../';
+
+//---------------------------------------
+// 	UI Imports
+//---------------------------------------
+@import 'UI.scss', 'UI/Components/UI.Reset';
+
+//---------------------------------------
+// 	Finder Imports
+//---------------------------------------
+@import 'Global.scss', 'ShadeFinder/Core/Text', 'ShadeFinder/Core/Animations', 'ShadeFinder/Desktop/Sections/Section-7';
+
+@page { margin: 0 !important; padding: 0 !important; }
+
+.section-0, .section-1, .section-2, .section-3, .section-4, .section-5, .section-6, .section-8, header, .mobile-nav, #TipsModal, #VideoModal {
+	display:none !important;
+}
+
+html, body { width: 100% !important; height: 100% !important; overflow:auto !important; }
+
+body { position: relative; }
+
+.side-menu { display: none; }
+
+main, .section-7 {
+	width: 100% !important; margin: 0; float: none; height: auto !important; position: relative !important;
+}
+
+.section-7 {
+	font-size: 12px; display:block !important;
+	@include transform(translate(0, 0) !important);
+	@include animation(none !important);
+
+	.wrapper { margin: 0 !important; padding: 0 !important; width: 100% !important; height: 100% !important; }
+
+	.wrapper.foundations { padding-top: 4em !important; }
+
+	.left-nav, .video, button { display:none !important; }
+
+	.matches .toggle-match .button-wrap { border:0; }
+
+	.matches .toggle-match .button-wrap button.b1 { display:block; }
+
+	.match { min-height: 0 !important; }
+
+	.matches { clear:both; }
+
+	.matches .match.second { position:relative; top:0; }
+
+	.matches .match.second.hidden { display:none; }
+
+	.matches.showing-1 .match { @include transform(translateY(0) !important); }
+
+	.matches .match.second { display:none; }
+
+	.matches.showing-1 .match.first { display:none; }
+	.matches.showing-1 .match.second { display:block; }
+
+	.toggle-match { display:none; }
+
+	.row { margin:0 auto; clear:both; }
+
+	.item { margin:0; width: 33.333%; }
+
+	.both { width: 20%; }
+
+	.print-logo {
+		display:block; padding: 0 0 0.5em; font-size: 1.5em; text-align:center;
+		img { display:inline-block; width: 200px; }
+	}
+
+	.cross-sells { @include animation(none !important); }
+
+	.cross-sells h5 { margin-top:0.5em; }
+
+	.name .heading { font-size: 1em; }
+
+}

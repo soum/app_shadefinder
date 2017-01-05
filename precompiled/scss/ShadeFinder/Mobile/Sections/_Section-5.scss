@@ -1,0 +1,140 @@
+/*---------------------------------------
+::
+:: 	Section-5 Mobile Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-5.scss';
+
+.section-5 {
+
+	overflow:hidden;
+
+	.scroll-wrapper { overflow:auto; -webkit-overflow-scrolling: touch; }
+
+	.inner { position: relative; overflow:auto; }
+
+	.wrapper { position:relative; height:auto;}
+
+	.background { display:none; }
+
+	sup { font-size: 55%; top: -0.6em; }
+
+	h5 { position:relative; margin-top: 3.6em; top: auto; font-size: 1.3em; line-height:1.5em; }
+
+	.products {
+		width: 100%; padding-bottom: 80%; opacity:0; margin-top: 16%;
+		background-image: url($path + 'images/Mobile/section-5-new.png');
+		background-size:100%;
+		background-repeat: no-repeat;
+	}
+
+	.left, .right { position:relative; height: auto; width: 100%; left:auto; right: auto; }
+
+	.right { padding-bottom: 3em; margin-top: 1px; }
+
+	.button-0, .button-1, .button-2, .button-3, .button-4, .button-5 {
+		width: 95.3052%; margin-left: 2.3474%;
+		position:relative; top: auto; left:auto; right: auto; bottom: auto;
+		&:before { display:none; }
+	}
+
+	.button-0, .button-1, .button-2, .button-3, .button-4 { margin-top:1px; }
+
+	button { display:block; width: 100%; @include box-sizing(border-box); font-size: 1em; padding: 0.5em 0; }
+
+	.is-new {
+		position:relative; padding-left: 3.5em;
+	}
+
+	.button-4{
+		.new-icon {
+			left: 0.8em;
+
+			@media screen and (max-width: 380px) {
+				left: 0.2em;
+			}
+		}
+		.is-new {
+			display:block;
+		}
+	}
+
+	.bm { display:none; }
+
+	.new-icon {
+
+		position:absolute; left: 0.15em; top: 0;/*top: -28%;*/
+		@extend %h5; color: #fff; font-size: 2.1em;
+
+		background-image: url($path + 'images/new-button.png'); background-size:100%; width: 40px; height: 40px;
+		background-repeat: no-repeat;
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	To 7
+-----------------------------------------*/
+.from-page-start.to-page-7 .section-5 {
+	@extend %upped-in; @extend %fade-in;
+}
+.from-page-0.to-page-7 .section-5 {
+	@extend %upped-in;
+}
+.from-page-1.to-page-7 .section-5 {
+	@extend %upped-in;
+}
+.from-page-8.to-page-7 .section-5 {
+	@extend %right-in;
+	.products { @extend %right-in-inner; }
+}
+.from-page-9.to-page-7 .section-5 {
+	@extend %right-in;
+	.products { @extend %right-in-inner; }
+}
+
+/*---------------------------------------
+:: 	From 7
+-----------------------------------------*/
+.from-page-7 .section-5 {
+	.products { @extend %faded-in; }
+	.wrapper, .left, .right { @extend %faded-in; }
+}
+.from-page-7.to-page-1 .section-5 {
+	@extend %right-out;
+	.products { @extend %upped-in; }
+}
+.from-page-7.to-page-8 .section-5 {
+	@extend %left-out;
+	.products { @extend %left-out-inner; }
+}
+.from-page-7.to-page-9 .section-5 {
+	@extend %left-out;
+	.products { @extend %left-out-inner; }
+}
+
+/*---------------------------------------
+:: 	Staggered Events
+-----------------------------------------*/
+.to-701 {
+
+	.section-5 {
+		.products { @extend %faded-in; }
+		.wrapper, .left, .right { @extend %faded-in;}
+	}
+
+	&.from-700 {
+		.section-5 {
+			.products { @extend %fade-in-long; }
+			.left, .right { @extend %fade-in-long; }
+			.wrapper {
+				opacity:1;
+				h5 { @extend %fade-in-long; }
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+/*---------------------------------------
+::
+:: 	Section-5 Desktop Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-5.scss';
+@import '../../BlemishRemedy/Core/Sections/Section-5.scss';
+
+
+.section-5 {
+
+	sup { font-size: 60%; top: -6px; }
+
+	.new-icon { display:none; }
+
+
+	
+	.button-4 {
+		button {		text-align: left; }
+		.is-mobile {display: none;}
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	To 7
+-----------------------------------------*/
+.from-page-start.to-page-7 .section-5 {
+	@extend %upped-in; @extend %fade-in;
+}
+.from-page-0.to-page-7 .section-5 {
+	@extend %upped-in;
+}
+.from-page-1.to-page-7 .section-5 {
+	@extend %upped-in;
+}
+.from-page-8.to-page-7 .section-5 {
+	@extend %right-in;
+	.background { @extend %right-in-inner; }
+}
+.from-page-9.to-page-7 .section-5 {
+	@extend %right-in;
+	.background { @extend %right-in-inner; }
+}
+
+/*---------------------------------------
+:: 	From 7
+-----------------------------------------*/
+.from-page-7 .section-5 {
+	.background { @extend %faded-in; }
+	.wrapper, .left, .right { @extend %faded-in; }
+}
+.from-page-7.to-page-1 .section-5 {
+	z-index: 0; @extend %upped-in;
+	.background { @extend %upped-in; }
+}
+.from-page-7.to-page-8 .section-5 {
+	@extend %left-out;
+	.background { @extend %left-out-inner; }
+}
+.from-page-7.to-page-9 .section-5 {
+	@extend %left-out;
+	.background { @extend %left-out-inner; }
+}
+
+/*---------------------------------------
+:: 	Staggered Events
+-----------------------------------------*/
+.to-701 {
+
+	.section-5 {
+		.background { @extend %faded-in; }
+		.wrapper, .left, .right { @extend %faded-in; }
+	}
+
+	&.from-700 {
+		.section-5 {
+			.background { @extend %fade-in-long; }
+			.wrapper, .left, .right { @extend %fade-in-long; }
+		}
+	}
+}

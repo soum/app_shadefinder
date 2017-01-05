@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="${URLUtils.staticURL('/css/!/Logic.css')}" />
+	</head>
+	<body class="logic">
+		<div class="track-1">
+			<h1 class="lead">Track 1</h1>
+			<div class="questions">
+				<div class="inner">
+					<h1>Coverage</h1>
+					<label>Light</label>
+					<input type="radio" name="coverage" value="Light" />
+					<label>Medium</label>
+					<input type="radio" name="coverage" value="Medium" />
+					<label>Full</label>
+					<input type="radio" name="coverage" value="Full" />
+					<label>Adjustable</label>
+					<input type="radio" name="coverage" value="Adjustable" />
+					<h1>Finish</h1>
+					<label>Matte</label>
+					<input type="radio" name="finish" value="Matte" />
+					<label>Luminous</label>
+					<input type="radio" name="finish" value="Luminous" />
+					<label>Natural</label>
+					<input type="radio" name="finish" value="Natural" />
+					<h1>Skin Concern</h1>
+					<label>Dark Spots/Uneven Skin Tone</label>
+					<input type="radio" name="concern" value="Dark Spots/Uneven Skin Tone" />
+					<label>Blemishes</label>
+					<input type="radio" name="concern" value="Blemishes" />
+					<label>Enlarged Pores</label>
+					<input type="radio" name="concern" value="Enlarged Pores" />
+					<label>Mature Skin</label>
+					<input type="radio" name="concern" value="Mature Skin" />
+					<label>Dull Skin</label>
+					<input type="radio" name="concern" value="Dull Skin" />
+					<label>Sensitive Skin</label>
+					<input type="radio" name="concern" value="Sensitive Skin" />
+					<label>None</label>
+					<input type="radio" name="concern" value="None" />
+					<h1>Skin Type</h1>
+					<label>Normal</label>
+					<input type="radio" name="skintype" value="Normal" />
+					<label>Dry</label>
+					<input type="radio" name="skintype" value="Dry" />
+					<label>Combination</label>
+					<input type="radio" name="skintype" value="Combination" />
+					<label>Oily</label>
+					<input type="radio" name="skintype" value="Oily" />
+					<h1>Shade</h1>
+					<label>Light</label>
+					<input type="radio" name="shade" value="Light" />
+					<label>Medium</label>
+					<input type="radio" name="shade" value="Medium" />
+					<label>Tan</label>
+					<input type="radio" name="shade" value="Tan" />
+					<label>Dark</label>
+					<input type="radio" name="shade" value="Dark" />
+					<label>Deep</label>
+					<input type="radio" name="shade" value="Deep" />
+					<h1>Undertone</h1>
+					<div class="undertones"></div>
+				</div>
+			</div>
+			<div class="answer">
+				<div class="inner">
+					<h1>Results</h1>
+					<div class="found"></div>
+					<div class="test">
+						<h1>Validate</h1>
+						<div class="test-result"></div>
+						<button class="test">Test</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="track-2">
+			<h1 class="lead">Track 2</h1>
+			<div class="questions">
+				<div class="inner">
+					<h1>Family</h1>
+					<label>Original</label>
+					<input type="radio" name="family" value="Original" />
+					<label>BareSkin</label>
+					<input type="radio" name="family" value="BareSkin" />
+					<label>Matte</label>
+					<input type="radio" name="family" value="Matte" />
+					<label>Ready</label>
+					<input type="radio" name="family" value="Ready" />
+					<label>Complexion Rescue</label>
+					<input type="radio" name="family" value="ComplexionRescue" />
+					<h1>Shade</h1>
+					<label>Light</label>
+					<input type="radio" name="shade" value="Light" />
+					<label>Medium</label>
+					<input type="radio" name="shade" value="Medium" />
+					<label>Tan</label>
+					<input type="radio" name="shade" value="Tan" />
+					<label>Dark</label>
+					<input type="radio" name="shade" value="Dark" />
+					<label>Deep</label>
+					<input type="radio" name="shade" value="Deep" />
+					<h1>Undertone</h1>
+					<div class="undertones"></div>
+				</div>
+			</div>
+			<div class="answer">
+				<div class="inner">
+					<h1>Results</h1>
+					<div class="found"></div>
+				</div>
+			</div>
+		</div>
+		<div class="track-3">
+			<h1 class="lead">Products</h1>
+			<div id="ProductList"></div>
+		</div>
+		<script type="text/javascript">
+			var ShadeFinder = {
+				prefix: '${(Resource.msg('shadefinder.pidprefix','shadefinder',null))}',
+				text: {
+					addedToBag: '<isprint value="${(Resource.msg('shadefinder.resolve9','shadefinder',null))}" encoding="off" />',
+					addToBag: '<isprint value="${(Resource.msg('shadefinder.resolve3','shadefinder',null))}" encoding="off" />',
+					youMightAlso: '<isprint value="${(Resource.msg('shadefinder.resolve4','shadefinder',null))}" encoding="off" />',
+					returnToOur: '<isprint value="${(Resource.msg('shadefinder.resolve5','shadefinder',null))}" encoding="off" />',
+					notAvailable: '<isprint value="${(Resource.msg('shadefinder.resolve6','shadefinder',null))}" encoding="off" />',
+					notFound: '<isprint value="${(Resource.msg('shadefinder.resolve7','shadefinder',null))}" encoding="off" />',
+					watchVideo: '<isprint value="${(Resource.msg('shadefinder.resolve8','shadefinder',null))}" encoding="off" />',
+					learnMore: '<isprint value="${(Resource.msg('shadefinder.resolve14','shadefinder',null))}" encoding="off" />',
+					addBoth: '<isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" />',
+					addedBoth: '<isprint value="${(Resource.msg('shadefinder.resolve15','shadefinder',null))}" encoding="off" />',
+					family: {
+						matte: '<isprint value="${(Resource.msg('shadefinder.formulaMatte','shadefinder',null))}" encoding="off" />',
+						ready: '<isprint value="${(Resource.msg('shadefinder.formulaReady','shadefinder',null))}" encoding="off" />',
+						bareskin: '<isprint value="${(Resource.msg('shadefinder.formulaBareskin','shadefinder',null))}" encoding="off" />',
+						original: '<isprint value="${(Resource.msg('shadefinder.formulaOriginal','shadefinder',null))}" encoding="off" />',
+						complexionrescue: '<isprint value="${(Resource.msg('shadefinder.formulaComplexionRescue','shadefinder',null))}" encoding="off" />',
+						blemishremedy: '<isprint value="${(Resource.msg('shadefinder.formulaBlemishRemedy','shadefinder',null))}" encoding="off" />'
+					}
+				},
+				urls: {
+					products: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/ShadeFinder-Products?pid=',
+					cart: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/ShadeFinder-Cart',
+					addToCart: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/Cart-AddProduct?format=ajax'
+				}
+			};
+		</script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/require.js')}"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/jquery-1.7.2.min.js')}"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/underscore.js')}"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/backbone.js')}"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/!/Data.js')}"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/!/Test.js')}"></script>
+	</body>
+</html>

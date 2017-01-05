@@ -1,0 +1,253 @@
+/*---------------------------------------
+::
+:: 	Mobile Header Overrides
+::
+-----------------------------------------*/
+@import '../Core/Header.scss';
+
+header { height: 50px; }
+
+.side-menu { display:none !important; }
+
+.progress-section { margin-left:0 !important; }
+
+section { width:100% !important; }
+
+.desktop-nav {
+
+	height: 50px;
+
+	.left {
+
+		left: 7.89%; line-height: 50px; font-size: 1.2em; text-rendering: geometricPrecision;
+
+		&.back {
+			display:block;
+			background: url("../../images/back-arrow.png") no-repeat scroll 0 50% rgba(0, 0, 0, 0);
+			color: black !important;
+			line-height:5px !important;
+			height:50px !important;
+		}
+
+		.back {
+			display:block;
+			background: url("../../images/back-arrow.png") no-repeat scroll 0 50% rgba(0, 0, 0, 0);
+			color: black !important;
+			line-height:5px !important;
+			height:50px !important;
+
+		}
+
+		&:hover {
+			display:block;
+		}
+
+		.reset { display:none; }
+
+	}
+
+	.right { display:none; right: 7.89%; }
+
+	.logo, .center { line-height: 50px; font-size: 1.1em; top: 0; }
+
+	.center .label { display:none; }
+
+	.progress { display:none !important;  }
+
+	.mobile-toggle {
+
+		display:block; padding: 10px 0;
+
+		span {
+			background: $light-brown;
+			height: 1px; width: 25px; display:block; margin: 7px 0;
+			@include transition-with-transform((background 400ms, opacity 400ms), 400ms);
+		}
+
+		span.top { @include transform-origin(100% 0); }
+
+		span.bottom { @include transform-origin(100% 100%); }
+
+	}
+
+	.mobile-logo { display:block; @extend %background; }
+
+}
+
+.mobile-nav {
+
+	position:absolute; height: 100%; width: 100%; background: rgba(255,255,255,1); z-index: 19; opacity:0;
+	overflow:auto; -webkit-overflow-scrolling: touch;
+	@include transition(opacity 400ms);
+
+	.list {
+		margin: 50px auto; width: 95%; position:relative; display:block; overflow: hidden;
+		@include transform(translateY(50%)); @include transition-transform(400ms);
+	}
+
+	h4 {
+		display:block; clear: left; margin-left: 10px;
+
+		a {
+			color: $dark-gray; display:block;display: block; padding: 0.6em 0; padding-right: 1em; @include transition(color 400ms);
+		}
+	}
+
+	.progress {
+
+		display:none; top:0; font-size: 16px; padding: 0 0 0.6em; clear: both; width: 100%; text-align:left;
+
+		.dot {
+
+			display:block; height: 44px; padding: 20px 0 0 38px; @extend %p; font-family: 'Lato'; color: #50321a;
+			text-rendering: geometricPrecision; text-transform: uppercase; cursor: pointer;
+
+			&.disabled { color: $light-gray; }
+
+			&.active { color: $dark-gray; }
+
+			&:before { left:0; border-width: 1px 0 0 0; width: 100%; height: .5px; top: 0%; border-color: $peach;  }
+
+			&:after { position:absolute; left:10px; height: 16px; width: 16px; top: 32px; }
+
+			&:first-child { &:before { display:none; } }
+
+			&.terminal { border-bottom: 1px solid $peach; }
+
+			&.terminal.disabled { color: $light-gray; }
+
+		}
+
+		&.show { display:block; }
+
+	}
+
+	&.hidden { height: 0; overflow:hidden; }
+
+	&.visible {
+
+		opacity: 1;
+
+		.list { @include transform(translateY(0)); }
+
+	}
+
+	.sidebar-cart {
+
+		margin: 20px 0 12px -12px; position: relative; float: left;
+
+		h3 { font-size: 1.77em; }
+
+		.cart-items {
+
+			width: 100%;
+
+			.item {
+
+				p { margin: 9xpx 0; }
+
+				&.just-added {
+
+					&:before {
+						position: fixed;
+						left: -7px;
+						margin-top: 5px;
+						font-size: 22px;
+					}
+				}
+
+			}
+
+		}
+	}
+
+}
+
+.from-start, .to-0, .to-1, .to-2, .to-3, .to-101 {
+	.mobile-nav .finder { display:none; }
+}
+
+.menu-open {
+
+	.desktop-nav .mobile-toggle {
+
+		span.top { @include transform(rotate(-45deg) translateY(-1px)); }
+
+		span.mid { opacity:0; }
+
+		span.bottom { @include transform(rotate(45deg)); }
+
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	Modals
+::
+-----------------------------------------*/
+.modal {
+
+	.text-content {
+
+		margin-top: 7%;
+
+		p {
+			margin: 1em 5em !important;
+			line-height: 1.5em !important;
+		}
+	}
+}
+
+#TipsModal {
+	.content {
+		height: 83vh;
+		margin-top:16vh;
+
+		h1 { margin: 0 auto 15px auto; font-size: 32px; }
+
+		.video-thumbnail {
+
+			.thumbnail {
+				height: 150px;
+			}
+		}
+	}
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse {
+
+	.desktop-nav {
+
+		.mobile-toggle:hover span { background: $magenta;  }
+
+	}
+
+	.mobile-nav {
+
+		h4:hover a { color: $magenta; }
+
+	}
+
+}
+
+.has-touch {
+
+	.desktop-nav {
+
+		.mobile-toggle.hover span { background: $magenta;  }
+
+	}
+
+	.mobile-nav {
+
+		h4 a.hover { color: $magenta; }
+
+	}
+
+}

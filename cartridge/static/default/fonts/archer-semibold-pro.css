@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArcherSemibold';
+    src: url('archer-semibold-pro.eot');
+    src: url('archer-semibold-pro.eot') format('embedded-opentype'),
+         url('archer-semibold-pro.woff') format('woff'),
+         url('archer-semibold-pro.ttf') format('truetype'),
+         url('archer-semibold-pro.svg#ArcherSemibold') format('svg');
+}

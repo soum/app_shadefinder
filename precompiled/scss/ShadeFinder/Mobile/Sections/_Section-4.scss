@@ -1,0 +1,97 @@
+/*---------------------------------------
+::
+:: 	Section-4 Mobile Overrides
+:: 
+-----------------------------------------*/
+@import '../../Core/Sections/Section-4.scss';
+
+.section-4 {
+
+	overflow:hidden;
+	background-image: url($path + 'images/Mobile/section-4.jpg');
+	background-size: cover; z-index: 2;
+
+	.scroll-wrapper { 
+		overflow:auto; -webkit-overflow-scrolling: touch; 
+	}
+
+	.top h2 { font-size: 1.5em; }
+
+	.top { position: relative; margin-top: 6em; bottom:auto; }	
+
+	.background { display:none; }
+
+	.bottom { 
+
+		position: relative; top: auto; padding-bottom: 2em; margin-top: -3em;
+
+		.container { position:relative; height: 550px; margin-bottom: 3em; }
+
+		.blocks, .overlays, .backgrounds { position:absolute; height: 100%; top:0; left:0; }
+
+		.blocks { 
+			
+			overflow: visible; position: relative; 
+		
+			.block-0, .block-1, .block-2, .block-3 { position: relative; }
+
+		}
+
+		.block { 
+			width: 95.3052%; margin-left: 2.3474%; padding: 1.5em 2em; margin-bottom: 0.75em; float: none; 
+			height: 25%;
+		}
+
+		.overlays, .backgrounds {
+			
+			padding-top:0; margin-top:0; 
+
+			.block { height: 25%; }
+		
+		}
+
+		.block-inner { 
+			position:relative; top:50%; @include transform(translateY(-50%)); 
+		}
+
+	}
+
+	.scroll, .scroll .arrow {  
+		position:absolute; display:block;
+		bottom:0;
+	}
+
+	.scroll {
+		left:0;
+		content: "";
+		text-align: center;
+		width: 100%; 
+		height: 2.5em;
+		background: #000;
+	}
+
+	.scroll .arrow {
+		left: 50%;
+		content: "\2039";
+		color: #fff; 
+		font-size: 3.5em;
+		font-family: 'Arial', sans-serif;
+		line-height: 1em;
+		margin-left: -0.3em;
+		bottom: -0.2em;
+		@include transform(rotate(-90deg));
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+:: 
+-----------------------------------------
+:: 	From 5
+-----------------------------------------*/
+.from-page-5.to-page-1 .section-4 {  
+	@extend %right-out;
+	.background { @extend %upped-in; }
+}

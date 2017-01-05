@@ -1,0 +1,5499 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19127",
+"files": {
+	"\/cartridge\/static\/default\/css\/!\/_Global.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/_Global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Desktop.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Desktop.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Fonts.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Fonts.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Global.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/IE8.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/IE8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Logic.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Logic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Mobile.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Mobile.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/Print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/Print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/ShadeFinderModal.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/ShadeFinderModal.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/css\/!\/UI.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/css\/!\/UI.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/fonts\/archer-semibold-pro.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/fonts\/archer-semibold-pro.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartridge\/static\/default\/images\/back-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3062,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/back-arrow.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/back-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/background-gradient.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1269,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/background-gradient.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/background-gradient.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/be-logo-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3551,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/be-logo-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3572,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo-dark.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/be-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20045,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/be-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/demo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 396423,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/demo.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/demo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/hero-content.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10421,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero-content.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero-content.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262389,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/hero2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172897,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero2.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/hero3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 665171,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero3.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/hero_bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 315755,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero_bw.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/hero_bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-0-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 841670,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-0-new.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-0-new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210782,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-0.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-1-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 621443,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-1-old.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-1-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241662,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-1.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-4-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 578293,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-4-old.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-4-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32310,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-4.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-5-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.5224e+06,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-5-new.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-5-new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/section-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.07288e+06,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-5.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/section-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/step-3-0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91142,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-0.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/step-3-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92879,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-1.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/step-3-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92666,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-3.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-3-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Mobile\/step-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259303,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-4.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Mobile\/step-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/new-button.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2481,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/new-button.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/new-button.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/result.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 499645,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/result.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/result.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/state-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117696,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/state-6.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/state-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-1-left-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323428,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-left-2.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-left-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-1-left-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 489738,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-left-3.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-left-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-1-right-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 824375,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-right-1.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-1-right-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-2-new.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 656964,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2-new.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2-new.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-2-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.31975e+06,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2-new.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2-new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 864905,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.47824e+06,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 309283,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-3.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.16771e+06,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-3.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375764,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-4.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 637608,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-4.png",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-5-0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91142,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-0.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-5-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92879,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-1.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-5-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92666,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-2.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-5-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/step-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101897,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-7.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/step-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-bare-almond.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31877,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-almond.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-almond.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-bare-maple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29634,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-maple.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-maple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-bare-walnut.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25512,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-walnut.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-bare-walnut.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48458,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-golden-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25421,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-golden-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-golden-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-medium-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26716,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-medium-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-medium-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-r410-warm-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53001,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r410-warm-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r410-warm-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-r430-golden-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46394,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r430-golden-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r430-golden-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-r450-medium-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54094,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r450-medium-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r450-medium-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-r470-warm-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60897,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r470-warm-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-r470-warm-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/dark-warm-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26234,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-warm-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/dark-warm-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-bare-espresso.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36062,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-bare-espresso.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-bare-espresso.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-bare-mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30496,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-bare-mocha.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-bare-mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-deepest-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21217,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-deepest-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-deepest-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-golden-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26798,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-golden-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-golden-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-medium-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21355,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-medium-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-medium-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-r510-golden-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37263,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r510-golden-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r510-golden-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-r530-warm-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40519,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r530-warm-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r530-warm-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-r550-medium-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59455,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r550-medium-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r550-medium-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-r570-deepest-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44720,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r570-deepest-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-r570-deepest-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/deep-warm-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24410,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-warm-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/deep-warm-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-bare-cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29388,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-cream.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-bare-ivory.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29459,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-ivory.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-ivory.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-bare-linen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32973,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-linen.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-linen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-bare-porcelain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34212,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-porcelain.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-porcelain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-bare-shell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33420,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-shell.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-bare-shell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21294,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-fairly-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22742,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-fairly-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-fairly-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-golden-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29948,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-golden-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-golden-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23882,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-r110-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38748,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r110-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r110-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-r130-golden-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73821,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r130-golden-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r130-golden-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-r150-fairly-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293406,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r150-fairly-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r150-fairly-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-r150-golden-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63157,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r150-golden-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r150-golden-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/light-r170-fairly-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54806,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r170-fairly-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/light-r170-fairly-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-bare-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30432,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-bare-buff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28217,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-buff.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-buff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-bare-natural.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36622,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-natural.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-natural.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-bare-nude.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30071,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-nude.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-nude.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-bare-satin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28879,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-satin.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-bare-satin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-fairly-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30673,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-fairly-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-fairly-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-golden-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26876,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-golden-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-golden-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-medium-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30103,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-medium-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-medium-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29493,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-r210-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54593,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r210-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r210-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-r230-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60065,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r230-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r230-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-r250_medium-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55724,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r250_medium-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r250_medium-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/medium-r270-golden-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51847,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r270-golden-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/medium-r270-golden-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-bare-caramel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26083,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-caramel.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-caramel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-bare-honey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38606,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-honey.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-honey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-bare-latte.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37162,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-latte.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-latte.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-bare-sand.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25594,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-sand.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-sand.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-bare-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35465,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-bare-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-golden-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31785,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-golden-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-golden-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-medium-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28509,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-medium-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-medium-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-r310-medium-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48898,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r310-medium-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r310-medium-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-r330-golden-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34613,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r330-golden-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r330-golden-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-r350-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53432,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r350-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r350-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-r370-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68300,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r370-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-r370-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22627,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones\/tan-warm-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24492,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-warm-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones\/tan-warm-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/clearly-amber-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324514,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/clearly-amber-10.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/clearly-amber-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-almond.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70871,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-almond.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-almond.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-maple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61593,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-maple.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-maple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-walnut.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48726,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-walnut.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-bare-walnut.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-cappuccino-27.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16669,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-cappuccino-27.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-cappuccino-27.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-cardamom-23.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18670,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-cardamom-23.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-cardamom-23.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-chai-26.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16760,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-chai-26.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-chai-26.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-chestnut-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387749,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-chestnut-09.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-chestnut-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-clearly-almond-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304840,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-clearly-almond-11.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-clearly-almond-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74301,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Dark-Donna.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47311,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Dark-Donna.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Dark-Donna.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-golden-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39226,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-golden-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-golden-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-hazelnut-25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14952,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-hazelnut-25.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-hazelnut-25.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-medium-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42564,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-medium-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-medium-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-nutmeg-24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8652,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-nutmeg-24.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-nutmeg-24.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-r410-warm-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54164,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r410-warm-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r410-warm-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-r430-golden-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50345,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r430-golden-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r430-golden-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-r450-medium-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57094,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r450-medium-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r450-medium-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-r470-warm-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71070,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r470-warm-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-r470-warm-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-teak-22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24471,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-teak-22.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-teak-22.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-terra-8.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74197,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-terra-8.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-terra-8.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/dark-warm-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39051,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-warm-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/dark-warm-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36486,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-espresso.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91151,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-espresso.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-espresso.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-mocha.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74775,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-mocha.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-bare-mocha.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-clearly-espresso-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295988,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-clearly-espresso-12.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-clearly-espresso-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-clove-28.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15659,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-clove-28.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-clove-28.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-cocoa-30.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14994,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-cocoa-30.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-cocoa-30.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-deepest-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31556,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-deepest-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-deepest-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-golden-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38660,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-golden-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-golden-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-medium-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32357,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-medium-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-medium-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-r510-golden-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37105,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r510-golden-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r510-golden-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-r530-warm-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37623,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r530-warm-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r530-warm-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-r550-medium-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53088,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r550-medium-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r550-medium-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-r570-deepest-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50344,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r570-deepest-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-r570-deepest-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-sienna-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 309145,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-sienna-10.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-sienna-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-truffle-29.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15680,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-truffle-29.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-truffle-29.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/deep-warm-deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34919,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-warm-deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/deep-warm-deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Deepest.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42274,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Deepest.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Deepest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/fair-aspen-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17346,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-aspen-04.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-aspen-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/fair-champagne-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16291,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-champagne-03.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-champagne-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/fair-dawn-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18639,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-dawn-02.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-dawn-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/fair-fair-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18759,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-fair-01.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/fair-fair-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light-Monique.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41409,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light-Monique.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light-Monique.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36896,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Fairly-Light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Gold-Dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41994,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Gold-Dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Gold-Dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Gold-Fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34952,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Gold-Fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Gold-Fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Golden-Deep.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32308,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Deep.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Deep.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Golden-Medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37288,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Golden-Tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53351,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Golden-Tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-bare-cream.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57273,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-cream.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-cream.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-bare-ivory.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59092,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-ivory.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-ivory.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-bare-linen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59623,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-linen.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-linen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-bare-porcelain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62470,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-porcelain.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-porcelain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-bare-shell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78945,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-shell.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-bare-shell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-birch-1.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73227,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-birch-1.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-birch-1.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-buttercream-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331973,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-buttercream-03.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-buttercream-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-cashmere-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18959,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-cashmere-06.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-cashmere-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-cream-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279954,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-cream-03.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-cream-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-pearl-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264460,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-pearl-02.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-pearl-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-porcelain-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303562,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-porcelain-01.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-clearly-porcelain-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34745,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-fairly-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34639,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-fairly-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-fairly-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-golden-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44014,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-golden-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-golden-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-golden-ivory-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17207,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-golden-ivory-08.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-golden-ivory-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-light-natural-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17369,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-light-natural-09.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-light-natural-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34902,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-opal-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329658,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-opal-01.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-opal-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-r110-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43964,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r110-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r110-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-r130-golden-fair.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69907,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r130-golden-fair.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r130-golden-fair.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-r150-fairly-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69673,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r150-fairly-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r150-fairly-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-r170-fairly-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56177,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r170-fairly-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-r170-fairly-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-sateen-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8652,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-sateen-05.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-sateen-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-vanilla-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323585,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-vanilla-02.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-vanilla-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/light-warm-light-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17785,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-warm-light-07.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/light-warm-light-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38761,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Med-Dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32399,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Med-Dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Med-Dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bamboo-5.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65903,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bamboo-5.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bamboo-5.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60273,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-buff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46611,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-buff.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-buff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-natural.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65151,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-natural.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-natural.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-nude.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58048,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-nude.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-nude.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-satin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47736,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-satin.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-bare-satin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Medium-Beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34842,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Medium-Beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Medium-Beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-beige-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 336057,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-beige-06.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-beige-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-medium-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284403,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-medium-04.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-medium-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-nude-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291503,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-nude-07.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-nude-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-silk-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291130,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-silk-05.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-clearly-silk-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-cool-beige-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8652,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-cool-beige-10.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-cool-beige-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-desert-6.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77272,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-desert-6.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-desert-6.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-fairly-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67996,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-fairly-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-fairly-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-ginger-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 325644,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-ginger-06.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-ginger-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38074,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-nude-13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16677,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-nude-13.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-golden-nude-13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-medium-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47446,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-medium-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-medium-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44908,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361793,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-05.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16884,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-11.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-natural-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-r210-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52500,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r210-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r210-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-r230-light.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62603,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r230-light.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r230-light.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-r250_medium-beige.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57386,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r250_medium-beige.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r250_medium-beige.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-r270-golden-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48523,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r270-golden-medium.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-r270-golden-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-sandalwood-15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19606,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-sandalwood-15.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-sandalwood-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-silk-14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19044,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-silk-14.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-silk-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-suede-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362012,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-suede-04.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-suede-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-warm-natural-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18703,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-warm-natural-12.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-warm-natural-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/medium-wheat-4.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58945,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-wheat-4.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/medium-wheat-4.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R190_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59269,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R190_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R190_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R240_New_Sarah_After.eps.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90718,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R240_New_Sarah_After.eps.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R240_New_Sarah_After.eps.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R290_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111500,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R290_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R290_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R320_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103068,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R320_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R320_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R340_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98228,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R340_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R340_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R390_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106210,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R390_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R390_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R440_New.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67706,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R440_New.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R440_New.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R520_New_Victoria_After.eps.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105283,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R520_New_Victoria_After.eps.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R520_New_Victoria_After.eps.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R560_New_Quiana_After.eps.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112947,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R560_New_Quiana_After.eps.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R560_New_Quiana_After.eps.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/R580_New_Precious_After.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100422,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R580_New_Precious_After.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/R580_New_Precious_After.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-caramel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55673,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-caramel.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-caramel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-honey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82195,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-honey.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-honey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-latte.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63605,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-latte.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-latte.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-sand.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74711,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-sand.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-sand.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67503,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-bare-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-camel-17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17424,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-camel-17.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-camel-17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-amber-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 314418,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-amber-10.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-amber-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-latte-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 296574,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-latte-08.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-latte-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-sand-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 336736,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-sand-09.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-clearly-sand-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-dune-7.5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75010,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-dune-7.5.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-dune-7.5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-golden-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48909,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-golden-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-golden-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-honeycomb-20.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20757,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-honeycomb-20.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-honeycomb-20.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-medium-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42922,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-medium-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-medium-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-pecan-18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8652,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-pecan-18.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-pecan-18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-r310-medium-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49933,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r310-medium-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r310-medium-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-r330-golden-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37433,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r330-golden-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r330-golden-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-r350-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51645,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r350-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r350-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-r370-dark.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79296,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r370-dark.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-r370-dark.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-sable-21.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18192,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-sable-21.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-sable-21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-sandstone-16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18766,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-sandstone-16.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-sandstone-16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-spice-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 403467,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-spice-08.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-spice-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-tan-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353579,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-tan-07.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-tan-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31751,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-toffee-19.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16819,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-toffee-19.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-toffee-19.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/tan-warm-tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35310,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-warm-tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/tan-warm-tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34170,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/Undertones2\/Warm-Tan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40004,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Warm-Tan.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/Undertones2\/Warm-Tan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/images\/video-thumbnail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80522,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/images\/video-thumbnail.jpg",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/images\/video-thumbnail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartridge\/static\/default\/js\/!\/Data.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Data.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Data-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Header.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Header.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Header-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Page.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Page.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Page-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Progress.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Progress.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Progress-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Shade.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Shade.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Shade-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/ShadeFinder.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/ShadeFinder.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/ShadeFinder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/ShadeFinderModal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/ShadeFinderModal.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/ShadeFinderModal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Test.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/VideoModal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/VideoModal.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/VideoModal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/!\/Writer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/Writer.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/!\/min\/Writer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/backbone.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/backbone.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/backbone-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/jquery-1.7.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/jquery-1.7.2.min.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/jquery-1.7.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/jwplayer.html5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/jwplayer.html5.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/jwplayer.html5-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/jwplayer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/jwplayer.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/jwplayer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/modernizr.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/require.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/require.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/require-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/tmobile.controls.animator-ck.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/tmobile.controls.animator-ck.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/tmobile.controls.animator-ck-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/tmobile.controls.animator.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/tmobile.controls.animator.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/tmobile.controls.animator-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartridge\/static\/default\/js\/Libraries\/underscore.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/underscore.js",
+		"outputAbbreviatedPath": "\/cartridge\/static\/default\/js\/Libraries\/min\/underscore-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Collections\/Product.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Collections\/Product.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Collections\/Product.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Collections\/Shade.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Collections\/Shade.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Collections\/Shade.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Cart.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Cart.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Cart.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Intro.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Intro.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Intro.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Logic.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Logic.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Logic.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/MobileFinish.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/MobileFinish.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/MobileFinish.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Page.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Page.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Page.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Product.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Product.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Product.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Resolve.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Resolve.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Resolve.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/Shade.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Shade.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/Shade.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Models\/VideoModal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/VideoModal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Models\/VideoModal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Header.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Header.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Header.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Intro.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Intro.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Intro.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Match.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Match.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Match.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/MobileFinish.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/MobileFinish.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/MobileFinish.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/MobileNav.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/MobileNav.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/MobileNav.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Page.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Page.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Page.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Product.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Product.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Product.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Progress.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Progress.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Progress.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Resolve.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Resolve.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Resolve.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/Shade.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Shade.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/Shade.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Framework\/Views\/VideoModal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/VideoModal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Framework\/Views\/VideoModal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Overrides\/Backbone.Events.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Overrides\/Backbone.Events.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Overrides\/Backbone.Events.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Overrides\/StaticStates.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Overrides\/StaticStates.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Overrides\/StaticStates.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Cart.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Cart.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Cart.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Filters.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Filters.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Filters.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Header.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Header.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Header.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Intro.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Intro.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Intro.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Logic.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Logic.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Logic.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Match.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Match.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Match.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/MobileFinish.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/MobileFinish.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/MobileFinish.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/MobileNav.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/MobileNav.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/MobileNav.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Page.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Page.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Page.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Product.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Product.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Product.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Progress.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Progress.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Progress.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Reset.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Reset.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Reset.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Resolve.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Resolve.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Resolve.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Shade.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Shade.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Shade.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/States.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/States.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/States.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/TipsModal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/TipsModal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/TipsModal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/TouchHovers.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/TouchHovers.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/TouchHovers.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/Tracking.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Tracking.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/Tracking.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinder\/VideoModal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/VideoModal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinder\/VideoModal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/ShadeFinderModal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinderModal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/ShadeFinderModal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Test.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Test.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Test.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Test.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Test.js",
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/min\/Test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Writer.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Writer.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Writer.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/BE\/Writer.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/BE\/Writer.js",
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/BE\/min\/Writer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Animator.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Animator.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Animator.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Browser.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Browser.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Browser.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Cookie.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Cookie.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Cookie.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Events.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Events.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Events.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Events.Drag.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Events.Drag.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Events.Drag.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Middle.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Middle.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Middle.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Modal.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Modal.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Modal.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/coffee\/UI\/UI.Toggle.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Toggle.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/precompiled\/coffee\/UI\/UI.Toggle.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/precompiled\/css\/Desktop.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/Desktop.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/css\/Fonts.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/Fonts.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/css\/IE8.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/IE8.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/css\/Logic.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/Logic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/css\/Mobile.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/Mobile.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/css\/Print.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/css\/Print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/precompiled\/scss\/Desktop.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Desktop.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Desktop.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/Fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Fonts.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/Global.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Global.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Global.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/IE8.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/IE8.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/IE8.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/Logic.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Logic.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Logic.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/Mobile.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Mobile.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Mobile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/Print.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/Print.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/Print.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-0.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-0.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/css\/_Section-0.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-5.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-5.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/css\/_Section-5.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-6.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/Sections\/_Section-6.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Core\/css\/_Section-6.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Desktop\/Sections\/_Section-6.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Desktop\/Sections\/_Section-6.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Desktop\/css\/_Section-6.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Mobile\/Sections\/_Section-5.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Mobile\/Sections\/_Section-5.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/BlemishRemedy\/Mobile\/css\/_Section-5.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/_Animations.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/_Animations.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Animations.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/_Header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/_Header.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/_Text.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/_Text.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Text.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-0.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-0.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-0.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-1.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-1.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-2.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-3.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-3.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-4.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-4.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-4.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-5.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-5.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-5.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-6.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-6.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-6.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-7.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/Sections\/_Section-7.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Core\/css\/_Section-7.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/_Header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/_Header.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-0.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-0.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-0.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-1.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-1.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-2.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-3.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-3.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-4.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-4.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-4.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-5.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-5.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-5.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-6.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-6.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-6.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-7.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/Sections\/_Section-7.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Desktop\/css\/_Section-7.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/_Header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/_Header.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-0.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-0.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-0.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-1.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-1.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-2.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-2.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-3.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-3.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-4.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-4.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-4.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-5.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-5.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-5.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-6.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-6.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-6.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-7.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/Sections\/_Section-7.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Mobile\/css\/_Section-7.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Overrides\/_Android.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Overrides\/_Android.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_Android.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinder\/Overrides\/_IE.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/Overrides\/_IE.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinder\/css\/_IE.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/ShadeFinderModal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/ShadeFinderModal.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/ShadeFinderModal.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI.scss",
+		"outputAbbreviatedPath": "\/precompiled\/css\/UI.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Components\/_UI.Drawer.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Components\/_UI.Drawer.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Drawer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Components\/_UI.Grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Components\/_UI.Grid.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Components\/_UI.Modal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Components\/_UI.Modal.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Modal.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Components\/_UI.Reset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Components\/_UI.Reset.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Core\/_UI.Breakpoints.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Core\/_UI.Breakpoints.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Breakpoints.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Core\/_UI.Grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Core\/_UI.Grid.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Core\/_UI.Helpers.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Core\/_UI.Helpers.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Helpers.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/precompiled\/scss\/UI\/Core\/_UI.Reset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/precompiled\/scss\/UI\/Core\/_UI.Reset.scss",
+		"outputAbbreviatedPath": "\/precompiled\/scss\/UI\/css\/_UI.Reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Eli Muir",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "app_shadefinder",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "compass_yellow"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 2,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

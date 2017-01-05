@@ -1,0 +1,179 @@
+/*---------------------------------------
+::
+:: 	Section-1 Mobile Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-1.scss';
+
+.section-1 {
+
+	overflow:auto; -webkit-overflow-scrolling: touch;
+
+	.wrapper { min-height: 600px; }
+
+	.background.left, .background.right { height: 50%; width: 100%; }
+
+	.background.left {
+
+		padding-top: 50px;
+
+		.background-inner {
+			background-image: url($path + 'images/Mobile/section-1.jpg');
+			background-color: #FBF9FC; background-position:top right;  background-size: cover;
+		}
+
+	}
+
+	.background.right { top: 50%; margin-top: 50px; }
+
+	.overlay {
+
+		position: relative; height: 50%; width: 100%; padding: 0px;
+
+		.overlay-wrap, .inner { padding: 0; }
+
+		.overlay-wrap { position:relative; }
+
+		&.left {
+			padding-top: 50px; @include box-sizing(content-box);
+		}
+		&.right {
+			right: auto;
+		}
+
+	}
+
+	.left .content { margin-top: 3em; }
+
+	.right .content { margin-top: 0.3em; }
+
+	.left .diamond {
+		top: 100%; left:50%;
+		.back { top: 103px; left: -129px; }
+	}
+
+	.right .diamond {
+		top: 0%; left:50%;
+		.back { top: -360px; left: -129px; }
+	}
+
+	.diamond {
+		h5 { font-size: 3em; }
+		.back, .front { @include transform(rotate(-45deg)); }
+		.front { top: 36px; left: 36px; height: 70px; width: 70px;  }
+		.back { height: 400px; width: 400px; }
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Mixins
+-----------------------------------------*/
+@include keyframes(gate-left-in) {
+	from { @include transform(translateY(0)); }
+	to { @include transform(translateY(50%)); }
+}
+@include keyframes(gate-right-in) {
+	from { @include transform(translateY(0)); }
+	to { @include transform(translateY(-50%)); }
+}
+@include keyframes(gate-left-out) {
+	from { @include transform(translateY(50%)); }
+	to { @include transform(translateY(0%)); }
+}
+@include keyframes(gate-right-out) {
+	from { @include transform(translateY(-50%)); }
+	to { @include transform(translateY(0%)); }
+}
+%gate-left-in { @include animation(gate-left-in $animationduration);  @include transform(translateY(50%)); }
+%gate-right-in { @include animation(gate-right-in $animationduration);  @include transform(translateY(-50%)); }
+%gate-left-out { @include animation(gate-left-out $animationduration);  @include transform(translateY(0%)); }
+%gate-right-out { @include animation(gate-right-out $animationduration);  @include transform(translateY(0%)); }
+
+@mixin gate-close() {
+	z-index: 2; @extend %upped-in;
+	.background.left {
+		@extend %down-in;
+		.background-inner { @extend %gate-left-out; }
+	}
+	.background.right {
+		@extend %up-in;
+		.background-inner { @extend %gate-right-out; }
+	}
+	.overlay.left { @extend %down-in; }
+	.overlay.right { @extend %up-in; }
+}
+
+/*---------------------------------------
+:: 	To
+-----------------------------------------*/
+.from-page-start.to-page-0 .section-1 {
+	z-index: 2; @extend %upped-in;
+	.diamond { visibility: visible; }
+}
+.from-page-start.to-page-1 .section-1 {
+	@include gate-close();
+	.diamond { visibility: visible; }
+}
+.from-page-0.to-page-1 .section-1 {
+	@extend %upped-in; @include animation(none);
+	.diamond { visibility: visible; }
+}
+.from-page-2.to-page-1, .from-page-3.to-page-1, .from-page-4.to-page-1, .from-page-5.to-page-1, .from-page-6.to-page-1  {
+	.section-1 {
+		@extend %right-in;
+		.diamond { visibility: visible; }
+	}
+}
+.from-page-7.to-page-1 .section-1, .from-page-8.to-page-1 .section-1  {
+	@extend %right-in;
+	.diamond { visibility: visible; }
+}
+.from-page-9.to-page-1 .section-1 {
+	@extend %right-in;
+	.diamond { visibility: visible; }
+}
+
+/*---------------------------------------
+:: 	From
+-----------------------------------------*/
+.from-page-1.to-page-0 .section-1 {
+	@extend %upped-in;
+	.diamond { visibility: visible; }
+}
+.from-page-1.to-page-2 .section-1 {
+	.overlay.left {
+		z-index: 3;
+		.diamond { @extend %up-out; visibility: visible; }
+	}
+
+}
+.from-page-1.to-page-7 .section-1 {
+	.overlay.right {
+		z-index: 3;
+		.diamond { @extend %down-out; visibility: visible; }
+	}
+}
+
+/*---------------------------------------
+:: 	All Split w/Parallax
+-----------------------------------------*/
+.to-200, .to-700 {
+	.section-1 {
+		@extend %upped-in;
+		.background.left {
+			@extend %up-out;
+			.background-inner { @extend %gate-left-in; }
+		}
+		.background.right {
+			@extend %down-out;
+			.background-inner { @extend %gate-right-in; }
+		}
+		.overlay.left { @extend %up-out; }
+		.overlay.right { @extend %down-out; }
+	}
+}

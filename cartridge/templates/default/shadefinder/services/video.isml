@@ -1,0 +1,24 @@
+<iscontent type="application/json" charset="UTF-8" compact="true"/>
+<isscript>
+
+	var video = {};
+
+	if (pdict.SearchResultCount) {
+		
+		var result = pdict.SearchResult.asList()[0];
+		
+		video = { 
+			found: true,
+			title: result.custom.title,
+			videoname: result.custom.videoname,
+			poster: result.custom.videoFirstFrame
+		};
+
+	} else {
+		
+		video = { found: false };
+
+	}
+
+</isscript>
+<isprint value="${JSON.stringify(video)}" encoding="off"/>

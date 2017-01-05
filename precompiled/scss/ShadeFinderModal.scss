@@ -1,0 +1,64 @@
+/*---------------------------------------
+::
+:: 	Demo
+::
+-----------------------------------------
+:: 	Content Path
+-----------------------------------------*/
+$path: '../../';
+
+/*---------------------------------------
+:: 	UI Imports
+-----------------------------------------*/
+@import 'UI.scss';
+
+html.shade-finder-shown {
+	position:relative; height: 100%; width: 100%; overflow:hidden;
+	body { position:relative; height: 100%; width: 100%; overflow:hidden; }
+}
+
+.show-shadefinder {
+	position:absolute; height: 100%; width: 100%; top:0; left:0; display:block;
+}
+
+
+@include keyframes(finder-in) {
+	from { @include transform(translateY(-100%)); }
+	to { @include transform(translateY(0)); }
+}
+
+@include keyframes(finder-out) {
+	from { @include transform(translateY(0)); }
+	to { @include transform(translateY(-100%)); }
+}
+
+.shade-finder {
+	background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.2); z-index: 999;
+	position:absolute; top:0; left:0; width: 100%; height: 100%; border: 0;
+	@include transform(translateY(-100%));
+}
+
+.shade-finder.show {
+	@include animation(finder-in 600ms);
+	@include transform(translateY(0));
+}
+
+.shade-finder.hide {
+	@include animation(finder-out 600ms);
+	@include transform(translateY(-100%));
+}
+
+.shade-finder iframe {
+	position:absolute; top:0; left:0; width: 100%; height: 100%; border: 0;
+}
+
+#ie8 {
+
+	.shade-finder { top: -100%; }
+
+	.shade-finder.show { top: 0; }
+
+	.shade-finder iframe { display:block; left: 0px; top: 0px; bottom: 0px; right: 0px; z-index: 1000; }
+
+
+}

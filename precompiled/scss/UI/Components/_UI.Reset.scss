@@ -1,0 +1,93 @@
+//------------------------------------------
+//
+// 	UI > Components > Reset
+//
+//------------------------------------------
+// 	Extendable Classes
+//------------------------------------------
+.reset-box { @include reset-box(); }
+.reset-font { @include reset-font(); }
+.reset-text { @include reset-text(); }
+.reset-decoration { @include reset-decoration(); }
+
+//------------------------------------------
+// 	Targeted Resets
+//------------------------------------------
+html, body, article, audio, canvas, video, legend, section, nav, footer, 
+aside, blockquote, form, header, figure, figcaption, code, pre {
+	@extend .reset-box; display:block;
+} 
+h1, h2, h3, h4, h5, h6, p, ol, ul, li { 
+	@extend .reset-box; @extend .reset-text; display:block;
+}
+b, strong, em, span, i, em, abbr, acronym, small, a, del, ins, q, label, 
+address, caption, cite, kbd, samp  {
+	@extend .reset-box; @extend .reset-font;
+}
+fieldset, hr, iframe, table, thead, tbody, td, th, img { 
+	 @extend .reset-box; @extend .reset-decoration; @extend .reset-text;
+}
+
+//------------------------------------------
+// 	Hover Anchors/Buttons
+//------------------------------------------
+a, button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button[disabled], html input[disabled] { cursor: default; }
+a, a:hover, a:active, a:focus { text-decoration:none; color: #000;  }
+a::-moz-focus-inner { text-decoration:none; color: #000;  }
+
+//------------------------------------------
+// 	Selects and Inputs
+//------------------------------------------
+select, option, input, button, textarea { 
+	@extend .reset-box; @extend .reset-text; @extend .reset-decoration; 
+	font: inherit; color: inherit;
+}
+select:hover, select:active, select:focus,
+option:hover, option:active, option:focus, 
+input:hover, input:active, input:focus, 
+button:hover, button:active, button:focus,
+textarea:hover, textarea:active, textarea:focus {
+	outline:0;
+}
+
+//------------------------------------------
+// 	Disable Select, Mobile Highlights
+//------------------------------------------
+html, body { 
+	font-size: 16px;
+	font: 1em 'Helvetica', Arial, sans-serif; color: #000;
+	@extend .reset-text;
+}
+
+body * {
+	@include backface-visibility(hidden); 
+	@include user-select(none); 
+	-webkit-tap-highlight-color: transparent; 
+}
+
+// * { cursor:default; }
+
+//------------------------------------------
+// 	Special Cases
+//------------------------------------------
+img { display:block; }
+table { border-collapse: collapse; border-spacing: 0; }
+ol, ul, li { list-style:none; display:block; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+pre { white-space: pre-wrap; }
+code, pre { font-family: monospace, serif; }
+hr { height: 0; }
+textarea { overflow: auto; vertical-align: top; }
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden], template { display: none; }
+svg:not(:root) { overflow: hidden; }
+input[type="search"] { -webkit-appearance: textfield; }
+input[type="search"]::-webkit-search-cancel-button, 
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+
+

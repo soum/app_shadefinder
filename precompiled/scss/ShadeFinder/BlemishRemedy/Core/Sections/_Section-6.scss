@@ -1,0 +1,28 @@
+/*---------------------------------------
+::
+:: 	Blemish Remedy Override
+:: 	Finder > Sections > Section 6
+::
+-----------------------------------------*/
+
+.blemish-remedy-wrapper {
+	.section-6 {
+		.right {
+			.shades-min {
+				.shade {
+					height: 75%;
+				}
+			}
+		}
+
+		@include tablet() {
+			.right {
+				.shades-min {
+					.shade {
+						height: 68%;
+					}
+				}
+			}
+		}
+	}
+}

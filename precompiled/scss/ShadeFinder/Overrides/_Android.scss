@@ -1,0 +1,30 @@
+//---------------------------------------
+//
+// 	Android Phone
+//
+//---------------------------------------
+.stock-android {
+
+	*, *:before { text-rendering: auto !important; }
+
+	.desktop-nav {
+
+		.logo { font-size: 1em; }
+	}
+
+	.mobile-toggle span { position:relative; }
+
+
+	.section-1 h2 {
+		position: relative;
+		top: -100px;
+	}
+
+	.section-3 h2 {
+		font-size: 2.2em;
+	}
+	
+	.new-icon {
+		left:0;
+	}
+}

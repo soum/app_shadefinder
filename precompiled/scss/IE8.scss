@@ -1,0 +1,273 @@
+//---------------------------------------
+//
+// 	IE8 Shade Finder
+//
+//---------------------------------------
+@import 'Global.scss', 'ShadeFinder/Desktop/Header';
+
+@import 'ShadeFinder/Desktop/Sections/Section-0', 'ShadeFinder/Desktop/Sections/Section-1', 'ShadeFinder/Desktop/Sections/Section-2', 'ShadeFinder/Desktop/Sections/Section-3',
+		'ShadeFinder/Desktop/Sections/Section-4', 'ShadeFinder/Desktop/Sections/Section-5', 'ShadeFinder/Desktop/Sections/Section-6', 'ShadeFinder/Desktop/Sections/Section-7';
+
+@import 'ShadeFinder/Overrides/IE';
+
+//---------------------------------------
+// 	Global
+//---------------------------------------
+header, main, section { max-width: 1601px; }
+
+section { top: -100%; }
+
+.modal {
+
+	.overlay { background: #000; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; }
+
+	.hide {
+
+		&:before { content:"x"; color: #fff; font-family: Arial, sans-serif; font-size: 1.5em; }
+
+		span { display:none; }
+	}
+
+	.video-player { top: 60px; }
+
+}
+
+//---------------------------------------
+// 	Header
+//---------------------------------------
+header {
+
+	top:-100%;
+
+	&.visible { top:0; }
+
+	.nav-0, .nav-1, .nav-2, .nav-3 { top: 100%; }
+
+	@for $i from 0 to 4 {
+		&.from-#{$i} .nav-#{$i} { top:-100%; }
+	}
+
+	@for $i from 0 to 4 {
+		&.to-#{$i} .nav-#{$i} { top:0; }
+	}
+
+	&.from-start.to-0 .nav-0 , &.from-start.to-1 .nav-1, &.from-start.to-2 .nav-2,
+	&.from-start.to-3 .nav-3, &.from-start.to-4 .nav-4 {
+		top:0;
+	}
+
+}
+
+//---------------------------------------
+// 	Section 0
+//---------------------------------------
+.section-0 {
+
+	.content { top: 12% !important; }
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-0 .section-0  {
+	top:0;
+	.content { display:block; }
+}
+
+//---------------------------------------
+// 	Section 1
+//---------------------------------------
+.section-1 {
+
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-1 .section-1 {
+	top:0;
+}
+
+//---------------------------------------
+// 	Section 2
+//---------------------------------------
+.section-2 {
+	.background { background-position: top center; }
+	.content { top: -100%; }
+	.icon:before { text-align:center; }
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-2 .section-2 {
+	top:0;
+	.content.first { top:0; }
+}
+.to-page-3 .section-2 {
+	top:0;
+	.content.second { top:0; }
+}
+
+//---------------------------------------
+// 	Section 3
+//---------------------------------------
+.section-3 {
+
+	.wrapper { left: 0 !important; }
+
+	.background .inner { background-position: top center; }
+
+	.backgrounds .box { background: rgb(233, 193, 169);  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; }
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-4 .section-3 {
+	top:0;
+}
+
+//---------------------------------------
+// 	Section 4
+//---------------------------------------
+.section-4 {
+
+	.bottom {
+
+		.block-0 {
+			.overlay { background: rgb(211, 160, 120); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; }
+		}
+		.block-1 {
+			.overlay { background: rgb(211, 160, 120); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+		}
+		.block-2 {
+			.overlay {  background: rgb(211, 160, 120); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; }
+		}
+
+	}
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-5 .section-4 {
+	top:0;
+}
+
+//---------------------------------------
+// 	Section 5
+//---------------------------------------
+.section-5 {
+
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-7 .section-5 {
+	top:0;
+}
+
+//---------------------------------------
+// 	Section 6
+//---------------------------------------
+.section-6 {
+
+	.video .thumbnail { background-repeat: no-repeat; }
+
+	.right { max-width: 1205px; }
+
+	.shades {
+
+		.background { visibility:hidden !important; }
+
+		.active .background { visibility:visible !important; }
+
+		.active .toggle { visibility:hidden !important; }
+
+	}
+
+	.shade-light { top: 0% !important; }
+	.shade-medium { top: 20% !important; }
+	.shade-tan { top: 40% !important; }
+	.shade-dark { top: 60% !important; }
+	.shade-deep { top: 80% !important; }
+
+	.active-light {
+		.shade-medium { top: 56% !important; }
+		.shade-tan { top: 67% !important; }
+		.shade-dark { top: 78% !important; }
+		.shade-deep { top: 89% !important; }
+	}
+
+	.active-medium {
+		.shade-medium { top: 11% !important; }
+		.shade-tan { top: 67% !important; }
+		.shade-dark { top: 78% !important; }
+		.shade-deep { top: 89% !important; }
+	}
+
+	.active-tan {
+		.shade-medium { top: 11% !important; }
+		.shade-tan { top: 22% !important; }
+		.shade-dark { top: 78% !important; }
+		.shade-deep { top: 89% !important; }
+	}
+
+	.active-dark {
+		.shade-medium { top: 11% !important; }
+		.shade-tan { top: 22% !important; }
+		.shade-dark { top: 33% !important; }
+		.shade-deep { top: 89% !important; }
+	}
+
+	.active-deep {
+		.shade-medium { top: 11% !important; }
+		.shade-tan { top: 22% !important; }
+		.shade-dark { top: 33% !important; }
+		.shade-deep { top: 44% !important; }
+	}
+
+	.right .buttons { height:94%; }
+
+	.undertone-button-inner { top:0; }
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-6 .section-6, .to-page-8 .section-6 {
+	top:0;
+}
+
+
+//---------------------------------------
+// 	Section 7
+//---------------------------------------
+.section-7 {
+
+	button {  display: inline-block !important; margin:0; }
+
+	.matches {
+
+		&.showing-1 {
+			.match.first, .teaser { display:none; }
+			.match.second, .teaser.second { display:block; position:relative; top:0; }
+		}
+	}
+
+}
+
+/*---------------------------------------
+:: 	States
+-----------------------------------------*/
+.to-page-7 .section-7, .to-page-9 .section-7 {
+	top:0;
+}

@@ -1,0 +1,149 @@
+/*------------------------------------------
+::
+:: 	UI > Components > Grid
+::
+--------------------------------------------*/
+@import "UI.Grid.scss";
+
+.container { 
+
+	@include container();
+
+	.one-column, .one-columns, .two-columns, .three-columns, .four-columns,
+	.five-columns, .six-columns, .seven-columns, .eight-columns, .nine-columns,
+	.ten-columns, .eleven-columns, .twelve-columns, .thirteen-columns,
+	.fourteen-columns, .fifteen-columns, .sixteen-columns, 
+	.one-row, .one-rows, .two-rows, .three-rows, .four-rows, 
+	.five-rows, .six-rows, .seven-rows, .eight-rows, .nine-rows,
+	.one-fourth-columns, .one-half-columns, .one-third-columns, .two-third-columns
+	{ @include absolute(); }
+
+	.row { 
+		
+		@include row();
+
+		.one-column, .one-columns, .two-columns, .three-columns, .four-columns,
+		.five-columns, .six-columns, .seven-columns, .eight-columns, .nine-columns,
+		.ten-columns, .eleven-columns, .twelve-columns, .thirteen-columns,
+		.fourteen-columns, .fifteen-columns, .sixteen-columns, 
+		.one-row, .one-rows, .two-rows, .three-rows, .four-rows, 
+		.five-rows, .six-rows, .seven-rows, .eight-rows, .nine-rows,
+		.one-fourth-columns, .one-half-columns, .one-third-columns, .two-third-columns
+		{  @include relative(); }
+
+		.offset-zero 		{ @include offset-zero(); }
+		.offset-one 		{ @include offset-one(); }
+		.offset-two 		{ @include offset-two(); }
+		.offset-three 		{ @include offset-three(); }
+		.offset-four 		{ @include offset-four(); }
+		.offset-five 		{ @include offset-five(); }
+		.offset-six 		{ @include offset-six(); }
+		.offset-seven 		{ @include offset-seven(); }
+		.offset-eight 		{ @include offset-eight(); }
+		.offset-nine 		{ @include offset-nine(); }
+		.offset-ten 		{ @include offset-ten(); }
+		.offset-eleven 		{ @include offset-eleven(); }
+		.offset-twelve 		{ @include offset-twelve(); }
+		.offset-thirteen	{ @include offset-thirteen(); }
+		.offset-fourteen	{ @include offset-fourteen(); }
+		.offset-fifteen 	{ @include offset-fifteen(); }
+
+	}
+
+	.one-row, 
+	.one-rows 			{ @include one-row(); }
+	.two-rows 			{ @include two-rows(); }
+	.three-rows			{ @include three-rows(); }
+	.four-rows			{ @include four-rows(); }
+	.five-rows			{ @include five-rows(); }
+	.six-rows			{ @include six-rows(); }
+	.seven-rows			{ @include seven-rows(); }
+	.eight-rows			{ @include eight-rows(); }
+	.nine-rows			{ @include nine-rows(); }
+
+	.one-column, 
+	.one-columns 		{ @include one-column(); }
+	.two-columns		{ @include two-columns(); }
+	.three-columns		{ @include three-columns(); }
+	.four-columns		{ @include four-columns(); }
+	.five-columns		{ @include five-columns(); }
+	.six-columns		{ @include six-columns(); }
+	.seven-columns		{ @include seven-columns(); }
+	.eight-columns		{ @include eight-columns(); }
+	.nine-columns		{ @include nine-columns(); }
+	.ten-columns		{ @include ten-columns(); }
+	.eleven-columns		{ @include eleven-columns(); }
+	.twelve-columns		{ @include twelve-columns(); }
+	.thirteen-columns	{ @include thirteen-columns(); }
+	.fourteen-columns	{ @include fourteen-columns(); }
+	.fifteen-columns	{ @include fifteen-columns(); }
+	.sixteen-columns	{ @include sixteen-columns(); }
+
+	.one-fourth-columns 	{ @include one-fourth-columns(); }
+	.one-half-columns 		{ @include one-half-columns(); }
+	.one-third-columns		{ @include one-third-columns(); }
+	.two-third-columns		{ @include two-third-columns(); }
+
+	.zero-down 			{ @include zero-down(); }
+	.one-down			{ @include one-down(); }
+	.two-down			{ @include two-down(); }
+	.three-down			{ @include three-down(); }
+	.four-down 			{ @include four-down(); }
+	.five-down 			{ @include five-down(); } 
+	.six-down			{ @include six-down(); }
+	.seven-down 		{ @include seven-down(); }
+	.eight-down 		{ @include eight-down(); }
+
+	.zero-right			{ @include zero-right(); }
+	.one-right			{ @include one-right(); }
+	.two-right			{ @include two-right(); }
+	.three-right		{ @include three-right(); }
+	.four-right			{ @include four-right(); }
+	.five-right 		{ @include five-right(); }
+	.six-right			{ @include six-right(); }
+	.seven-right 		{ @include seven-right(); }
+	.eight-right 		{ @include eight-right(); }
+	.nine-right 		{ @include nine-right(); }
+	.ten-right 			{ @include ten-right(); }
+	.eleven-right 		{ @include eleven-right(); }
+	.twelve-right 		{ @include twelve-right(); }
+	.thirteen-right		{ @include thirteen-right(); }
+	.fourteen-right		{ @include fourteen-right(); }
+	.fifteen-right		{ @include fifteen-right(); }
+
+}
+
+.tablet {
+
+	.container .row {
+		.one-fourth-columns		{ @include one-half-columns(); }		
+		.one-half-columns		{ @include sixteen-columns(); }
+		.one-third-columns 		{ @include eight-columns(); }
+		.two-third-columns 		{ @include eight-columns(); }
+	}
+
+}
+
+.phone {
+
+	.container .row {
+
+		.one-column, .one-columns, .two-columns, .three-columns, .four-columns,
+		.five-columns, .six-columns, .seven-columns, .eight-columns, .nine-columns,
+		.ten-columns, .eleven-columns, .twelve-columns, .thirteen-columns,
+		.fourteen-columns, .fifteen-columns, .sixteen-columns, 
+		.one-row, .one-rows, .two-rows, .three-rows, .four-rows, 
+		.five-rows, .six-rows, .seven-rows, .eight-rows, .nine-rows,
+		.one-fourth-columns, .one-half-columns, .one-third-columns, .two-third-columns
+		{ @include sixteen-columns(); }
+
+		.offset-zero, .offset-one, .offset-two,
+		.offset-three, .offset-four, .offset-five,
+		.offset-six, .offset-seven, .offset-eight,
+		.offset-nine, .offset-ten, .offset-eleven,
+		.offset-twelve, .offset-thirteen, .offset-fourteen, .offset-fifteen 
+		{ @include offset-zero(); }
+
+	}
+
+}

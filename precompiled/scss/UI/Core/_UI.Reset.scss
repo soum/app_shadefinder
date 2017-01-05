@@ -1,0 +1,26 @@
+//------------------------------------------
+//
+// 	UI > Core > Reset
+//
+//------------------------------------------
+// 	Mixins
+//------------------------------------------
+@mixin reset-box() {
+	@include box-sizing(content-box); margin:0; padding:0; 
+}
+@mixin reset-font() {
+	font-weight:normal; font-style: normal; 
+}
+@mixin reset-text() {
+	@include reset-font();
+	font-size: 1em; line-height: 1em;
+	text-decoration: none; text-indent: 0; text-transform: none;
+	letter-spacing: normal; word-spacing:normal; @include text-size-adjust(100%);
+}
+@mixin reset-decoration() {
+	background: transparent no-repeat fixed center; 
+	border: 0; border-radius: 0; outline: 0; outline-offset:0;
+	box-shadow: none;
+}
+
+

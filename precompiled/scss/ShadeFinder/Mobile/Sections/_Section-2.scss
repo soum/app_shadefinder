@@ -1,0 +1,252 @@
+/*---------------------------------------
+::
+:: 	Section-2 Mobile Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-2.scss';
+
+.section-2 {
+
+	.background {
+
+		&.second { background-image: url($path + 'images/Mobile/step-4.jpg'); background-size: 180% auto; background-position-y: 10px; }
+
+	}
+
+	.icons { margin-top: 2em; padding: 1em 0 3em; background: #fff; }
+
+	.content {
+
+		&.first, &.second {
+			overflow:auto; -webkit-overflow-scrolling: touch;
+			.icon { width: 47.6526%; padding: 1em 0; }
+			.icon-0, .icon-2, .icon-4 { clear:both; margin-left: 2.3474%; }
+			.icon-6 { clear:both; margin-left: 26.1737%; }
+		}
+
+		&.first .icon-3:before { height: 42px; width: 42px; margin: 9px 0 4px; }
+
+		.bottom { height:auto; }
+
+		&.first .bottom { opacity:0; }
+
+		&.second .top { opacity:1; }
+
+		.icon { @extend %upped-in; }
+
+		.icon small { white-space: normal; }
+
+	}
+
+	.scroll, .scroll .arrow {
+		position:absolute; display:block;
+		bottom:0;
+	}
+
+	.scroll {
+		left:0;
+		text-align: center;
+		width: 100%;
+		height: 2em;
+		background: black;
+		background: #fff;
+		box-shadow: 0 0px 10px 20px #fff;
+		opacity:0;
+	}
+
+	.scroll .arrow {
+		left: 50%;
+		color: #000;
+		font-size: 4.5em;
+		font-family: 'Arial', sans-serif;
+		line-height: 1em;
+		margin-left: -0.3em;
+		bottom: -0.2em;
+		@include transform(rotate(-90deg));
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	To 2
+-----------------------------------------*/
+.from-page-start.to-page-2 .section-2 {
+	@extend %upped-in; @extend %fade-in;
+	.content.first { @extend %upped-in; @extend %fade-in;  }
+	.scroll { @extend %faded-in; }
+}
+.from-page-1.to-page-2 .section-2 {
+	@extend %upped-in;
+	.content.first { @extend %upped-in; }
+}
+.from-page-3.to-page-2 .section-2 {
+	@extend %upped-in;
+	.content.first { @extend %right-in; }
+	.scroll { @extend %faded-in; }
+}
+.from-page-4.to-page-2 .section-2 {
+	@extend %right-in;
+	.content.first { @extend %upped-in; @extend %faded-in; }
+	.scroll { @extend %faded-in; }
+}
+.from-page-5.to-page-2 .section-2 {
+	@extend %right-in;
+	.content.first { @extend %upped-in; @extend %faded-in; }
+	.scroll { @extend %faded-in; }
+}
+.from-page-6.to-page-2 .section-2 {
+	@extend %right-in;
+	.content.first { @extend %upped-in; @extend %faded-in; }
+	.scroll { @extend %faded-in; }
+}
+.from-page-9.to-page-2 .section-2 {
+	@extend %right-in;
+	.content.first { @extend %upped-in; @extend %faded-in; }
+	.scroll { @extend %faded-in; }
+}
+
+/*---------------------------------------
+:: 	From 2
+-----------------------------------------*/
+.from-page-2 .section-2 {
+	.content.first {
+		.top { @extend %faded-in; }
+	}
+	.background.first { @extend %faded-in; }
+	.content.first { @extend %upped-in; .top, .bottom { @extend %faded-in; } }
+	.scroll { @extend %faded-in; }
+}
+.from-page-2.to-page-1 .section-2 {
+	@extend %right-out;
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-3 .section-2 {
+	@extend %upped-in;
+	.content.first { @extend %left-out; }
+}
+.from-page-2.to-page-4 .section-2 {
+	@extend %left-out;
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-5 .section-2 {
+	@extend %left-out;
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-6 .section-2 {
+	@extend %left-out;
+	.content.first { @extend %upped-in; }
+}
+
+/*---------------------------------------
+:: 	Page 2 Customizations
+-----------------------------------------*/
+.to-201, .to-202, .to-203, .to-204, .to-205, .to-206, .to-207, .to-page-3 {
+	.section-2 .content.first {
+		.top, .bottom { @extend %faded-in; }
+	}
+	.section-2 .background.first { @extend %faded-in; }
+	.section-2 .scroll { @extend %fade-in; }
+}
+
+.from-200.to-201, .from-201.to-202, .from-202.to-203, .from-203.to-204,
+.from-204.to-205, .from-205.to-206, .from-206.to-207 {
+	.section-2 .content.first {
+		.top, .bottom { @extend %fade-in; }
+	}
+	.section-2 .background.first { @extend %fade-in-long; }
+	.section-2 .scroll { @extend %fade-in; }
+}
+
+/*---------------------------------------
+:: 	To 3
+-----------------------------------------*/
+.to-page-3 .section-2 {
+	.scroll { @extend %faded-in; }
+}
+.from-page-start.to-page-3 .section-2 {
+	@extend %upped-in; @extend %fade-in;
+	 .content.second {
+		@extend %upped-in;
+	}
+}
+.from-page-2.to-page-3 .section-2 {
+	 @extend %upped-in;
+	 .content.second {
+		@extend %left-in;
+	}
+}
+.from-page-4.to-page-3 .section-2 {
+	@extend %right-in;
+	.content.second {
+		@extend %upped-in;
+	}
+}
+.from-page-5.to-page-3 .section-2 {
+	@extend %right-in;
+	.content.second {
+		@extend %upped-in;
+	}
+}
+.from-page-6.to-page-3 .section-2 {
+	@extend %right-in;
+	.content.second {
+		@extend %upped-in;
+	}
+}
+.from-page-9.to-page-3 .section-2 {
+	@extend %right-in;
+	.content.second {
+		@extend %upped-in;
+	}
+}
+
+/*---------------------------------------
+:: 	From 3
+-----------------------------------------*/
+.from-page-3 .section-2 {
+	.scroll { @extend %faded-in; }
+}
+.from-page-3.to-page-1 .section-2 {
+	@extend %right-out;
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-2 .section-2 {
+	@extend %upped-in;
+	.content.second { @extend %right-out; }
+	.background.second { @extend %fade-out; }
+}
+.from-page-3.to-page-4 .section-2 {
+	@extend %upped-in;
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-5 .section-2 {
+	@extend %left-out;
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-6 .section-2 {
+	@extend %left-out;
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-9 .section-2 {
+	@extend %left-out;
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+
+/*---------------------------------------
+:: 	Page 3 Customizations
+-----------------------------------------*/
+.to-304 {
+	.background.second { @extend %faded-in; }
+	&.from-303 .section-2 {
+		.background.second { @extend %fade-in; }
+	}
+}

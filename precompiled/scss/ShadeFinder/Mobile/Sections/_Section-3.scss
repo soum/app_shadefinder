@@ -1,0 +1,169 @@
+/*---------------------------------------
+::
+:: 	Section-3 Mobile Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-3.scss';
+
+@mixin only-phone() {
+	$query: "only screen and (max-width: 480px)";
+	@media #{$query} { @content; }
+}
+
+.section-3 {
+
+	.scroll-wrapper { overflow: hidden; }
+
+	.wrapper {
+		width: 300%; height: 100%; overflow: hidden;
+		@include transform(translateX(-33.333%));
+	}
+
+	.background .inner { background-position: center top; }
+
+	.content {
+
+		//bottom: auto; height: 100%;
+		overflow:auto; -webkit-overflow-scrolling: touch;
+
+		.boxes { margin: 1em 0 0; }
+
+		.top { position:relative; margin-top: 25%; }
+
+		.arrow {
+			display:none; padding: 0 0.5em; position: relative; top: -0.1em;
+			&.previous:before {
+				content: '<';
+			}
+			&.next:before {
+				content: '>';
+			}
+		}
+
+		small.count {
+			display:block; position:relative; overflow:visible; font-style:italic; padding-bottom: 1em;
+		}
+
+	}
+
+	.bottom { margin-left: 7.89%; width: 84.22%; display:none; }
+
+	.mobile-bottom { display:block; position: relative; margin: 1em auto 1em; width: 28.0733%; }
+
+	@include only-phone() {
+
+		.background {
+
+			&.left .inner { background-image: url($path + 'images/Mobile/step-3-0.jpg'); }
+			&.center .inner { background-image: url($path + 'images/Mobile/step-3-1.jpg'); }
+			&.right .inner { background-image: url($path + 'images/Mobile/step-3-3.jpg'); }
+
+		}
+
+		.content .top { margin-top: 30%; }
+
+	}
+
+	.tutor-wrap {
+
+		@extend %background; height:0%; overflow:hidden;
+
+		&:before {
+			@extend %icon; font-size: 5em;
+			content: "q";
+			position:absolute; top:50%; left: 50%; text-align:center; color: #fff; margin-top: -0.1em; margin-left: -0.1em;
+			@include transform(rotate(-30deg)); @include transition(opacity 400ms); opacity: 0;
+		}
+
+	}
+
+	.display-tutoring .tutor-wrap { height: 100%; }
+
+
+
+	.tutor {
+
+		position:absolute; top:50%; left:50%; height: 3em; width: 3em; background: rgba(255,255,255,0.8);
+		border-radius: 100px; border: 4px solid #fff;
+		@include transform(translate(-50%, -50%) scale(0)); @include transition-transform(400ms);
+
+	}
+
+	.tutoring .tutor-wrap:before { opacity: 1; }
+
+	.tutoring .tutor {
+		@include transform(translate(-50%, -50%) scale(1));
+	}
+
+	.desktop-top {
+		bottom: 30px;
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Mixins
+-----------------------------------------*/
+@mixin page-4-visible() {
+	.background .inner { @extend %faded-in; }
+	.top, .bottom { @extend %faded-in; }
+	.content {
+		.left, .right, .center { @extend %faded-in; }
+	}
+}
+
+@include keyframes(animate-in) {
+	from { @include transform(translateX(-66.666%)); }
+	to { @include transform(translateX(0)); }
+}
+
+@mixin animate-in() {
+	@include transform(none);
+}
+
+/*---------------------------------------
+:: 	To 4
+-----------------------------------------*/
+.from-page-start.to-page-4 .section-3 {
+	@extend %upped-in; @include page-4-visible(); @extend %fade-in;
+	.background { display:block; }
+}
+.from-page-2.to-page-4 .section-3 { @extend %left-in; @include page-4-visible(); }
+.from-page-3.to-page-4 .section-3 {
+	@extend %upped-in;
+	.background { @extend %flip-in; }
+}
+.from-page-5.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+.from-page-6.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+.from-page-9.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+
+/*---------------------------------------
+:: 	From 4
+-----------------------------------------*/
+.from-page-4 .section-3 {
+	@include page-4-visible();
+}
+.from-page-4.to-page-1 .section-3 { @extend %right-out; }
+.from-page-4.to-page-2 .section-3 { @extend %right-out; }
+.from-page-4.to-page-3 .section-3 { @extend %right-out; }
+.from-page-4.to-page-5 .section-3 { @extend %left-out; }
+.from-page-4.to-page-6 .section-3 { @extend %left-out; }
+.from-page-4.to-page-9 .section-3 { @extend %left-out; }
+
+/*----------------------------------------
+:: 	Customizations
+------------------------------------------*/
+.from-401.to-402, .from-402.to-403, .from-403.to-404  {
+	.section-3 {
+		.background .inner, .content .left, .content .center, .content .right, .top, .bottom { @extend %fade-in-medium; }
+	}
+}
+
+.from-402.to-403, .from-start.to-404, .from-404.to-404, .from-403.to-404 {
+	.section-3 {
+	}
+}

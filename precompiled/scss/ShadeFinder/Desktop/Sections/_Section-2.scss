@@ -1,0 +1,226 @@
+/*---------------------------------------
+::
+:: 	Section-2 Desktop Overrides
+:: 
+-----------------------------------------*/
+@import '../../Core/Sections/Section-2.scss';
+
+.section-2 {
+
+	.icon {
+		&:before { font-size: 80px; }
+		h4 { font-size: 1.25em; margin-top:20px; font-weight: 800; letter-spacing: 2px; padding: 0 20px;}
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+:: 
+-----------------------------------------
+:: 	Mixins
+-----------------------------------------*/
+@include keyframes(icon-in) {
+	from { @include transform(translateX(800%)); }
+	to { @include transform(translateX(0)); }
+}
+@mixin iconned-in() {
+	@include transform(translateX(0));
+}
+@mixin icon-in($duration: 800ms) {
+	@include animation(icon-in $duration);
+	@include iconned-in();	
+}
+%icon-in { @include icon-in(); }
+%iconned-in { @include iconned-in(); }
+
+/*---------------------------------------
+:: 	To 2
+-----------------------------------------*/
+.from-page-start.to-page-2 .section-2 { 
+	@extend %upped-in; @extend %fade-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-0.to-page-2 .section-2 { 
+	@extend %upped-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-1.to-page-2 .section-2 { 
+	@extend %upped-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-3.to-page-2 .section-2 { 
+	@extend %upped-in; 
+	.content.first { @extend %right-in; }
+}
+.from-page-4.to-page-2 .section-2 { 
+	@extend %right-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-5.to-page-2 .section-2 { 
+	@extend %right-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-6.to-page-2 .section-2 { 
+	@extend %right-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-9.to-page-2 .section-2 { 
+	@extend %right-in; 
+	.content.first { @extend %upped-in; }
+}
+
+/*---------------------------------------
+:: 	From 2
+-----------------------------------------*/
+.from-page-2 .section-2 {
+	.content.first {
+		.top { @extend %faded-in; }
+		.icon { @extend %upped-in; }
+	}
+	.background.first { @extend %faded-in; }
+}
+.from-page-2.to-page-1 .section-2 { 
+	z-index:0; @extend %upped-in; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-3 .section-2 { 
+	@extend %upped-in; 
+	.content.first { @extend %left-out; }
+}
+.from-page-2.to-page-4 .section-2 { 
+	@extend %left-out; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-5 .section-2 { 
+	@extend %left-out; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-6 .section-2 { 
+	@extend %left-out; 
+	.content.first { @extend %upped-in; }
+}
+.from-page-2.to-page-9 .section-2 { 
+	@extend %left-out; 
+	.content.first { @extend %upped-in; }
+}
+
+/*---------------------------------------
+:: 	Page 2 Customizations
+-----------------------------------------*/
+.to-201, .to-202, .to-203, .to-204, .to-205, .to-206, .to-207, .to-page-3 {
+	.section-2 .content.first .top { @extend %faded-in; }
+	.section-2 .background.first { @extend %faded-in; }
+}
+
+.from-200.to-201, .from-201.to-202, .from-202.to-203, .from-203.to-204, 
+.from-204.to-205, .from-205.to-206, .from-206.to-207 {
+	.section-2 .content.first .top { @extend %fade-in; }
+	.section-2 .background.first { @extend %fade-in-long; }
+}
+
+@for $j from 0 to 7 {
+	@for $i from (200 + $j) to 207 {
+		.from-#{$i}.to-#{$i + 1} .section-2 .content.first .icon-#{$j} { @extend %icon-in; }
+		.to-#{$i + 1} .section-2 .content.first .icon-#{$j} { @extend %upped-in; }
+	} 
+}
+
+/*---------------------------------------
+:: 	To 3
+-----------------------------------------*/
+.from-page-start.to-page-3 .section-2 {  
+	@extend %upped-in; @extend %fade-in; 
+}
+.from-page-2.to-page-3 .section-2 {  
+	 @extend %upped-in;
+}
+.from-page-4.to-page-3 .section-2 { 
+	@extend %right-in; 
+	.content.second { 
+		@extend %upped-in; 
+		.top { @extend %faded-in; }
+	}
+}
+.from-page-5.to-page-3 .section-2 { 
+	@extend %right-in; 
+	.content.second { 
+		@extend %upped-in; 
+		.top { @extend %faded-in; }
+	}
+}
+.from-page-6.to-page-3 .section-2 { 
+	@extend %right-in; 
+	.content.second { 
+		@extend %upped-in; 
+		.top { @extend %faded-in; }
+	}
+}
+.from-page-9.to-page-3 .section-2 { 
+	@extend %right-in; 
+	.content.second { 
+		@extend %upped-in; 
+		.top { @extend %faded-in; }
+	}
+}
+
+/*---------------------------------------
+:: 	From 3
+-----------------------------------------*/
+.from-page-3 .section-2 {
+	.content.second {
+		.top { @extend %faded-in; }
+		.icon { @extend %upped-in; }
+	}
+}
+.from-page-3.to-page-1 .section-2 { 
+	z-index:0; @extend %upped-in; 
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-2 .section-2 { 
+	@extend %upped-in; 
+	.content.second { @extend %right-out; }
+	.background.second { @extend %fade-out; }
+}
+.from-page-3.to-page-4 .section-2 { 
+	@extend %upped-in; 
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-5 .section-2 { 
+	@extend %left-out; 
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-6 .section-2 { 
+	@extend %left-out; 
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+.from-page-3.to-page-9 .section-2 { 
+	@extend %left-out; 
+	.content.second { @extend %upped-in; }
+	.background.second { @extend %faded-in; }
+}
+
+/*---------------------------------------
+:: 	Page 3 Customizations
+-----------------------------------------*/
+.to-304 {
+	.section-2 .content.second .top { @extend %faded-in; }
+	.background.second { @extend %faded-in; }
+	&.from-303 .section-2 {
+		.content.second .top { @extend %fade-in; }
+		.background.second { @extend %fade-in; }
+	}
+}
+
+@for $j from 0 to 4 {
+	@for $i from (300 + $j) to 304 {
+		.to-#{$i + 1} .section-2 .content.second { @extend %upped-in; }
+		.from-#{$i}.to-#{$i + 1} .section-2 .content.second .icon-#{$j} { @extend %icon-in; }
+		.to-#{$i + 1} .section-2 .content.second .icon-#{$j} { @extend %upped-in; }
+	} 
+}

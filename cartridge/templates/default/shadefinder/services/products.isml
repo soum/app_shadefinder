@@ -1,0 +1,52 @@
+<iscontent type="application/json" charset="UTF-8" compact="true"/>
+<isscript>
+
+	importScript("shadefinder/ProductUtils.ds");
+	importScript('corp_core:scene7/GetScene7ImageURI.ds');	
+	var scene7ServerPath = gets7ServerPath();
+
+	var Product = pdict.Product,
+		product = JSON.parse(ProductUtils.getProductJson(Product, pdict));
+
+	product.shortDescription = '' + Product.shortDescription;
+	product.longDescription = '' + Product.longDescription;
+
+	if (product.pricing) {
+		if (product.pricing.showStandardPrice) {
+			product.price = product.pricing.formattedStandard;
+		} else {
+			product.price = product.pricing.formattedSale;
+		}
+	}
+
+	if (Product.custom.pdpShortDescription) {
+		product.subtitle = '' + Product.custom.pdpShortDescription;
+	} else if (Product.master && Product.variants) {
+		var firstvariant = Product.variants[Object.keys(Product.variants)[0]];
+		if (firstvariant && firstvariant.custom.pdpShortDescription) {
+			product.subtitle = firstvariant.custom.pdpShortDescription;
+		}
+		if (firstvariant) {
+			var f = JSON.parse(ProductUtils.getProductJson(firstvariant, pdict));
+			if (f.pricing.showStandardPrice) {
+				product.price = f.pricing.formattedStandard;
+			} else {
+				product.price = f.pricing.formattedSale;
+			}
+		}
+	}
+
+	product.imageUrl = scene7ServerPath + Product.custom.Scene7AssetId + '?$sharpen1$&wid=445&hei=387';
+	product.thumbnailUrl = scene7ServerPath + Product.custom.Scene7AssetId + '?$sharpen1$&wid=160&hei=139';
+	
+	//product.imageUrl = 'http://s7d3.scene7.com/is/image/BareEscentuals//' + Product.custom.Scene7AssetId + '?$sharpen1$&wid=445&hei=387';
+	//product.thumbnailUrl = 'http://s7d3.scene7.com/is/image/BareEscentuals//' + Product.custom.Scene7AssetId + '?$sharpen1$&wid=160&hei=139';
+	product.url = '' + URLUtils.url('Product-Show','pid', Product.ID);
+	product.name = Product.name;
+	product.isAvailable = product.availability.availableForSale;
+	//product.video = Product.custom.pdpVideo1URL;
+	product.video = Product.custom.ShadeFinderVideo;
+	product.color = Product.custom.SkinShade;
+
+</isscript>
+<isprint value="${JSON.stringify(product)}" encoding="off"/>

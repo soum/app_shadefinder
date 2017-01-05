@@ -1,0 +1,210 @@
+/*---------------------------------------
+::
+:: 	Section-1 Desktop Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-1.scss';
+
+.section-1 {
+
+	.content { margin-top: 2.3em; }
+
+	.background.right {
+
+		padding-top: 60px; @include box-sizing(border-box);
+
+		.background-inner { position: relative; }
+
+	}
+	
+	/*
+	.left .content {
+		h2, h5 { color: #000; }
+	}
+	*/
+
+	.diamond {
+
+		margin-top: -33px; margin-left: -63px; width: 125px; height: 125px;
+
+		h2 { line-height: 125px; }
+
+		.front { height: 84px; width: 84px; }
+
+		.back { height: 384px; width: 384px; }
+
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Mixins
+-----------------------------------------*/
+@include keyframes(desktop-gate-left-out) {
+	from { @include transform(translateX(0)); }
+	to { @include transform(translateX(50%)); }
+}
+@include keyframes(desktop-gate-right-out) {
+	from { @include transform(translateX(0)); }
+	to { @include transform(translateX(-50%)); }
+}
+@include keyframes(desktop-gate-left-in) {
+	from { @include transform(translateX(50%)); }
+	to { @include transform(translateX(0)); }
+}
+@include keyframes(desktop-gate-right-in) {
+	from { @include transform(translateX(-50%)); }
+	to { @include transform(translateX(0)); }
+}
+%gate-left-in { @include animation(desktop-gate-left-out 800ms);  @include transform(translateX(50%)); }
+%gate-right-in { @include animation(desktop-gate-right-out 800ms);  @include transform(translateX(-50%)); }
+%gate-left-out { @include animation(desktop-gate-left-in 800ms);  @include transform(translateX(0)); }
+%gate-right-out { @include animation(desktop-gate-right-in 800ms);  @include transform(translateX(0)); }
+
+@mixin gate-close() {
+	z-index: 2; @extend %upped-in;
+	.background.left {
+		@extend %right-in;
+		.background-inner { @extend %gate-left-out; }
+	}
+	.background.right {
+		@extend %left-in;
+		.background-inner { @extend %gate-right-out; }
+	}
+	.overlay.left { @extend %right-in; }
+	.overlay.right { @extend %left-in; }
+}
+
+/*---------------------------------------
+:: 	To
+-----------------------------------------*/
+.from-page-start.to-page-0 .section-1 {
+	z-index: 2; @extend %upped-in;
+	.diamond { visibility: visible; }
+}
+.from-page-start.to-page-1 .section-1 {
+	@include gate-close();
+	.diamond { visibility: visible; }
+}
+.from-page-0.to-page-1 .section-1 {
+	@extend %upped-in; @include animation(none);
+	.diamond { visibility: visible; }
+}
+.from-page-2.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.left {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %right-in; }
+	}
+}
+.from-page-3.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.left {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %right-in; }
+	}
+}
+.from-page-4.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.left {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %right-in; }
+	}
+}
+.from-page-5.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.left {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %right-in; }
+	}
+}
+.from-page-6.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.left {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %right-in; }
+	}
+}
+.from-page-7.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.right {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %left-in; }
+	}
+}
+.from-page-8.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.right {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %left-in; }
+	}
+}
+.from-page-9.to-page-1 .section-1 {
+	@include gate-close();
+	.overlay.right {
+		z-index: 3;
+		.diamond { visibility: visible; @extend %left-in; }
+	}
+}
+
+/*---------------------------------------
+:: 	From
+-----------------------------------------*/
+.from-page-1.to-page-0 .section-1 {
+	@extend %upped-in;
+	.diamond { visibility: visible; }
+}
+.from-page-1.to-page-2 .section-1 {
+	.overlay.left {
+		z-index: 3;
+		.diamond { @extend %left-out; visibility: visible; }
+	}
+}
+.from-page-1.to-page-7 .section-1 {
+	.overlay.right {
+		z-index: 3;
+		.diamond { @extend %right-out; visibility: visible; }
+	}
+}
+
+/*---------------------------------------
+:: 	Take 2 - All Split
+-----------------------------------------*/
+.intro-b.to-200, .intro-b.to-700 {
+	.section-1 {
+		@extend %upped-in;
+		.background.left {
+			@extend %left-out;
+			.background-inner { @extend %right-out; }
+		}
+		.background.right {
+			@extend %right-out;
+			.background-inner { @extend %left-out; }
+		}
+		.overlay.left { @extend %left-out; }
+		.overlay.right { @extend %right-out; }
+	}
+}
+
+/*---------------------------------------
+:: 	Take 4 - All Split w/Parallax
+-----------------------------------------*/
+.to-200, .to-700 {
+	.section-1 {
+		@extend %upped-in;
+		.background.left {
+			@extend %left-out;
+			.background-inner { @extend %gate-left-in; }
+		}
+		.background.right {
+			@extend %right-out;
+			.background-inner { @extend %gate-right-in; }
+		}
+		.overlay.left { @extend %left-out; }
+		.overlay.right { @extend %right-out; }
+	}
+}

@@ -1,0 +1,195 @@
+/*---------------------------------------
+::
+:: 	Finder > Animations
+::
+-----------------------------------------
+:: 	Container Animations
+-----------------------------------------*/
+$animationduration: 800ms !default;
+
+@include keyframes(up-out) {
+	from 	{ @include transform(translateY(0%)); }
+	to 		{ @include transform(translateY(-100%)); }
+}
+@include keyframes(up-in) {
+	from 	{ @include transform(translateY(100%)); }
+	to 		{ @include transform(translateY(0%)); }
+}
+@include keyframes(down-out) {
+	from 	{ @include transform(translateY(0%)); }
+	to 		{ @include transform(translateY(100%)); }
+}
+@include keyframes(down-in) {
+	from 	{ @include transform(translateY(-100%)); }
+	to 		{ @include transform(translateY(0%)); }
+}
+@include keyframes(left-out) {
+	from 	{ @include transform(translateX(0%)); }
+	to 		{ @include transform(translateX(-100%)); }
+}
+@include keyframes(left-in) {
+	from 	{ @include transform(translateX(100%)); }
+	to 		{ @include transform(translateX(0%)); }
+}
+@include keyframes(right-out) {
+	from 	{ @include transform(translateX(0%)); }
+	to 		{ @include transform(translateX(100%)); }
+}
+@include keyframes(right-in) {
+	from 	{ @include transform(translateX(-100%)); }
+	to 		{ @include transform(translateX(0%)); }
+}
+
+/*---------------------------------------
+:: 	Container Animation Mixins
+-----------------------------------------*/
+@mixin upped-out() { @include transform(translateY(-100%)); }
+@mixin upped-in() { @include transform(translate(0, 0)); }
+@mixin downed-out() { @include transform(translateY(100%)); }
+@mixin downed-in() { @include transform(translate(0, 0)); }
+@mixin lefted-out() { @include transform(translate(-100%, 0)); }
+@mixin lefted-in() { @include transform(translate(0, 0)); }
+@mixin righted-out() { @include transform(translate(100%, 0)); }
+@mixin righted-in() { @include transform(translate(0, 0)); }
+
+%upped-out { @include upped-out(); }
+%upped-in  { @include upped-in(); }
+
+@mixin up-out($duration: $animationduration) {
+	@include animation(up-out $duration);
+	@include upped-out();
+}
+@mixin up-in($duration: $animationduration) {
+	@include animation(up-in $duration);
+	@include upped-in();
+}
+@mixin down-out($duration: $animationduration) {
+	@include animation(down-out $duration);
+	@include downed-out();
+}
+@mixin down-in($duration: $animationduration) {
+	@include animation(down-in $duration);
+	@include downed-in();
+}
+@mixin left-out($duration: $animationduration) {
+	@include animation(left-out $duration);
+	@include lefted-out();
+}
+@mixin left-in($duration: $animationduration) {
+	@include animation(left-in $duration);
+	@include lefted-in()
+}
+@mixin right-out($duration: $animationduration) {
+	@include animation(right-out $duration);
+	@include righted-out()
+}
+@mixin right-in($duration: $animationduration) {
+	@include animation(right-in $duration);
+	@include righted-in()
+}
+
+%up-out { @include up-out(); }
+%up-in  { @include up-in(); }
+%down-out { @include down-out(); }
+%down-in  { @include down-in(); }
+%left-out { @include left-out(); }
+%left-in  { @include left-in(); }
+%right-out { @include right-out(); }
+%right-in  { @include right-in(); }
+
+/*---------------------------------------
+:: 	Parallax Animations
+-----------------------------------------*/
+@include keyframes(left-out-inner) {
+	from 	{ @include transform(translateX(0%)); }
+	to 		{ @include transform(translateX(20%)); }
+}
+@include keyframes(left-in-inner) {
+	from 	{ @include transform(translateX(-20%)); }
+	to 		{ @include transform(translateX(0%)); }
+}
+@include keyframes(right-out-inner) {
+	from 	{ @include transform(translateX(0%)); }
+	to 		{ @include transform(translateX(-20%)); }
+}
+@include keyframes(right-in-inner) {
+	from 	{ @include transform(translateX(20%)); }
+	to 		{ @include transform(translateX(0%)); }
+}
+
+/*---------------------------------------
+:: 	Parallax Animation Mixins
+-----------------------------------------*/
+@mixin left-out-inner($duration: $animationduration) {
+	@include animation(left-out-inner $duration);
+	@include transform(translateX(20%));
+}
+@mixin left-in-inner($duration: $animationduration) {
+	@include animation(left-in-inner $duration);
+	@include transform(translateY(0%));
+}
+@mixin right-out-inner($duration: $animationduration) {
+	@include animation(right-out-inner $duration);
+	@include transform(translateX(-20%));
+}
+@mixin right-in-inner($duration: $animationduration) {
+	@include animation(right-in-inner $duration);
+	@include transform(translateY(0%));
+}
+
+%left-out-inner { @include left-out-inner(); }
+%left-in-inner  { @include left-in-inner(); }
+%right-out-inner { @include right-out-inner(); }
+%right-in-inner  { @include right-in-inner(); }
+
+/*---------------------------------------
+:: 	Flip Animations
+-----------------------------------------*/
+@include keyframes(flip-in) {
+	from 	{ @include transform(rotateY(90deg)); }
+	to 		{ @include transform(rotateY(0deg)); }
+}
+@mixin flip-in($duration: $animationduration) {
+	@include animation(flip-in $duration);
+	@include transform(rotateY(0deg));
+}
+%flip-in { @include flip-in(); }
+
+/*---------------------------------------
+:: 	Fade Animations
+-----------------------------------------*/
+@include keyframes(fade-out) {
+	from 	{ opacity: 1; }
+	to 		{ opacity: 0; }
+}
+@include keyframes(fade-in) {
+	from 	{ opacity: 0; }
+	to 		{ opacity: 1; }
+}
+
+@mixin faded-out() { opacity:0; }
+@mixin faded-in() { opacity:1; }
+%faded-out { @include faded-out(); }
+%faded-in  { @include faded-in(); }
+
+@mixin fade-out($duration: $animationduration) {
+	@include animation(fade-out $duration);
+	@include faded-out();
+}
+
+@mixin fade-in($duration: $animationduration) {
+	@include animation(fade-in $duration);
+	@include faded-in();
+}
+
+%fade-out { @include fade-out(); }
+%fade-in  { @include fade-in(); }
+%fade-out-medium { @include fade-out(1200ms); }
+%fade-in-medium  { @include fade-in(1200ms); }
+%fade-out-long { @include fade-out(1600ms); }
+%fade-in-long  { @include fade-in(1600ms); }
+
+/*---------------------------------------
+:: 	No Animations
+-----------------------------------------*/
+%no-animation { @include animation(none !important); }

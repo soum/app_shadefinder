@@ -1,0 +1,208 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 4
+::
+-----------------------------------------*/
+.section-4 {
+
+	.top, .bottom { display:none; }
+
+	.scroll-wrapper { @extend %background; }
+
+	.background { background-image: url($path + 'images/state-6.jpg'); }
+
+	.overlay { opacity:0; @include transition(opacity 2000ms); }
+
+	.top {
+
+		position:absolute; bottom: 50%; width: 100%; width: 100%; margin-bottom: 3.5em; text-align: center;
+
+		h2 { color: $black; }
+
+	}
+
+	.bottom {
+
+		position:absolute; text-align:center; overflow:auto; top: 50%; margin-top: -4em; width:100%; overflow:hidden;
+
+		.container { max-width: 1200px * ((100% + ($colpad * 2))/100%); }
+
+		h2 { margin-bottom: 0.125em; font-size:1.7em;}
+
+		h6 { color: #fff; padding-top: 0.225em; display:none;}
+
+		small { color: #fff; font-size:0.9em; }
+
+		.overlay, .backgrounds, .overlays { position:absolute; top:0; left:0; height: 100%; width: 100%; }
+
+		.blocks { margin-top: 1em; clear: both; overflow:hidden; }
+
+		.backgrounds { margin-top: 1em; }
+
+		.overlays-wrap { position:relative; height: 100%; width: 100% }
+
+		.overlays { padding-top: 1em; @include box-sizing(border-box); }
+
+		.backgrounds .block {
+			height: 100%;
+			background: rgba(255, 255, 255, 0.3);
+			@include transition(background-color 2000ms); 
+			@include transform(scale(0.5)); opacity: 0;
+		}
+
+		.overlays .block {
+			height: 100%;
+			@include transition(border 800ms);
+			border: 15px solid transparent;
+			&.active { border-color: #fff; }
+		}
+
+		.block {
+			@include box-sizing(border-box); position:relative; cursor:pointer; float:left;
+			margin-left: 3.56%; width: 21.1532%; padding: 6em 2em 4em;
+		}
+
+		.block-0 {
+			margin-left: 2.3474%;
+			.overlay { background: rgba(211, 160, 120, 0.3); }
+		}
+		.block-1 {
+			.overlay { background: rgba(211, 160, 120, 0.5); }
+		}
+		.block-2 {
+			.overlay {  background: rgba(211, 160, 120, 0.8); }
+		}
+		.block-3 {
+			.overlay {
+				background: -moz-linear-gradient(top,  rgba(244,199,162,0.2) 0%, rgba(211,160,120,1) 78%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,199,162,0.2)), color-stop(78%,rgba(211,160,120,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(244,199,162,0.2) 0%,rgba(211,160,120,1) 78%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(244,199,162,0.2) 0%,rgba(211,160,120,1) 78%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(244,199,162,0.2) 0%,rgba(211,160,120,1) 78%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(244,199,162,0.2) 0%,rgba(211,160,120,1) 78%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33f4c7a2', endColorstr='#d3a078',GradientType=0 ); /* IE6-9 */
+			}
+		}
+
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse .section-4 {
+
+	.overlays .block:hover { border-color: #fff; }
+
+}
+
+.has-touch .section-4 {
+
+	.overlays .block.hover { border-color: #fff; }
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	State Mixins
+-----------------------------------------*/
+@include keyframes(block-in) {
+	from { @include transform(scale(0.5)); opacity: 0; }
+	to 	 { @include transform(scale(1)); opacity: 1; }
+}
+@mixin blocked-in() {
+	@include transform(scale(1)); opacity: 1;
+}
+@mixin block-in() {
+	@include animation(block-in 400ms);
+	// @include blocked-in();
+}
+%block-in { @include block-in(); }
+%blocked-in { @include blocked-in(); }
+
+/*---------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-5, .from-page-5 {
+	.section-4 {
+		.top, .bottom { display:block; }
+	}
+}
+
+/*---------------------------------------
+:: 	To 5
+-----------------------------------------*/
+.from-page-start.to-page-5 .section-4 {
+ 	@extend %upped-in; @extend %fade-in;
+	.background { @extend %upped-in; }
+}
+.from-page-2.to-page-5 .section-4 {
+ 	@extend %left-in;
+	.background { @extend %left-in-inner; }
+}
+.from-page-3.to-page-5 .section-4 {
+	 @extend %left-in;
+	.background { @extend %left-in-inner; }
+}
+.from-page-4.to-page-5 .section-4 {
+	 @extend %left-in;
+	.background { @extend %left-in-inner; }
+}
+.from-page-6.to-page-5 .section-4 {
+	@extend %right-in;
+	.background { @extend %right-in-inner; }
+}
+.from-page-9.to-page-5 .section-4 {
+	@extend %right-in;
+	.background { @extend %right-in-inner; }
+}
+
+/*---------------------------------------
+:: 	From 5
+-----------------------------------------*/
+.from-page-5 .section-4 {
+	.backgrounds .block { @extend %blocked-in; }
+}
+.from-page-5.to-page-2 .section-4 {
+	@extend %right-out;
+	.background { @extend %right-out-inner; }
+}
+.from-page-5.to-page-3 .section-4 {
+	@extend %right-out;
+	.background { @extend %right-out-inner; }
+}
+.from-page-5.to-page-4 .section-4 {
+	@extend %right-out;
+	.background { @extend %right-out-inner; }
+}
+.from-page-5.to-page-6 .section-4 {
+	@extend %left-out;
+	.background { @extend %left-out-inner; }
+}
+.from-page-5.to-page-9 .section-4 {
+	@extend %left-out;
+	.background { @extend %left-out-inner; }
+}
+
+/*---------------------------------------
+:: 	Customizations
+-----------------------------------------*/
+@for $j from 0 to 4 {
+	@for $i from (501 + $j) to 506 {
+		.from-#{$i}.to-#{$i + 1} .section-4 .backgrounds .block-#{$j} { @extend %block-in; }
+		.to-#{$i + 1} .section-4 .backgrounds .block-#{$j} { @extend %blocked-in; }
+	}
+}
+
+.to-506{
+	.section-4 {
+		.overlay { opacity: 1; }
+		.backgrounds .block { background-color: transparent; }
+	}
+}

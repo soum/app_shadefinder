@@ -1,0 +1,16 @@
+//---------------------------------------
+//
+// 	Mobile Shade Finder
+//
+//---------------------------------------
+$animationduration: 600ms;
+
+@import 'Global.scss', 'ShadeFinder/Mobile/Header';
+
+@import 'ShadeFinder/Mobile/Sections/Section-0', 'ShadeFinder/Mobile/Sections/Section-1', 'ShadeFinder/Mobile/Sections/Section-2',
+		'ShadeFinder/Mobile/Sections/Section-3', 'ShadeFinder/Mobile/Sections/Section-4', 'ShadeFinder/Mobile/Sections/Section-5',
+		'ShadeFinder/Mobile/Sections/Section-6', 'ShadeFinder/Mobile/Sections/Section-7';
+
+@import 'ShadeFinder/BlemishRemedy/Mobile/Sections/Section-5';
+
+@import 'ShadeFinder/Overrides/Android';

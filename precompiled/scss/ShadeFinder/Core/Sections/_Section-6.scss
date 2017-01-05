@@ -1,0 +1,458 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 6
+::
+-----------------------------------------*/
+.section-6 {
+
+	.content { @extend %background; }
+
+    h1 {
+		font-size: 3em !important;
+		.cream { color: $cream; }
+	}
+
+		h2 {
+		color: $black;
+		.cream { color: $cream; }
+	}
+
+	h5 {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		font-size: 33px;
+	}
+
+	.left {
+
+        text-align: center;
+
+        h1 { font-size: inherit; }
+
+        h4 { color: $dark-chocolate; margin: 0.4em 0; font-weight:700; }
+
+		p { font-size: 1em; }
+
+		.video-thumbnail {
+
+            display: none;
+			margin-top: 2em;
+
+			p { margin:0; }
+
+			.video {
+
+				cursor: pointer;
+
+				h4 { margin:0.3em 0; @include transition(color 400ms); }
+
+			}
+
+			.thumbnail {
+				display:block;
+				padding-bottom: 56%;
+				background-image: url($path + '/images/video-thumbnail.jpg');
+				background-size: cover;
+			}
+
+		}
+
+	}
+
+	.right {
+
+        left: 25%; padding-top:60px; @include box-sizing(border-box);
+		left: auto;
+
+		.shades {
+			position:relative;
+			height:100%;
+			width: 100%;
+		}
+
+		.shade {
+
+			width: 100%; position:absolute; top:0; left:0; height: 60%; text-align: center;
+			@include transition-transform(400ms);
+			&.active .toggle h4 { color: #fff; }
+
+			.background { opacity:0; @include transition(opacity 400ms); background: #fff; }
+
+			&.active .background { opacity: 1; }
+
+		}
+
+		.toggle {
+			position:absolute; top:0; left:0; height: 33%; width: 100%;
+			cursor:pointer; text-align:center;
+			border: 10px solid transparent;
+			@include box-sizing(border-box); @include transition((border 400ms, height 400ms, opacity 400ms));
+		}
+
+		.active .toggle { opacity: 0; }
+
+		.shade-fair {
+			background: #fdd5bb;
+			.toggle h4 { color: #d8b289; }
+			.rollover h4 { color: #f4cfa7; }
+		}
+		.shade-light {
+			background: #f4cfa7;
+			.toggle h4 { color: #d8b289; }
+			.rollover h4 { color: #f4cfa7; }
+		}
+		.shade-medium {
+			background: #e9c1a9;
+			.toggle h4 { color: #c89a7f; }
+			.rollover h4 { color: #e9c1a9; }
+		}
+		.shade-tan {
+			background: #c98b68;
+			.toggle h4 { color: #a76f50; }
+			.rollover h4 { color: #c98b68; }
+		}
+		.shade-dark {
+			background: #af7854;
+			.toggle h4 { color: #8e5a39; }
+			.rollover h4 { color: #af7854; }
+		}
+		.shade-deep {
+			background: #906044;
+			.toggle h4 { color: #774a31; }
+			.rollover h4 { color: #906044; }
+		}
+
+		h4 {
+			top:50%; position: relative; display:block; margin: -1em auto; padding: 0.5em 1em;
+			@include transition(color 400ms);
+		}
+
+		.undertone {
+
+			position: relative; display:inline-block; opacity:0; height: 100%; width: 20%; padding-bottom: 3.9em;
+			border: 1px solid #fff; border-width: 4px 2px;
+			@include box-sizing(border-box); @include transition(opacity 800ms 400ms);
+
+			.image {
+
+				position: relative;
+                height: 101%;
+				margin: 0;
+                background-size: contain;
+				background-repeat: no-repeat;
+                background-position: bottom center;
+				background-color: #fff;
+
+				img { display:none; position:relative; width: 100%; height: auto; }
+
+			}
+
+			&.selected .undertone-button { background: #000 !important; }
+
+		}
+
+		.undertone-button {
+
+			background: #000; @include transition((background 400ms));
+            border: 3px solid #fff; border-width: 3px 0 0; border-top: 0px;
+
+			.undertone-button-inner { padding: 0.3em 0; }
+
+			span { display:block; @extend %h4; }
+
+            .title { font-size: 1.3em; line-height: 1em; margin-bottom: 5px; }
+
+            .subtitle { font-family: 'ChaleLondon1960', Arial, sans-serif; font-size: 0.7em; line-height: 1em; margin-bottom: 3px; }
+
+		}
+
+		.has-active .undertone { opacity: 1; }
+
+		$undertones: 'images/Undertones2/';
+
+		.light-r110-fair 			{ background-image: url($path + $undertones + 'light-r110-fair.jpg'); }
+		.light-r130-golden-fair		{ background-image: url($path + $undertones + 'light-r130-golden-fair.jpg'); }
+		.light-r150-fairly-medium	{ background-image: url($path + $undertones + 'light-r150-fairly-medium.jpg'); }
+		.light-r170-fairly-light 	{ background-image: url($path + $undertones + 'light-r170-fairly-light.jpg'); }
+		.medium-r210-medium			{ background-image: url($path + $undertones + 'medium-r210-medium.jpg'); }
+		.medium-r230-light			{ background-image: url($path + $undertones + 'medium-r230-light.jpg'); }
+		.medium-r250-medium-beige 	{ background-image: url($path + $undertones + 'medium-r250_medium-beige.jpg'); }
+		.medium-r270-golden-medium 	{ background-image: url($path + $undertones + 'medium-r270-golden-medium.jpg'); }
+		.tan-r310-medium-tan 		{ background-image: url($path + $undertones + 'tan-r310-medium-tan.jpg'); }
+		.tan-r330-golden-tan 		{ background-image: url($path + $undertones + 'tan-r330-golden-tan.jpg'); }
+		.tan-r350-tan 				{ background-image: url($path + $undertones + 'tan-r350-tan.jpg'); }
+		.tan-r370-dark 				{ background-image: url($path + $undertones + 'tan-r370-dark.jpg'); }
+		.dark-r410-warm-tan 		{ background-image: url($path + $undertones + 'dark-r410-warm-tan.jpg'); }
+		.dark-r430-golden-dark 		{ background-image: url($path + $undertones + 'dark-r430-golden-dark.jpg'); }
+		.dark-r450-medium-dark 		{ background-image: url($path + $undertones + 'dark-r450-medium-dark.jpg'); }
+		.dark-r470-warm-dark		{ background-image: url($path + $undertones + 'dark-r470-warm-dark.jpg'); }
+		.deep-r510-golden-deep 		{ background-image: url($path + $undertones + 'deep-r510-golden-deep.jpg'); }
+		.deep-r530-warm-deep 		{ background-image: url($path + $undertones + 'deep-r530-warm-deep.jpg'); }
+		.deep-r550-medium-deep 		{ background-image: url($path + $undertones + 'deep-r550-medium-deep.jpg'); }
+		.deep-r570-deepest-deep		{ background-image: url($path + $undertones + 'deep-r570-deepest-deep.jpg'); }
+		.light-fair 				{ background-image: url($path + $undertones + 'light-fair.jpg'); }
+		.light-fairly-light 		{ background-image: url($path + $undertones + 'light-fairly-light.jpg'); }
+		.light-light 				{ background-image: url($path + $undertones + 'light-light.jpg'); }
+		.light-golden-fair 			{ background-image: url($path + $undertones + 'light-golden-fair.jpg'); }
+		.medium-golden-medium 		{ background-image: url($path + $undertones + 'medium-golden-medium.jpg'); }
+		.medium-medium-beige 		{ background-image: url($path + $undertones + 'medium-medium-beige.jpg'); }
+		.medium-fairly-medium 		{ background-image: url($path + $undertones + 'medium-fairly-medium.jpg'); }
+		.medium-medium 				{ background-image: url($path + $undertones + 'medium-medium.jpg'); }
+		.tan-golden-tan				{ background-image: url($path + $undertones + 'tan-golden-tan.jpg'); }
+		.tan-medium-tan 			{ background-image: url($path + $undertones + 'tan-medium-tan.jpg'); }
+		.tan-tan 					{ background-image: url($path + $undertones + 'tan-tan.jpg'); }
+		.tan-warm-tan 				{ background-image: url($path + $undertones + 'tan-warm-tan.jpg'); }
+		.dark-dark					{ background-image: url($path + $undertones + 'dark-dark.jpg'); }
+		.dark-golden-dark 			{ background-image: url($path + $undertones + 'dark-golden-dark.jpg'); }
+		.dark-medium-dark 			{ background-image: url($path + $undertones + 'dark-medium-dark.jpg'); }
+		.dark-warm-dark 			{ background-image: url($path + $undertones + 'dark-warm-dark.jpg'); }
+		.deep-deepest-deep 			{ background-image: url($path + $undertones + 'deep-deepest-deep.jpg'); }
+		.deep-golden-deep 			{ background-image: url($path + $undertones + 'deep-golden-deep.jpg'); }
+		.deep-warm-deep 			{ background-image: url($path + $undertones + 'deep-warm-deep.jpg'); }
+		.deep-medium-deep 			{ background-image: url($path + $undertones + 'deep-medium-deep.jpg'); }
+		.dark-bare-almond 			{ background-image: url($path + $undertones + 'dark-bare-almond.jpg'); }
+		.dark-bare-maple 			{ background-image: url($path + $undertones + 'dark-bare-maple.jpg'); }
+		.dark-bare-walnut 			{ background-image: url($path + $undertones + 'dark-bare-walnut.jpg'); }
+		.deep-bare-espresso			{ background-image: url($path + $undertones + 'deep-bare-espresso.jpg'); }
+		.deep-bare-mocha 			{ background-image: url($path + $undertones + 'deep-bare-mocha.jpg'); }
+		.light-bare-cream			{ background-image: url($path + $undertones + 'light-bare-cream.jpg'); }
+		.light-bare-ivory 			{ background-image: url($path + $undertones + 'light-bare-ivory.jpg'); }
+		.light-bare-linen 			{ background-image: url($path + $undertones + 'light-bare-linen.jpg'); }
+		.light-bare-porcelain 		{ background-image: url($path + $undertones + 'light-bare-porcelain.jpg'); }
+		.light-bare-shell 			{ background-image: url($path + $undertones + 'light-bare-shell.jpg'); }
+		.medium-bare-beige 			{ background-image: url($path + $undertones + 'medium-bare-beige.jpg'); }
+		.medium-bare-buff 			{ background-image: url($path + $undertones + 'medium-bare-buff.jpg'); }
+		.medium-bare-natural 		{ background-image: url($path + $undertones + 'medium-bare-natural.jpg'); }
+		.medium-bare-nude 			{ background-image: url($path + $undertones + 'medium-bare-nude.jpg'); }
+		.medium-bare-satin 			{ background-image: url($path + $undertones + 'medium-bare-satin.jpg'); }
+		.medium-bamboo-5_5 			{ background-image: url($path + $undertones + 'medium-bamboo-5.5.jpg'); }
+		.tan-desert-6_5			{ background-image: url($path + $undertones + 'medium-desert-6.5.jpg'); }
+		.tan-dune-7_5			{ background-image: url($path + $undertones + 'tan-dune-7.5.jpg'); }
+		.dark-terra-8_5			{ background-image: url($path + $undertones + 'dark-terra-8.5.jpg'); }
+		.tan-bare-caramel			{ background-image: url($path + $undertones + 'tan-bare-caramel.jpg'); }
+		.tan-bare-honey 			{ background-image: url($path + $undertones + 'tan-bare-honey.jpg'); }
+		.tan-bare-latte 			{ background-image: url($path + $undertones + 'tan-bare-latte.jpg'); }
+		.tan-bare-sand 				{ background-image: url($path + $undertones + 'tan-bare-sand.jpg'); }
+		.tan-bare-tan 				{ background-image: url($path + $undertones + 'tan-bare-tan.jpg'); }
+		.light-opal-01 				{ background-image: url($path + $undertones + 'light-opal-01.jpg'); }
+		.light-vanilla-02			{ background-image: url($path + $undertones + 'light-vanilla-02.jpg'); }
+		.light-buttercream-03		{ background-image: url($path + $undertones + 'light-buttercream-03.jpg'); }
+		.light-birch-1_5		{ background-image: url($path + $undertones + 'light-birch-1.5.jpg'); }
+		.medium-suede-04			{ background-image: url($path + $undertones + 'medium-suede-04.jpg'); }
+		.medium-natural-05 			{ background-image: url($path + $undertones + 'medium-natural-05.jpg'); }
+		.medium-ginger-06 			{ background-image: url($path + $undertones + 'medium-ginger-06.jpg'); }
+		.medium-wheat-4_5 			{ background-image: url($path + $undertones + 'medium-wheat-4.5.jpg'); }
+		.tan-tan-07 				{ background-image: url($path + $undertones + 'tan-tan-07.jpg'); }
+		.tan-spice-08 				{ background-image: url($path + $undertones + 'tan-spice-08.jpg'); }
+		.dark-chestnut-09 			{ background-image: url($path + $undertones + 'dark-chestnut-09.jpg'); }
+		.deep-sienna-10				{ background-image: url($path + $undertones + 'deep-sienna-10.jpg'); }
+		.light-clearly-porcelain-01	{ background-image: url($path + $undertones + 'light-clearly-porcelain-01.jpg'); }
+		.light-clearly-pearl-02		{ background-image: url($path + $undertones + 'light-clearly-pearl-02.jpg'); }
+		.light-clearly-cream-03		{ background-image: url($path + $undertones + 'light-clearly-cream-03.jpg'); }
+		.medium-clearly-medium-04	{ background-image: url($path + $undertones + 'medium-clearly-medium-04.jpg'); }
+		.medium-clearly-silk-05		{ background-image: url($path + $undertones + 'medium-clearly-silk-05.jpg'); }
+		.medium-clearly-beige-06	{ background-image: url($path + $undertones + 'medium-clearly-beige-06.jpg'); }
+		.medium-clearly-nude-07		{ background-image: url($path + $undertones + 'medium-clearly-nude-07.jpg'); }
+		.tan-clearly-latte-08		{ background-image: url($path + $undertones + 'tan-clearly-latte-08.jpg'); }
+		.tan-clearly-sand-09		{ background-image: url($path + $undertones + 'tan-clearly-sand-09.jpg'); }
+		.tan-clearly-amber-10		{ background-image: url($path + $undertones + 'tan-clearly-amber-10.jpg'); }
+		.dark-clearly-almond-11		{ background-image: url($path + $undertones + 'dark-clearly-almond-11.jpg'); }
+		.deep-clearly-espresso-12	{ background-image: url($path + $undertones + 'deep-clearly-espresso-12.jpg'); }
+
+		.fair-fair-01 {
+			background-image: url($path + $undertones + 'fair-fair-01.jpg');
+		}
+		.fair-dawn-02 {
+			background-image: url($path + $undertones + 'fair-dawn-02.jpg');
+		}
+		.fair-champagne-03 {
+			background-image: url($path + $undertones + 'fair-champagne-03.jpg');
+		}
+		.fair-aspen-04 {
+			background-image: url($path + $undertones + 'fair-aspen-04.jpg');
+		}
+		.light-sateen-05 {
+			background-image: url($path + $undertones + 'light-sateen-05.jpg');
+		}
+		.light-cashmere-06 {
+			background-image: url($path + $undertones + 'light-cashmere-06.jpg');
+		}
+		.light-warm-light-07 {
+			background-image: url($path + $undertones + 'light-warm-light-07.jpg');
+		}
+		.light-golden-ivory-08 {
+			background-image: url($path + $undertones + 'light-golden-ivory-08.jpg');
+		}
+		.light-light-natural-09 {
+			background-image: url($path + $undertones + 'light-light-natural-09.jpg');
+		}
+		.medium-cool-beige-10 {
+			background-image: url($path + $undertones + 'medium-cool-beige-10.jpg');
+		}
+		.medium-natural-11 {
+			background-image: url($path + $undertones + 'medium-natural-11.jpg');
+		}
+		.medium-warm-natural-12 {
+			background-image: url($path + $undertones + 'medium-warm-natural-12.jpg');
+		}
+		.medium-golden-nude-13 {
+			background-image: url($path + $undertones + 'medium-golden-nude-13.jpg');
+		}
+		.medium-silk-14 {
+			background-image: url($path + $undertones + 'medium-silk-14.jpg');
+		}
+		.medium-sandalwood-15 {
+			background-image: url($path + $undertones + 'medium-sandalwood-15.jpg');
+		}
+		.tan-sandstone-16 {
+			background-image: url($path + $undertones + 'tan-sandstone-16.jpg');
+		}
+		.tan-camel-17 {
+			background-image: url($path + $undertones + 'tan-camel-17.jpg');
+		}
+		.tan-pecan-18 {
+			background-image: url($path + $undertones + 'tan-pecan-18.jpg');
+		}
+		.tan-toffee-19 {
+			background-image: url($path + $undertones + 'tan-toffee-19.jpg');
+		}
+		.tan-honeycomb-20 {
+			background-image: url($path + $undertones + 'tan-honeycomb-20.jpg');
+		}
+		.tan-sable-21 {
+			background-image: url($path + $undertones + 'tan-sable-21.jpg');
+		}
+		.dark-teak-22 {
+			background-image: url($path + $undertones + 'dark-teak-22.jpg');
+		}
+		.dark-cardamom-23 {
+			background-image: url($path + $undertones + 'dark-cardamom-23.jpg');
+		}
+		.dark-nutmeg-24 {
+			background-image: url($path + $undertones + 'dark-nutmeg-24.jpg');
+		}
+		.dark-hazelnut-25 {
+			background-image: url($path + $undertones + 'dark-hazelnut-25.jpg');
+		}
+		.dark-chai-26 {
+			background-image: url($path + $undertones + 'dark-chai-26.jpg');
+		}
+		.dark-cappuccino-27 {
+			background-image: url($path + $undertones + 'dark-cappuccino-27.jpg');
+		}
+		.deep-clove-28 {
+			background-image: url($path + $undertones + 'deep-clove-28.jpg');
+		}
+		.deep-truffle-29 {
+			background-image: url($path + $undertones + 'deep-truffle-29.jpg');
+		}
+		.deep-cocoa-30 {
+			background-image: url($path + $undertones + 'deep-cocoa-30.jpg');
+		}
+
+		.buttons {
+
+			position:absolute; top: 0; width: 100%; height: 90%;
+
+			.button-wrap { position:absolute; bottom: 0; width: 100%; text-align: center; }
+
+		}
+
+		button { margin: 0; font-weight:700; letter-spacing:2px; }
+
+	}
+
+    .bottom {
+
+        .tips {
+					font-size: 1em;
+			color: $light-brown !important; @include transition(color 400ms);
+
+			.plus { position: absolute; top: -3px; right: -19px; }
+
+		}
+
+    }
+
+}
+
+@include tablet() {
+    .section-6 {
+        &:before {
+            background-size: 15%;
+		}
+
+		.bottom {
+			.tips { max-width: 115px; text-align: right; }
+		}
+	}
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse .section-6 {
+
+	.video:hover h4 { color: $magenta; }
+
+
+	.bottom .tips:hover {
+		color: $dark-chocolate;
+	}
+
+	.right {
+
+		.shade:hover .toggle {
+			border: 10px solid #fff;
+			h4 { color: #fff; }
+		}
+
+		.buttons .undertone-button:hover {
+			background-color: #000;
+		}
+	}
+
+	.undertone:hover .undertone-button { background: #000 !important; }
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-6, .from-page-6, .to-page-8, .from-page-8  {
+	.section-6 {
+		.inner { display:block; }
+	}
+}
+
+/*---------------------------------------
+:: 	To 6, 8
+-----------------------------------------*/
+.to-page-6, .to-page-8 {
+	.section-6 { @extend %left-in; }
+}
+
+.to-601.from-901, .to-801.from-901 {
+	.section-6 { @extend %right-in; }
+}
+
+/*---------------------------------------
+:: 	From 6, 8
+-----------------------------------------*/
+.from-page-6, .from-page-8 {
+	&.to-page-2, &.to-page-3, &.to-page-4, &.to-page-5, &.to-page-7 {
+		.section-6 { @extend %right-out; }
+	}
+}
+
+/*---------------------------------------
+:: 	Staggered Events
+-----------------------------------------*/
+.to-602, .to-802 {
+	.section-6 { @include transform(translate(0,0) !important); @extend %fade-out; }
+}

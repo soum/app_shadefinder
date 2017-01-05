@@ -1,0 +1,1 @@
+(function(){define("slick",["jsquery","slick"],function($){return alert("test")})}).call(this);

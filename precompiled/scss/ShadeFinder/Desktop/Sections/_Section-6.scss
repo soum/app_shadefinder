@@ -1,0 +1,257 @@
+/*---------------------------------------
+::
+:: 	Section-6 Desktop Overrides
+::
+-----------------------------------------*/
+@import "../../Core/Sections/Section-6.scss";
+
+.section-6 {
+
+	overflow:hidden;
+
+	.container { padding-left: 30px; }
+
+	.right {
+
+		padding-left: 60px;
+		padding-top: 203px;
+		height: 100% !important;
+
+    .shades {
+        overflow: hidden;
+        .shade:last-child .toggle { height: 34.6%; }
+
+			&.-six {
+				.toggle {
+					height: 27%;
+				}
+			}
+    }
+
+		.has-active {
+      .toggle	 { height: 19%; }
+
+			.shade:last-child {
+                .toggle { height: 19.6%; }
+				.buttons { height: 90.8%; }
+			}
+
+			&.-six {
+				.toggle {
+					height: 15%;
+				}
+
+				.shade:last-child .toggle {
+					height: 15%;
+				}
+			}
+		}
+	}
+
+	.left { margin: 90px 0 0 0; }
+
+	.video-thumbnail {
+
+		h4 { font-size: 1.25em; }
+		p { display:none; }
+
+	}
+
+	.shades.-six {
+		// Percentage of toggle as 1/6th of entire viewable region
+		.shade-fair { @include transform(translateY(0) !important); }
+		.shade-light { @include transform(translateY(27%) !important); }
+		.shade-medium { @include transform(translateY(54%) !important); }
+		.shade-tan { @include transform(translateY(81%) !important); }
+		.shade-dark { @include transform(translateY(108%) !important); }
+		.shade-deep { @include transform(translateY(135%) !important); }
+
+		&.active-fair {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(90%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(105%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(120%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(135%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(150%) !important);
+			}
+		}
+
+		&.active-light {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(15%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(105%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(120%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(135%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(150%) !important);
+			}
+		}
+
+		&.active-medium {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(15%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(30%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(120%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(135%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(150%) !important);
+			}
+		}
+
+		&.active-tan {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(15%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(30%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(45%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(135%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(150%) !important);
+			}
+		}
+
+		&.active-dark {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(15%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(30%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(45%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(60%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(150%) !important);
+			}
+		}
+
+		&.active-deep {
+			.shade-fair {
+				@include transform(translateY(0) !important);
+			}
+			.shade-light {
+				@include transform(translateY(15%) !important);
+			}
+			.shade-medium {
+				@include transform(translateY(30%) !important);
+			}
+			.shade-tan {
+				@include transform(translateY(45%) !important);
+			}
+			.shade-dark {
+				@include transform(translateY(60%) !important);
+			}
+			.shade-deep {
+				@include transform(translateY(75%) !important);
+			}
+		}
+	}
+
+	.shade-light { @include transform(translateY(0) !important); }
+	.shade-medium { @include transform(translateY(33%) !important); }
+	.shade-tan { @include transform(translateY(66%) !important); }
+	.shade-dark { @include transform(translateY(99%) !important); }
+	.shade-deep { @include transform(translateY(132%) !important); }
+
+	.active-light {
+		.shade-medium { @include transform(translateY(90%) !important); }
+		.shade-tan { @include transform(translateY(109%) !important); }
+		.shade-dark { @include transform(translateY(128%) !important); }
+		.shade-deep { @include transform(translateY(147%) !important); }
+	}
+
+	.active-medium {
+		.shade-medium { @include transform(translateY(19%) !important); }
+		.shade-tan { @include transform(translateY(109%) !important); }
+		.shade-dark { @include transform(translateY(128%) !important); }
+		.shade-deep { @include transform(translateY(147%) !important); }
+	}
+
+	.active-tan {
+		.shade-medium { @include transform(translateY(19%) !important); }
+		.shade-tan { @include transform(translateY(38%) !important); }
+		.shade-dark { @include transform(translateY(128%) !important); }
+		.shade-deep { @include transform(translateY(147%) !important); }
+	}
+
+	.active-dark {
+		.shade-medium { @include transform(translateY(19%) !important); }
+		.shade-tan { @include transform(translateY(38%) !important); }
+		.shade-dark { @include transform(translateY(57%) !important); }
+		.shade-deep { @include transform(translateY(147%) !important); }
+	}
+
+	.active-deep {
+		.shade-medium { @include transform(translateY(19%) !important); }
+		.shade-tan { @include transform(translateY(38%) !important); }
+		.shade-dark { @include transform(translateY(57%) !important); }
+		.shade-deep { @include transform(translateY(76%) !important); }
+	}
+
+	.undertones-1 .undertone { width: 25%; }
+	.undertones-2 .undertone { width: 25%; }
+	.undertones-3 .undertone { width: 25%; }
+	.undertones-4 .undertone { width: 25%; }
+	.undertones-5 .undertone { width: 20%; }
+	.undertones-6 .undertone { width: 16.667%; }
+
+	.undertone-button { position:relative; height: 4em; }
+
+	.undertone-button-inner { position:absolute; top: 50%; @include transform(translateY(-50%)); width: 100%; }
+
+	.bottom {
+
+		position: absolute;
+		top: 90px;
+		right: 3.5em;
+		cursor: pointer;
+
+	}
+
+}

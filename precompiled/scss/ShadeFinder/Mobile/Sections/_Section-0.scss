@@ -1,0 +1,43 @@
+/*---------------------------------------
+::
+:: 	Section-0 Mobile Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-0.scss';
+
+.section-0 {
+
+ 	overflow:auto; -webkit-overflow-scrolling: touch;
+
+ 	.content {
+         position: relative; top: auto; padding: 6em 0 1em; height: auto;
+
+         p {
+             width: 75%;
+         }
+    }
+
+	.background {
+		background: rgb(253,229,206); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(253,229,206,1) 0%, rgba(255,255,255,1) 57%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,229,206,1)), color-stop(57%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(253,229,206,1) 0%,rgba(255,255,255,1) 57%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(253,229,206,1) 0%,rgba(255,255,255,1) 57%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(253,229,206,1) 0%,rgba(255,255,255,1) 57%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(253,229,206,1) 0%,rgba(255,255,255,1) 57%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fde5ce', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	}
+
+	p span { display:inline; }
+
+	p, button, .products { display: block; width: 95.3052%; margin-left: 2.3474%; @include box-sizing(border-box); }
+
+	.products {
+
+		display:block; margin-top: 5%;
+
+		img { width: 100%; }
+
+	}
+
+}

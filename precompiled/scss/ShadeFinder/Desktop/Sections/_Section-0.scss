@@ -1,0 +1,21 @@
+/*---------------------------------------
+::
+:: 	Section-0 Desktop Overrides
+:: 
+-----------------------------------------*/
+@import '../../Core/Sections/Section-0.scss';
+
+.section-0 {
+
+	h5, h1, h1 span, p span { @include transition-with-transform((opacity 800ms), 800ms); } 
+
+	h5 		{ @include transform(translateY(0%)); }
+	h1 		{ @include transform(translateY(-10%)); }
+	.l0 	{ display: block;} 
+	.l1 	{ @include transform(translateY(-25%)); }
+	.l2 	{ @include transform(translateY(-50%)); }
+	.p1 	{ @include transform(translateY(-239%)); }
+	.p2 	{ @include transform(translateY(-269%)); }
+	.p3 	{ @include transform(translateY(-296%)); }
+
+}

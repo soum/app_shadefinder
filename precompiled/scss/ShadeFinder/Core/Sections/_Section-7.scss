@@ -1,0 +1,204 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 7
+::
+-----------------------------------------*/
+.section-7, .section-8 {
+
+	text-align: center; height:100%; overflow:auto; -webkit-overflow-scrolling: touch;  min-height: 0;
+
+	.left-nav {
+		position: absolute; top: 7em; right: 2.3474%; text-align: left; z-index: 1;
+		a {
+			@extend %h4; color: $black; display:block; padding: 0.6em 0; font-size: 1.0em; font-weight: 700;
+			@include transition(color 400ms);
+			&:hover { color: $magenta; }
+			&:first-child { padding-top:0; }
+			&:before {
+				@extend %icon; color: $black; text-transform:lowercase; padding-right: 0.5em;
+				@include transition(color 400ms);
+			}
+			&:hover:before { color: $magenta; }
+			&.customer:before { content: 'w'; }
+			&.locations:before { content: 'y'; }
+			&.print:before { content: 'z'; }
+			&.checkout:before { content: 't'; }
+
+			&.checkout, &.checkout:before { color: $magenta; }
+		}
+	}
+
+	.product-image {
+		display:block; position: relative;
+		height:0; padding-bottom: 87%;
+		background-color: #fff;
+		background-size: contain;
+		background-position: center;
+		img { position:absolute; height: 100%; width: 100%; }
+	}
+
+	h2 { color: $black; }
+
+	h5 { text-align:center; font-family: 'Lato'; }
+
+	h5.black { color: $light-brown; margin-bottom: 35px; text-transform: uppercase; }
+
+	.foundations h5 { font-size: 3.75em; }
+
+	.title-row {
+
+		margin-top: 1em;
+
+		.title { position:relative; }
+
+	}
+
+	.name {
+
+		display:block; position: relative; line-height: 2;
+
+		.heading { @extend %p; font-family: 'Lato'; font-weight:bold; display:block; font-size: 1.5em; line-height: 1.3em; text-transform: uppercase; }
+
+		.sub, .color { @extend %small; }
+
+		.color { text-transform: uppercase; color: #000; font-weight: bold; }
+	}
+
+	.subtitle {
+		@extend %small; margin-top: 0.65em;
+		p { display:none; }
+	}
+
+	.price { font-family: 'Lato', Serif; font-size: 1.3em; font-weight: bold; margin: 0.25em 0 0.5em; }
+
+	button { display: block; margin: 0 auto; font-weight:700; letter-spacing:2px;}
+
+	.both {
+
+		h2 { margin-top: 1.7em; font-size: 5.3em; color: $black; }
+
+		&.hidden button { visibility: hidden; }
+
+	}
+
+	.cross-sells {
+
+		@extend %fade-in; margin-top: 2.5em;
+
+		&.hidden { display:none !important; }
+
+	}
+
+	.matches {
+
+		.b2 { position:absolute; top:100%; left:0; width: 100%; }
+
+		.video {
+
+			@extend %p; font-size: 1.05em; margin: 0em 0 1em; display: block; font-weight:bold;
+			@include transition(color 400ms);
+
+			&:before {
+				@extend %icon; content: "u"; margin-right: 0.35em; font-size: 0.65em; font-weight: normal; color: #000;
+				@include transition(color 400ms);
+			}
+
+			&:hover, &:hover:before  { color: $magenta; }
+
+		}
+
+		&.showing-1 {
+			.teaser {  @include transform(translateY(-100%)); }
+		}
+
+	}
+
+	.toggle-match {
+
+		width: 83.4%; margin-left: 8%; padding-top: 1px;
+
+		.tease-wrap {
+
+			position: relative; overflow: hidden; border: 1px solid #ccc; border-width: 1px 0;
+			margin: 1.5em 0 0;
+
+			.teaser, .teaser-wrap, .teaser-image { height: 6.96em; }
+
+			.teaser {
+
+				cursor:pointer; position:relative; width: 100%; text-align:center; @include transition-transform(400ms);
+
+				&.second { position:absolute; top: 100%; width: 100%; height:100%; overflow:hidden; }
+
+			}
+
+			.teaser-wrap {
+
+				position:relative; display:inline-block;
+
+				&.has-image { padding-left: 8em; }
+
+			}
+
+			.teaser-image {
+
+				position:absolute; left:0; width: 8em;
+
+				img { position:relative; height: 100%; width: 100%; }
+
+			}
+
+			.teaser-message {
+
+				position:relative; top: 50%; @include transform(translateY(-50%));
+				display:block; font-size: 1.25em; line-height: 1.3em; margin:0; text-transform: uppercase; font-family: "Lato"; line-spacing:2px;
+
+				span { @extend %h4; color: $cream; font-size: 1.05em; }
+
+			}
+
+		}
+
+		&.hidden { display:none; }
+
+	}
+
+	.print-logo { display:none; }
+
+
+}
+
+
+/*---------------------------------------
+:: 	Loader
+-----------------------------------------*/
+.loader {
+	@extend %background; background: #fff; z-index:1; opacity:0; top:-200%; visibility:hidden;
+	@include transition(opacity 400ms); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	&:before {
+		content: "";
+		position:absolute;
+		top: 50%; left:50%;
+		margin-top: -50px; margin-left: -50px;
+		height: 100px; width: 100px;
+		background-image: url($path + '/images/loader.gif');
+		display:none;
+	}
+}
+
+@include phone() {
+	.loader:before {
+		height: 70px; width: 70px;
+		margin-top: -35px; margin-left: -35px;
+		background-size:cover;
+	}
+}
+
+.load .to-page-9 .loader {
+	top:0; visibility:visible;
+	&:before { display:block; }
+}
+
+.loading .to-page-9 .loader {
+	opacity:0.8;
+}

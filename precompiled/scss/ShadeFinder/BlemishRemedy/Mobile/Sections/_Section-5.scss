@@ -1,0 +1,32 @@
+/*---------------------------------------
+::
+:: 	Blemish Remedy Override
+:: 	Section-5 Mobile Overrides
+::
+-----------------------------------------*/
+
+.blemish-remedy-wrapper {
+	.section-5 {
+		h5 {
+			font-size: 1.8em;
+			line-height: 1.2em;
+			margin-top: 2.8em;
+		}
+
+		.products {
+			margin-top: -27%;
+			height: 37vw;
+		}
+
+		.right { padding-bottom: 0; }
+		.left { padding-bottom: 3em; margin-top: 1px; }
+
+		.family {
+			padding: .7em 0;
+
+			.bareminerals {
+				display: none;
+			}
+		}
+	}
+}

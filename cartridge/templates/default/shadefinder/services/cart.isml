@@ -1,0 +1,18 @@
+<iscontent type="application/json" charset="UTF-8" compact="true" />
+<isscript> 
+	if((pdict.Basket != null) && (pdict.Basket.productLineItems != null)){
+		var products = pdict.Basket.productLineItems; 
+	}
+</isscript>
+<isif condition="${products !=null}">
+{ "products": [
+<isloop items="${products}" var="product" status="status">
+{ 	"productName": "<isprint value="${product.productName}" />", 
+	"productThumbnail": "<isprint value="${product.productName}" />", 
+	"quantityValue": <isprint value="${product.quantityValue}" />, 
+	"id": "<isprint value="${product.productID}" />"
+}
+<isif condition="${!status.last}">,</isif>
+</isloop>
+]}
+</isif>

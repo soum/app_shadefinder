@@ -1,0 +1,13 @@
+//---------------------------------------
+//
+// 	Desktop Shade Finder
+//
+//---------------------------------------
+@import 'Global.scss', 'ShadeFinder/Desktop/Header';
+
+@import 'ShadeFinder/Desktop/Sections/Section-0', 'ShadeFinder/Desktop/Sections/Section-1', 'ShadeFinder/Desktop/Sections/Section-2', 'ShadeFinder/Desktop/Sections/Section-3',
+		'ShadeFinder/Desktop/Sections/Section-4', 'ShadeFinder/Desktop/Sections/Section-5', 'ShadeFinder/Desktop/Sections/Section-6', 'ShadeFinder/Desktop/Sections/Section-7';
+
+@import 'ShadeFinder/BlemishRemedy/Core/Sections/Section-0', 'ShadeFinder/BlemishRemedy/Core/Sections/Section-5', 'ShadeFinder/BlemishRemedy/Core/Sections/Section-6', 'ShadeFinder/BlemishRemedy/Desktop/Sections/Section-6';
+
+@import 'ShadeFinder/Overrides/Android', 'ShadeFinder/Overrides/IE';

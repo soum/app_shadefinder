@@ -1,0 +1,559 @@
+<iscache type="relative" hour="24"/>
+<isdecorate template="shadefinder/pt_shadefinder">
+
+
+	<iscomment>Section 0</iscomment>
+
+	<section class="full section-0 scrollable" id="Intro">
+		<div class="background"></div>
+		<div class="content">
+			<h2>
+				<span class="l0">${(Resource.msg('shadefinder.cover1','shadefinder',null))}</span>
+				<span class="l1">${(Resource.msg('shadefinder.cover2','shadefinder',null))}</span>
+			</h2>
+			<p>
+				<span class="p1">${(Resource.msg('shadefinder.cover3','shadefinder',null))}</span>
+				<span class="p2">${(Resource.msg('shadefinder.cover4','shadefinder',null))}</span>
+			</p>
+			<div class="button-wrap">
+				<button class="start" data-id="Let's Get Started" data-category="Navigation">${(Resource.msg('shadefinder.cover6','shadefinder',null))}</button>
+			</div>
+			<div class="products">
+				<img src="${URLUtils.staticURL('/images/Mobile/section-0-new.png')}" />
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 1</iscomment>
+
+	<section class="full section-1">
+		<div class="wrapper">
+			<div class="background left">
+				<div class="background-inner"></div>
+			</div>
+			<div class="background right">
+				<div class="background-inner">
+					<div class="square square-1"></div>
+					<div class="square square-2"></div>
+					<div class="square square-3"></div>
+					<div class="square square-4"></div>
+					<div class="square square-5"></div>
+					<div class="square square-6"></div>
+					<div class="square square-7"></div>
+					<div class="square square-8"></div>
+					<div class="square square-9"></div>
+					<div class="square square-10"></div>
+					<div class="square square-11"></div>
+					<div class="square square-12"></div>
+					<div class="square square-13"></div>
+					<div class="square square-14"></div>
+					<div class="square square-15"></div>
+					<div class="square square-16"></div>
+					<div class="square square-17"></div>
+					<div class="square square-18"></div>
+					<div class="square square-19"></div>
+					<div class="square square-20"></div>
+				</div>
+			</div>
+			<div class="overlay left navigate track" data-to="200" data-value="1" data-id="Track 1 Selection" data-category="Navigation">
+				<div class="overlay-wrap">
+					<div class="inner">
+						<div class="content">
+							<h2>${(Resource.msg('shadefinder.intro0','shadefinder',null))}</h2>
+							<h5>${(Resource.msg('shadefinder.intro1','shadefinder',null))}</h5>
+						</div>
+						<span class="border"></span>
+						<span class="border-edge"></span>
+					</div>
+					<div class="diamond">
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="diamond">
+					<div class="front">
+						<div class="a0"></div>
+						<div class="a1"></div>
+					</div>
+					<h2>${(Resource.msg('shadefinder.intro2','shadefinder',null))}</h2>
+				</div>
+			</div>
+			<div class="overlay right navigate track" data-to="700" data-value="2" data-id="Track 2 Selection" data-category="Navigation">
+				<div class="overlay-wrap">
+					<div class="inner">
+						<div class="content">
+							<h2>${(Resource.msg('shadefinder.intro3','shadefinder',null))}</h2>
+							<h5>${(Resource.msg('shadefinder.intro4','shadefinder',null))}</h5>
+						</div>
+						<span class="border"></span>
+						<span class="border-edge"></span>
+					</div>
+					<div class="diamond">
+						<div class="back"></div>
+					</div>
+				</div>
+				<div class="diamond">
+					<div class="front">
+						<div class="a0"></div>
+						<div class="a1"></div>
+					</div>
+					<h2>${(Resource.msg('shadefinder.intro2','shadefinder',null))}</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 2</iscomment>
+
+	<section class="full section-2 progress-section">
+		<div class="background first"></div>
+		<div class="background second"></div>
+
+		<iscomment>Section 2a</iscomment>
+
+		<div class="content first scrollable">
+			<div class="top">
+				<h5><isprint value="${(Resource.msg('shadefinder.concerns0','shadefinder',null))}" encoding="off" /></h5>
+				<h2><isprint value="${(Resource.msg('shadefinder.concerns1','shadefinder',null))}" encoding="off" /></h2>
+			</div>
+			<div class="bottom">
+				<div class="icons concerns">
+					<div class="container">
+						<div class="icon icon-0 navigate" data-value="Blemishes" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns2','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-1 navigate" data-value="Enlarged Pores" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns3','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-2 navigate" data-value="Mature Skin" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns4','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-3 navigate" data-value="Dull Skin" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns5','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-4 navigate" data-value="Sensitive Skin" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns6','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-5 navigate" data-value="Dark Spots / Uneven Skin Tone" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns7','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+						<div class="icon icon-6 navigate" data-value="None" data-category="Concern">
+							<h4><isprint value="${(Resource.msg('shadefinder.concerns8','shadefinder',null))}" encoding="off" /></h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<iscomment>Section 2b</iscomment>
+
+		<div class="content second scrollable">
+			<div class="top">
+				<h5><isprint value="${(Resource.msg('shadefinder.type0','shadefinder',null))}" encoding="off" /></h5>
+				<h2><isprint value="${(Resource.msg('shadefinder.type1','shadefinder',null))}" encoding="off" /></h2>
+			</div>
+			<div class="bottom">
+				<div class="icons types">
+					<div class="container">
+						<div class="icon icon-0 navigate" data-value="Normal" data-category="Skin Type">
+							<h4><isprint value="${(Resource.msg('shadefinder.type2','shadefinder',null))}" encoding="off" /></h4>
+							<small><isprint value="${(Resource.msg('shadefinder.type3','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="icon icon-1 navigate" data-value="Dry" data-category="Skin Type">
+							<h4><isprint value="${(Resource.msg('shadefinder.type4','shadefinder',null))}" encoding="off" /></h4>
+							<small><isprint value="${(Resource.msg('shadefinder.type5','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="icon icon-2 navigate" data-value="Combination" data-category="Skin Type">
+							<h4><isprint value="${(Resource.msg('shadefinder.type6','shadefinder',null))}" encoding="off" /></h4>
+							<small><isprint value="${(Resource.msg('shadefinder.type7','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="icon icon-3 navigate" data-value="Oily" data-category="Skin Type">
+							<h4><isprint value="${(Resource.msg('shadefinder.type8','shadefinder',null))}" encoding="off" /></h4>
+							<small><isprint value="${(Resource.msg('shadefinder.type9','shadefinder',null))}" encoding="off" /></small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="scroll"><div class="arrow">&lsaquo;</div></div>
+
+	</section>
+
+	<iscomment>Section 3</iscomment>
+
+	<section class="full section-3 scrollable progress-section">
+		<div class="scroll-wrapper scrollable">
+			<div class="wrapper">
+				<div class="background left"><div class="inner"></div></div>
+				<div class="background right"><div class="inner"></div></div>
+				<div class="background center"><div class="inner"></div></div>
+				<div class="content">
+					<div class="top desktop-top">
+						<h5><isprint value="${(Resource.msg('shadefinder.finish0','shadefinder',null))}" encoding="off" /></h5>
+						<h2><isprint value="${(Resource.msg('shadefinder.finish1','shadefinder',null))}" encoding="off" /></h2>
+					</div>
+					<div class="boxes">
+						<div class="backgrounds">
+							<div class="left box"></div>
+							<div class="center box"></div>
+							<div class="right box"></div>
+						</div>
+						<div class="left box text">
+							<h4><isprint value="${(Resource.msg('shadefinder.finish2','shadefinder',null))}" encoding="off" /><span class="next arrow"></span></h4>
+							<small class="count"><isprint value="${(Resource.msg('shadefinder.finish9','shadefinder',null))}" encoding="off" /></small>
+							<small><isprint value="${(Resource.msg('shadefinder.finish3','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="center box text">
+							<h4><span class="previous arrow"></span><isprint value="${(Resource.msg('shadefinder.finish4','shadefinder',null))}" encoding="off" /><span class="next arrow"></span></h4>
+							<small class="count"><isprint value="${(Resource.msg('shadefinder.finish10','shadefinder',null))}" encoding="off" /></small>
+							<small><isprint value="${(Resource.msg('shadefinder.finish5','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="right box text">
+							<h4><span class="previous arrow"></span><isprint value="${(Resource.msg('shadefinder.finish6','shadefinder',null))}" encoding="off" /></h4>
+							<small class="count"><isprint value="${(Resource.msg('shadefinder.finish11','shadefinder',null))}" encoding="off" /></small>
+							<small><isprint value="${(Resource.msg('shadefinder.finish7','shadefinder',null))}" encoding="off" /></small>
+						</div>
+						<div class="overlays">
+							<div class="left navigate glow box" data-value="Matte" data-category="Finish"></div>
+							<div class="center navigate glow box" data-value="Natural" data-category="Finish"></div>
+							<div class="right navigate glow box" data-value="Luminous" data-category="Finish"></div>
+						</div>
+					</div>
+					<div class="mobile-bottom bottom">
+						<p class="disclaimer"><isprint value="${(Resource.msg('shadefinder.finish8','shadefinder',null))}" encoding="off" /></p>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<p class="disclaimer"><isprint value="${(Resource.msg('shadefinder.finish8','shadefinder',null))}" encoding="off" /></p>
+			</div>
+			<div class="tutor-wrap">
+				<div class="tutor"></div>
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 4</iscomment>
+
+	<section class="full section-4 progress-section">
+		<div class="scroll-wrapper scrollable">
+			<div class="background"></div>
+			<div class="top">
+				<h2><isprint value="${(Resource.msg('shadefinder.coverage0','shadefinder',null))}" encoding="off" /></h2>
+			</div>
+			<div class="bottom">
+				<div class="container">
+					<div class="backgrounds">
+						<div class="block block-0">
+							<div class="overlay"></div>
+						</div>
+						<div class="block block-1">
+							<div class="overlay"></div>
+						</div>
+						<div class="block block-2">
+							<div class="overlay"></div>
+						</div>
+						<div class="block block-3">
+							<div class="overlay"></div>
+						</div>
+					</div>
+					<div class="blocks">
+						<div class="block block-0">
+							<div class="block-inner">
+								<h2><isprint value="${(Resource.msg('shadefinder.coverage1','shadefinder',null))}" encoding="off" /></h2>
+								<small><isprint value="${(Resource.msg('shadefinder.coverage2','shadefinder',null))}" encoding="off" /></small>
+							</div>
+						</div>
+						<div class="block block-1">
+							<div class="block-inner">
+								<h2><isprint value="${(Resource.msg('shadefinder.coverage3','shadefinder',null))}" encoding="off" /></h2>
+								<small><isprint value="${(Resource.msg('shadefinder.coverage4','shadefinder',null))}" encoding="off" /></small>
+							</div>
+						</div>
+						<div class="block block-2">
+							<div class="block-inner">
+								<h2><isprint value="${(Resource.msg('shadefinder.coverage5','shadefinder',null))}" encoding="off" /></h2>
+								<small><isprint value="${(Resource.msg('shadefinder.coverage6','shadefinder',null))}" encoding="off" /></small>
+							</div>
+						</div>
+						<div class="block block-3">
+							<div class="block-inner">
+								<h2><isprint value="${(Resource.msg('shadefinder.coverage7','shadefinder',null))}" encoding="off" /></h2>
+								<small><isprint value="${(Resource.msg('shadefinder.coverage8','shadefinder',null))}" encoding="off" /></small>
+							</div>
+						</div>
+					</div>
+					<div class="overlays">
+						<div class="overlays-wrap">
+							<div class="block block-0 navigate coverage" data-value="Light" data-category="Coverage"></div>
+							<div class="block block-1 navigate coverage" data-value="Medium" data-category="Coverage"></div>
+							<div class="block block-2 navigate coverage" data-value="Full" data-category="Coverage"></div>
+							<div class="block block-3 navigate coverage" data-value="Adjustable" data-category="Coverage"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="scroll"><div class="arrow">&lsaquo;</div></div>
+
+	</section>
+
+	<iscomment>Section 5</iscomment>
+
+	<section class="full section-5 progress-section">
+		<div class="scroll-wrapper scrollable">
+			<div class="inner">
+				<div class="background"></div>
+				<div class="wrapper">
+					<h5><isprint value="${(Resource.msg('shadefinder.formula0','shadefinder',null))}" encoding="off" /></h5>
+				</div>
+				<div class="products"></div>
+				<div class="right">
+					<div class="button-5">
+						<button class="navigate family" data-value="blemishremedy">
+								<isprint value="${(Resource.msg('shadefinder.formulaBlemishRemedy','shadefinder',null))}" encoding="off" />
+						</button>
+					</div>
+					<div class="button-1">
+						<button class="navigate family" data-value="original">
+							<isprint value="${(Resource.msg('shadefinder.formulaOriginal','shadefinder',null))}" encoding="off" />
+						</button>
+					</div>
+					<div class="button-2">
+						<button class="navigate family" data-value="complexionrescue">
+							<isprint value="${(Resource.msg('shadefinder.formulaComplexionRescueBkup','shadefinder',null))}" encoding="off" />
+						</button>
+					</div>
+				</div>
+				<div class="left">
+					<div class="button-4">
+						<button class="navigate family" data-value="barepro">
+							<span class="is-new">
+								<span class="new-icon"></span>
+								<isprint value="${(Resource.msg('shadefinder.formulaReady','shadefinder',null))}" encoding="off" />
+							</span>
+						</button>
+					</div>
+					<div class="button-0">
+						<button class="navigate family" data-value="matte"><isprint value="${(Resource.msg('shadefinder.formulaMatte','shadefinder',null))}" encoding="off" /></button>
+					</div>
+					<div class="button-3">
+						<button class="navigate family" data-value="bareskin"><isprint value="${(Resource.msg('shadefinder.formulaBareskin','shadefinder',null))}" encoding="off" /></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 6</iscomment>
+
+	<section class="full section-6">
+		<div class="content scrollable">
+			<div class="inner">
+				<div class="container">
+					<div class="left">
+						<h2><isprint value="${(Resource.msg('shadefinder.shade1','shadefinder',null))}" encoding="off" /> <em class="cream"><isprint value="${(Resource.msg('shadefinder.shade2','shadefinder',null))}" encoding="off" /></em></h2>
+						<h4><isprint value="${(Resource.msg('shadefinder.shade4','shadefinder',null))}" encoding="off" /></h4>
+						<div class="video-thumbnail"> <!-- not shown on page, for mobile spacing bug -->
+							<p>learn about skin tone</p>
+							<div class="video" data-video="" encoding="off" />
+							<h4>learn about skin tone</h4>
+							<div class="thumbnail"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right background">
+				<div class="shades" id="Shades"></div>
+			</div>
+			<div class="bottom">
+				<h4 class="tips show-tips"><isprint value="${(Resource.msg('shadefinder.shade0','shadefinder',null))}" encoding="off" /></h4>
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 7</iscomment>
+
+	<section class="full section-7 scrollable progress-section" id="Resolve">
+		<div class="wrapper foundations">
+			<div class="print-logo">
+				<img src="${URLUtils.staticURL('/images/be-logo-dark.jpg')}" alt="Bare Escentuals" />
+			</div>
+			<h2><isprint value="${(Resource.msg('shadefinder.resolve0','shadefinder',null))}" encoding="off" /></h2>
+			<div class="left-nav">
+				<a class="checkout"href="${URLUtils.https('Cart-SecureShow')}" target="_top"><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></a>
+				<a class="customer" href="${URLUtils.https('Page-Show','cid','contact-us')}" target="_blank"><isprint value="${(Resource.msg('shadefinder.resolve10','shadefinder',null))}" encoding="off" /></a>
+				<a class="locations" href="${URLUtils.http('Stores-Find')} " target="_blank"><isprint value="${(Resource.msg('shadefinder.resolve12','shadefinder',null))}" encoding="off" /></a>
+				<a class="print"href="#PrintResults"><isprint value="${(Resource.msg('shadefinder.resolve13','shadefinder',null))}" encoding="off" /></a>
+			</div>
+			<div class="matches" id="Match">
+				<div class="match-wrap">
+					<div class="match first">
+						<div class="match-inner">
+							<div class="row">
+								<div class="item foundation content">&nbsp;</div>
+								<div class="both content">
+									<h2>+</h2>&nbsp;
+								</div>
+								<div class="item brush content">&nbsp;</div>
+							</div>
+							<div class="row title-row">
+								<div class="item foundation title middle">&nbsp;</div>
+								<div class="both">&nbsp;</div>
+								<div class="item brush title middle">&nbsp;</div>
+							</div>
+							<div class="row">
+								<div class="item foundation description">&nbsp;</div>
+								<div class="both">&nbsp;</div>
+								<div class="item brush description">&nbsp;</div>
+							</div>
+							<div class="row">
+								<div class="item foundation button">&nbsp;</div>
+								<div class="both button">
+									<div class="price">&nbsp;</div>
+									<button><isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" /></button>
+								</div>
+								<div class="item brush button">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+					<div class="match second hidden">
+						<div class="match-inner">
+							<div class="row">
+								<div class="item foundation content">&nbsp;</div>
+								<div class="both content">
+									<h2>+</h2>&nbsp;
+								</div>
+								<div class="item brush content">&nbsp;</div>
+							</div>
+							<div class="row title-row">
+								<div class="item foundation title middle">&nbsp;</div>
+								<div class="both">&nbsp;</div>
+								<div class="item brush title middle">&nbsp;</div>
+							</div>
+							<div class="row">
+								<div class="item foundation description">&nbsp;</div>
+								<div class="both">&nbsp;</div>
+								<div class="item brush description">&nbsp;</div>
+							</div>
+							<div class="row">
+								<div class="item foundation button">&nbsp;</div>
+								<div class="both button">
+									<div class="price">&nbsp;</div>
+									<button><isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" /></button>
+								</div>
+								<div class="item brush button">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="toggle-match hidden" data-id="Toggle Results Match" data-category="Navigation">
+					<div class="tease-wrap">
+						<div class="teaser"></div>
+						<div class="teaser second"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper cross-sells hidden">
+			<h3 class="black"><isprint value="${(Resource.msg('shadefinder.resolve2','shadefinder',null))}" encoding="off" /></h3>
+			<div class="row">
+				<div class="cross-sell content product-0">&nbsp;</div>
+				<div class="cross-sell content product-1">&nbsp;</div>
+				<div class="cross-sell content product-2">&nbsp;</div>
+			</div>
+			<div class="row title-row">
+				<div class="cross-sell title product-0 middle">&nbsp;</div>
+				<div class="cross-sell title product-1 middle">&nbsp;</div>
+				<div class="cross-sell title product-2 middle">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="cross-sell description product-0">&nbsp;</div>
+				<div class="cross-sell description product-1">&nbsp;</div>
+				<div class="cross-sell description product-2">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="cross-sell button product-0">&nbsp;</div>
+				<div class="cross-sell button product-1">&nbsp;</div>
+				<div class="cross-sell button product-2">&nbsp;</div>
+			</div>
+		</div>
+	</section>
+
+	<iscomment>Section 8</iscomment>
+
+	<section class="full section-8 scrollable progress-section" id="MobileResolve">
+		<div class="wrapper">
+			<h2><isprint value="${(Resource.msg('shadefinder.resolve0','shadefinder',null))}" encoding="off" /></h2>
+			<div class="left-nav">
+				<a class="checkout"href="${URLUtils.https('Cart-SecureShow')}" target="_top"><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></a>
+			</div>
+			<div class="matches" id="MobileMatch">
+				<div class="match first">
+					<div class="product-wrap">
+						<div class="item foundation content"></div>
+						<div class="item foundation title"></div>
+						<div class="item foundation description"></div>
+						<div class="item foundation button"></div>
+					</div>
+					<div class="product-wrap">
+						<div class="item brush content"></div>
+						<div class="item brush title"></div>
+						<div class="item brush description"></div>
+						<div class="item brush button"></div>
+					</div>
+					<div class="both button">
+						<button><isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" /></button>
+					</div>
+				</div>
+				<div class="toggle-match hidden">
+					<div class="tease-wrap">
+						<div class="teaser"></div>
+						<div class="teaser second"></div>
+					</div>
+				</div>
+				<div class="match second hidden">
+					<div class="product-wrap">
+						<div class="item foundation content"></div>
+						<div class="item foundation title"></div>
+						<div class="item foundation description"></div>
+						<div class="item foundation button"></div>
+					</div>
+					<div class="product-wrap">
+						<div class="item brush content"></div>
+						<div class="item brush title"></div>
+						<div class="item brush description"></div>
+						<div class="item brush button"></div>
+					</div>
+					<div class="both button">
+						<button><isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" /></button>
+					</div>
+				</div>
+			</div>
+			<div class="cross-sells hidden">
+				<h3 class="black"><isprint value="${(Resource.msg('shadefinder.resolve2','shadefinder',null))}" encoding="off" /></h3>
+				<div class="product-wrap">
+					<div class="cross-sell content product-0"></div>
+					<div class="cross-sell title product-0"></div>
+					<div class="cross-sell description product-0"></div>
+					<div class="cross-sell button product-0"></div>
+				</div>
+				<div class="product-wrap">
+					<div class="cross-sell content product-1"></div>
+					<div class="cross-sell title product-1"></div>
+					<div class="cross-sell description product-1"></div>
+					<div class="cross-sell button product-1"></div>
+				</div>
+				<div class="product-wrap">
+					<div class="cross-sell content product-2"></div>
+					<div class="cross-sell title product-2"></div>
+					<div class="cross-sell description product-2"></div>
+					<div class="cross-sell button product-2"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="loader"></div>
+</isdecorate>

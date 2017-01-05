@@ -1,0 +1,20 @@
+/*---------------------------------------
+::
+:: 	Desktop Header Overrides
+::
+-----------------------------------------*/
+@import '../Core/Header';
+
+.mobile-nav, .mobile-toggle { display:none; }
+
+.desktop-nav.nav-2 .logo { margin-left: 5em; }
+
+.side-menu .progress {
+
+    background-color: #000;
+
+    .dot {
+
+        &:before { display:none; }
+    }
+}

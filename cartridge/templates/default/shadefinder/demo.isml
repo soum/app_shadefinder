@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shade Finder Demo</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<isscript>var pageContext={title:'Storefront',type:'storefront',ns:'storefront'};</isscript>
+	<link rel="stylesheet" type="text/css" href="${URLUtils.staticURL('/css/!/ShadeFinderModal.css')}" />
+</head>
+<body class="to-start">
+	<a class="show-shadefinder" href="ShowShadefinder"></a>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/jquery-1.7.2.min.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/!/ShadeFinderModal.js')}"></script>
+</body>
+</html>

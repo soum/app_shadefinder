@@ -1,0 +1,151 @@
+/*---------------------------------------
+::
+:: 	Section-7 Desktop Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-7.scss';
+
+.section-7 {
+
+	.wrapper {
+
+		@extend %wrapper; padding: 7em 0 4em; width: auto; overflow: hidden; display:none;
+
+	}
+
+	.item {
+
+		width: 32%; float:left;
+
+		&:first-child { margin-left: 8%; }
+
+	}
+
+	.both {
+
+		width: 19.43%; float:left;
+
+	}
+
+	.cross-sell {
+
+		width: 28.53%; float:left; margin-left: 7.2%;
+
+		min-height: 1px;
+
+		&:first-child { margin-left:0; }
+
+	}
+
+	.row { position:relative; overflow:hidden; clear: both; width: 95.3052%; margin-left: 2.3474%; }
+
+	.foundations { padding-bottom:0; }
+
+	.matches {
+
+		position:relative; overflow:hidden;
+
+		.match-wrap { position:relative; overflow:hidden; margin-top: 1em; }
+
+		.match-inner { position:relative; overflow:hidden; }
+
+		.match {
+
+			@include transition-transform(400ms); @include box-sizing(border-box);
+
+			&.first {  }
+
+			&.second  {
+
+				position: absolute; top: 100%; left:0; height: 100%; width: 100%;
+
+				&.hidden { visibility:hidden; }
+
+			}
+
+		}
+
+		&.showing-1 {
+			.match { @include transform(translateY(-100%)); }
+			.toggle-match { padding-bottom: 8em; }
+		}
+
+	}
+
+	.cross-sells { padding-top: 0; }
+
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-9, .from-page-9  {
+	.section-7 .wrapper { display:block; }
+}
+
+/*---------------------------------------
+:: 	To 9
+-----------------------------------------*/
+.to-page-9 .section-7 { @extend %left-in; }
+.from-page-1.to-page-9 .section-7 { @extend %upped-in; }
+.from-page-6.to-page-9 .section-7 { @extend %up-in; }
+.from-page-8.to-page-9 .section-7 { @extend %up-in; }
+
+/*---------------------------------------
+:: 	From 9
+-----------------------------------------*/
+.from-page-9.to-page-1 .section-7 {
+	z-index:0; @extend %upped-in;
+}
+.from-page-9.to-page-2 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-3 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-4 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-5 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-6 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-7 .section-7 {
+	@extend %right-out;
+}
+.from-page-9.to-page-8 .section-7 {
+	@extend %right-out;
+}
+
+/*---------------------------------------
+:: 	Responsive Overrides
+-----------------------------------------*/
+@include tablet() {
+
+	.section-7 {
+
+		.item { width: 38.28%; }
+
+		.both { width: 23.43%; }
+
+		.item:first-child { margin-left: 0; }
+
+		.matches { clear: both; }
+
+		.matches .toggle-match { margin-left: 2.3474%; width: 95.3052%; }
+
+		.left-nav {
+			position: relative; top:0; right:auto; text-align: center; padding: 1em 0 0; overflow:hidden; max-width: none;
+			a { float:left; width: 25%; @include box-sizing(border-box); padding:0; }
+		}
+
+	}
+
+}

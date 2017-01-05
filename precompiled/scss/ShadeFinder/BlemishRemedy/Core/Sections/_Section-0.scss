@@ -1,0 +1,19 @@
+/*---------------------------------------
+::
+:: 	Blemish Remedy Override
+:: 	Finder > Sections > Section 0
+::
+-----------------------------------------*/
+
+.blemish-remedy-wrapper {
+	.section-0 {
+		.background {
+			@include tablet() {
+				background-size: 115.5% auto;
+				background-position: 55% 100%;
+				background-repeat: no-repeat;
+				background-color: #FDE7D0;
+			}
+		}
+	}
+}

@@ -1,0 +1,156 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 3
+::
+-----------------------------------------*/
+.section-3 {
+
+	.content { display:none; }
+
+	h2 { color: #fff; }
+
+	.scroll-wrapper { @extend %background; }
+
+	.wrapper {
+		position:absolute; height: 100%; width: 100%; overflow:hidden;
+	}
+
+	.background {
+
+		position:absolute; top:0; height: 100%; width: 33.6%; background-color: #865C44;
+
+		.inner { opacity:0; @include box-sizing(border-box); background-size: cover; background-position: center; }
+
+		&.left {
+
+			right:66.5%;
+
+			.inner {
+				background-image: url($path + 'images/step-5-0.jpg');
+				background-position-y: 45px;
+			}
+
+		}
+
+		&.center {
+
+			left:33.333%; width: 33.333%;
+
+			.inner {
+				background-image: url($path + 'images/step-5-1.jpg');
+				background-position-y: 45px;
+			}
+
+		}
+
+		&.right {
+
+			left: 66.5%;
+
+			.inner {
+				background-image: url($path + 'images/step-5-2.jpg');
+				background-position-y: 45px;
+			}
+
+		}
+
+
+	}
+
+	.content {
+
+		position:absolute; bottom:0; text-align:center; width: 100%; overflow:auto; min-height: 54%;
+
+		h5 { color: $black; }
+
+		h2 { position:relative; clear:both; color: $black; }
+
+		.arrow { display:none; }
+
+		.asterisk { color: #000; font-size: .5em; position: absolute; top: 0.1em; line-height: 1em; }
+
+		.boxes {
+			position: relative; overflow: hidden; margin: 12em 0 4em;
+			.backgrounds, .overlays {
+				position: absolute; height: 100%; width: 100%;
+				.box { height:100%; }
+			}
+			.backgrounds {
+				.box { background: rgba(212, 166, 124, 0.6);  }
+			}
+			.overlays {
+				.box {
+					@include box-sizing(border-box); border: 15px solid transparent;
+					@include transition(border 400ms);
+					&.active { border-color: #fff; }
+				}
+			}
+		}
+
+		.box {
+			position:relative; float:left; width: 28.0733%;
+			margin: 0 2.63% 0; padding: 3em 0 3.5em;
+		}
+
+		.left, .right, .center { opacity:0; }
+
+		.center { overflow:visible; }
+
+		h4 { margin: 0.25em 0 0.25em; color: $black; }
+
+		small { color: $black; display: block; padding: 0 13%; }
+
+
+
+	}
+
+
+	.desktop-top {
+		position:relative; z-index: 2; width: 100%; opacity:0;
+		h5, h2 { color: #000; }
+
+		h2 {
+			max-width: 30%;
+			margin: auto;
+		}
+	}
+
+	.mobile-top { display:none; }
+
+	.bottom {
+		position:absolute; bottom: 0; width: 100%; opacity: 0; text-align: center;
+		.disclaimer { font-size: 0.8em; color: #000; margin: 0 0 1.3em; }
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse .section-3 {
+
+	.boxes .overlays .box:hover { border-color: #fff; }
+
+}
+
+.has-touch .section-3 {
+
+	.boxes .overlays .box.hover { border-color: #fff; }
+
+}
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-4, .from-page-4 {
+	.section-3 {
+		z-index: 1;
+		.content { display:block; }
+	}
+}

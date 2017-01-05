@@ -1,0 +1,160 @@
+/*---------------------------------------
+::
+:: 	Finder > Sections > Section 1
+::
+-----------------------------------------*/
+.section-1 {
+	h5 { font-family: 'Lato', sans-serif; font-size:2.2em; }
+
+	.wrapper { @extend %background; }
+
+	.overlay-wrap { display:none; }
+
+	.background { overflow:hidden; background: #B88E76; }
+
+	.background-inner {
+		position:absolute; height: 100%; width: 100%; left:0; top:0; opacity:1 !important;
+	}
+
+	.background.left {
+
+		left: 0; left:auto; width: 50%; outline-color: rgba(255,255,255,0.4); outline-color: rgba(0,0,0,0.1);
+
+		.background-inner {
+			background-image: url($path + 'images/step-1-left-3.jpg');
+			background-position: center top; background-size: cover; background-repeat: no-repeat;
+		}
+
+	}
+
+	.background.right {
+
+		right: 0; left: auto; width: 50%; outline-color: rgba(0,0,0,0.1);
+
+		.square { position:absolute; height: 25.2%; width: 20.2%; }
+
+		.square-1 	{ top:0; left:0%; background:#fde5ce; }
+		.square-2 	{ top:0; left:20%; background:#fedcb9; }
+		.square-3 	{ top:0; left:40%; background:#f0d4b6; }
+		.square-4 	{ top:0; left:60%; background:#f4cfa7; }
+		.square-5 	{ top:0; left:80%; background:#e4c8b5; }
+		.square-6 	{ top:25%; left:0%; background:#e9c1a9; }
+		.square-7 	{ top:25%; left:20%; background:#e0b392; }
+		.square-8 	{ top:25%; left:40%; background:#f4c597; }
+		.square-9 	{ top:25%; left:60%; background:#dda27e; }
+		.square-10 	{ top:25%; left:80%; background:#c98b68; }
+		.square-11 	{ top:50%; left:0%; background:#c79162; }
+		.square-12 	{ top:50%; left:20%; background:#c7875d; }
+		.square-13 	{ top:50%; left:40%; background:#c08762; }
+		.square-14 	{ top:50%; left:60%; background:#cb7d4b; }
+		.square-15 	{ top:50%; left:80%; background:#bc7b51; }
+		.square-16 	{ top:75%; left:0%; background:#af7c51; }
+		.square-17 	{ top:75%; left:20%; background:#98623b; }
+		.square-18 	{ top:75%; left:40%; background:#9c613f; }
+		.square-19 	{ top:75%; left:60%; background:#906044; }
+		.square-20 	{ top:75%; left:80%; background:#7e4e36; }
+
+	}
+
+	.overlay {
+
+		position:absolute; top:0; height: 100%; width: 50%; padding-top: 60px; z-index: 2; display: block;
+		@include box-sizing(border-box); overflow:visible;
+
+		.overlay-wrap, .inner {
+			position:absolute; top:0; height: 100%; width: 100%; padding-top: 60px;
+			@include box-sizing(border-box); overflow: hidden;
+		}
+
+		&.left { left: 0; }
+		&.right { right: 0; }
+
+		.border {
+			display:block; position: relative; height: 100%; width: 100%;
+			border: 20px solid transparent;
+			@include box-sizing(border-box);
+			@include transition(border 800ms);
+		}
+
+	}
+
+	.content {
+		position:absolute; top: 50%; margin-top: -1.1em; text-align:center; width: 100%; color: #fff; text-shadow: 2px 2px $dark-brown;
+		h2 { position: absolute; top: -1em; width: 100%; }
+		h5 { position:relative; top: -0.15em; line-height: 1.5em; }
+
+		@media only screen and (max-width: 382px) {
+			h2 {
+				top: -2em;
+			}
+		}
+	}
+
+
+	.diamond {
+
+		visibility:hidden; position:absolute; top: 50%; width: 142px; height: 142px; margin-top: -71px; margin-left: -71px;
+
+		.back, .front {
+			position:absolute; top:21px; left:21px; height: 100px; width: 100px;
+			@include transform(rotate(45deg)); background: black;
+		}
+
+		.back {
+			height: 400px; width: 400px;
+		}
+
+		h2 { text-align:center; line-height: 142px; position:relative; font-size: 2.1em; }
+
+		.a0, .a1 {
+			position:absolute;
+			height:34px; width:34px;
+			border: 1px solid #fff;
+		}
+		.a0 { bottom:4px; left:4px; border-color: transparent transparent #fff #fff; }
+		.a1 { top:4px; right:4px; border-color: #fff #fff transparent transparent; }
+
+	}
+
+	.left .diamond {
+		left: 100%;
+		.back { top: -129px; left: 84px; }
+	}
+
+	.right .diamond {
+		left: 0;
+		.back { top: -129px; left: -341px; }
+	}
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse .section-1 {
+
+	.overlay:hover .border { border-color: #fff; }
+
+}
+
+.has-touch .section-1 {
+
+	.overlay.hover .border { border-color: #fff; }
+
+}
+
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Display
+-----------------------------------------*/
+.to-page-0, .to-page-1, .from-page-1 {
+	.section-1 {
+		z-index: 2;
+		.overlay-wrap { display:block; }
+	}
+}

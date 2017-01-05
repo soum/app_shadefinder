@@ -1,0 +1,115 @@
+/*---------------------------------------
+::
+:: 	Finder > Text Styles
+::
+-----------------------------------------*/
+body { font-size: 16px; }
+
+$black: #231f21;
+$magenta: #ec008c;
+$dark-brown: #56391f;
+$light-brown: #d4a67c;
+$dark-gray: #53534a;
+$gray: #aca196;
+$light-gray: #d8d2c9;
+$peach: #f6ece3;
+
+$charcoal: #171717;
+$cream: #d4a67c;
+$dark-chocolate: #56391f;
+$graveyard: #53534a;
+$milk-chocolate: #7b553e;
+
+%h1 { color: $black; text-transform: uppercase; font-size: 3.5em; font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%h2	{ color: #fff; text-transform: uppercase; font-size: 2.4em; font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%h3	{ color: #fff; text-transform: uppercase; font-size: 1.55em; font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%h4	{ color: #fff; text-transform: uppercase; font-size: 1.5em; font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%h5 { color: #fff; font-size: 1.8em; font-family: 'ChaleLondon1960'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%h6 { color: #fff; text-transform: uppercase; font-size: 10em; font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%p 	{ color: $black; font-size: 1.1em; font-family: 'Lato', sans-serif; font-weight: normal; line-height: 1.5em; }
+%icon { color: #fff; font-family: 'BareMinerals'; font-weight: normal; text-rendering: geometricPrecision; -moz-osx-font-smoothing: grayscale; }
+%small { @extend %p; font-size: 0.8em; }
+
+h1 	{ @extend %h1; }
+h2 	{ @extend %h2; }
+h3 	{ @extend %h3; }
+h4 	{ @extend %h4; }
+h5 	{ @extend %h5; }
+h6 	{ @extend %h6; }
+p 	{ @extend %p; margin: 0.4em 0 1.6em 0; }
+small { @extend %small; }
+
+.magenta { color: #ec008c; }
+
+
+/*---------------------------------------
+::
+:: 	Buttons
+::
+-----------------------------------------*/
+button {
+	@extend %h3; background: #231f21; display:inline-block; margin: 0.7em 0; padding: 0.43em 1.25em; 	font-weight:700;
+	@include transition((background 400ms, opacity 400ms));
+	&.hidden { opacity:0; }
+	&.active { background: $magenta; }
+	&.disabled { background: #ccc; cursor:default; }
+	.lower { text-transform:none; }
+}
+
+/*---------------------------------------
+::
+:: 	Hover Events
+::
+-----------------------------------------*/
+.has-mouse {
+
+	button  {
+		&:hover { background: $magenta; }
+		&.disabled:hover { background: #ccc; }
+	}
+
+}
+
+.has-touch {
+
+	button  {
+		&.hover { background: $magenta; }
+		&.disabled:hover { background: #ccc; }
+	}
+
+}
+
+/*---------------------------------------
+::
+:: 	Responsive Overrides
+::
+-----------------------------------------*/
+@include tablet() {
+
+	body { font-size: 15px; }
+
+	h1 	{  }
+	h2 	{  }
+	h3 	{  }
+	h4 	{  }
+	h5 	{  }
+	h6 	{  }
+	p 	{  }
+	small {  }
+
+}
+
+@include phone() {
+
+	body { font-size: 14px; }
+
+	h1 	{ font-size: 3.125em; }
+	h2 	{  }
+	h3 	{  }
+	h4 	{  }
+	h5 	{ font-size: 1.8em; }
+	h6 	{  }
+	p 	{  }
+	small {  }
+
+}

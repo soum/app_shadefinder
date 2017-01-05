@@ -1,0 +1,20 @@
+//------------------------------------------
+//
+// 	UI > Components > Drawer
+//
+//------------------------------------------
+.drawer {
+
+	.drawer-toggle { cursor:pointer; }
+
+	.drawer-wrap { position:relative; overflow:hidden; height:0; }
+
+	.drawer-inner { position:relative; overflow:auto; } 
+
+	&.drawer-hidden {  
+
+		.drawer-inner { display:none; }
+	
+	}
+
+}

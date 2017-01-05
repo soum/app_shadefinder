@@ -1,0 +1,65 @@
+/*---------------------------------------
+::
+:: 	Section-6 Mobile Overrides
+::
+-----------------------------------------*/
+@import "../../Core/Sections/Section-6.scss";
+
+.section-6 {
+	.content { overflow:auto; -webkit-overflow-scrolling: touch; }
+
+	.left {
+
+		width: 95.3052%; padding: 5em 2.3474% .5em 2.3474%;
+
+		h1 { width: 91%; margin: auto; }
+
+		.video-thumbnail, .tips { display:none; }
+
+	}
+
+	.right {
+
+		position: relative; width: 100% !important; left: 0 !important; padding-top: 0;
+
+		.shades { overflow:hidden; }
+
+		.shade { height: 100%; }
+
+		.undertone {
+
+			width: 50%; height: auto;
+
+			.image { height: 0; padding-bottom: 100%; }
+
+		}
+
+		.buttons { top: auto; @include transform(none); height: auto; }
+
+    .toggle { height: 90px; }
+
+	}
+
+	.bottom {
+
+		display:block; text-align: center; padding: 2em 0 2em 0;
+
+		p { margin-bottom:0.5em; margin-top: 1.5em; }
+
+		h4 { cursor: pointer; padding: 0.4em 0; }
+
+		.tips {
+			max-width: none; text-align: center;
+
+			.plus { position: relative; right: 0px; }
+		}
+
+	}
+
+}
+
+@include tablet() {
+    .right {
+        .toggle { height: 133px !important; }
+    }
+}

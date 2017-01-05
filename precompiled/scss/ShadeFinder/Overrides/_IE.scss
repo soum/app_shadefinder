@@ -1,0 +1,41 @@
+//---------------------------------------
+//
+// 	IE Browsers
+//
+//---------------------------------------
+.ie10 {
+
+	.section-3, .section-4 {
+
+		.overlays { z-index: 2; background: rgba(0,0,0,0.0001); }
+
+	}
+
+	a:active{ background-color: transparent !important; }
+
+}
+
+.ie9, .ie8 {
+
+	.section-3, .section-4 {
+
+		.overlays { z-index: 2; background: rgba(0,0,0,0.0001); }
+
+	}
+
+	a:active{ outline: 0 !important; }
+
+	.loader { z-index: 2; }
+	.loader:before { display:block; }
+
+}
+
+.ie8, .ie9, .ie10 {
+
+	.modal {
+		.video-player {
+			.wrapper { margin:0 50%; }
+		}
+	}
+
+}

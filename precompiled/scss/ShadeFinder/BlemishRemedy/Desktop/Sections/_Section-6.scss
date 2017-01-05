@@ -1,0 +1,19 @@
+/*---------------------------------------
+::
+:: 	Blemish Remedy Override
+:: 	Section-6 Desktop Overrides
+::
+-----------------------------------------*/
+
+.blemish-remedy-wrapper {
+	.section-6 {
+		.right {
+			.has-active.shades-min {
+				.shade {
+					height: 67.8%;
+					@include tablet() { height: 60%; }
+				}
+			}
+		}
+	}
+}

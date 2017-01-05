@@ -1,0 +1,105 @@
+//------------------------------------------
+//
+// 	UI > Grid
+//
+//------------------------------------------
+$rows: 9;
+$columns: 16;
+
+// $max-width: 1218px;
+$max-width: 1400px;
+$transition: true;
+$delay: 400;
+
+$colwidth: 3.7559%; 	$colpad: 2.3474%;
+$rowheight: 6.5574%; 	$rowpad: 4.0984%;
+
+//------------------------------------------
+//	wrapper
+//------------------------------------------
+%wrapper 	{ position: relative; max-width: $max-width * ((100% + ($colpad * 2))/100%); margin: 0 auto; width: 100%;  }
+
+
+//------------------------------------------
+//	columns
+//------------------------------------------
+@mixin columns 		($number) 	{ 
+	@if $number == 'one-third' {
+		width: (100% - ($colpad * 4))/3; 
+	} @elseif $number == 'one-sixth' {
+		width: (100% - ($colpad * 6))/6;
+	} @else {
+		width: ($colpad * ($number - 1)) + ($colwidth * $number); 	
+	}
+}
+
+//------------------------------------------
+//	offsets
+//------------------------------------------
+@mixin offset 		($number)	{ 
+	@if $number == 'one-third' {
+		margin-left: (100% - ($colpad * 4))/3 + 2 * $colpad;
+	} @elseif $number == 'one-sixth' {
+		margin-left: (100% - ($colpad * 6))/6 + 2 * $colpad;
+	} @else {
+		margin-left: ($colpad * ($number + 1)) + ($colwidth * $number); 
+	}
+}
+@mixin offset-right	($number)	{ 
+	@if $number == '-one-third' {
+
+	} @else {
+		margin-right: ($colpad * ($number + 1)) + ($colwidth * $number); 
+	}
+}
+
+//------------------------------------------
+//	rows
+//------------------------------------------
+@mixin rows 		($number) 	{ 
+	@if $number == 'one-third' {
+		height: (100% - ($rowpad * 4))/3; 
+	} @else {
+		height: ($rowpad * ($number - 1))  + ($rowheight * $number);  	
+	}
+}
+
+//------------------------------------------
+//	positioning
+//------------------------------------------
+@mixin down 		($number)	{ top: ($rowpad * ($number + 1)) + ($rowheight * $number); }
+@mixin up 			($number)	{ bottom: ($rowpad * ($number + 1)) + ($rowheight * $number); }
+@mixin right 		($number)	{ left: ($colpad * ($number + 1)) + ($colwidth * $number); }
+@mixin left 		($number)	{ right: ($colpad * ($number + 1)) + ($colwidth * $number); }
+
+//------------------------------------------
+//	grid
+//------------------------------------------
+@mixin grid 		($offset, $columns) { 
+	@if $offset == 'one-third' { @include offset($offset); float:left; }
+	@else if $offset == 'one-sixth' { @include offset($offset); float:left; }
+	@else if $offset < 0 { @include offset-right($offset); float:right; } 
+	@else { @include offset($offset); float:left; }
+	@if $columns != auto { @include columns($columns); }
+	@if $transition { @include transition((margin 400ms, width 400ms)); }
+	.reset {
+
+	}
+}
+
+//------------------------------------------
+//	matrix
+//------------------------------------------
+@mixin matrix 		($right, $down, $columns, $rows) { 
+	position:absolute; 
+	@if $right == auto {} @else if $right < 0 { @include left(-$right); } @else { @include right($right); }
+	@if $down == auto {} @else if $down < 0 { @include up(-$down); } @else { @include down($down); }
+	@if $columns != auto { @include columns($columns); }
+	@if $rows != auto { @include rows($rows); }
+	@if $transition { @include transition((top 400ms $delay, right 400ms $delay, bottom 400ms $delay, left 400ms $delay, width 400ms $delay, height 400ms $delay)); }
+	.reset {
+
+	}
+}
+
+

@@ -1,0 +1,932 @@
+<iscomment>
+(gyada2) - <08-07-2011> - Executed code review checklist for Site Intro
+This ISML is decorator for Site Intro page.
+</iscomment>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if IE 6]>
+<html id="ie6" xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<!--[if IE 9]>
+<html id="ie9" xmlns="http://www.w3.org/1999/xhtml">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<isinclude template="util/modules"/>
+<iscomment>This page must be cachable. It inherits the caching attributes by the decorated template.</iscomment>
+<iscomment>RACHIT SRIVASTAVA: code to determine the brand is moved to htmlhead.isml</iscomment>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+	<iscomment>Insert meta tag for the "Google-Verification" feature to verify that you are the owner of this site.</iscomment>
+	<isif condition="${'GoogleVerificationTag' in dw.system.Site.current.preferences.custom && dw.system.Site.current.preferences.custom.GoogleVerificationTag!=''}">
+		<meta name="verify-v1" content="<isprint value="${dw.system.Site.current.preferences.custom.GoogleVerificationTag}"/>" />
+	</isif>
+	<isif condition="${(pdict.homePage == true) && Resource.msg('google.site.verification','common',null) == 'US'}">
+		<meta name="google-site-verification" content="4zYtj1nZ7QgyfmprpWY8o27qvacjpPtWmeGghDp7jlM" />
+	</isif>
+	<isif condition="${(pdict.homePage == true) && Resource.msg('google.site.verification','common',null) == 'UK'}">
+		<iscomment><meta name="google-site-verification" content="6EsoW2z92ZEJ0It854SEStoOKsSzf3p0wlnTK45q6TM" /></iscomment>
+		<meta name="google-site-verification" content="Sha81VAU-aFgjSX-gRStAcB0bEJr6_I4vGZh0SnVkdE" />
+	</isif>
+
+	<iscomment>Include all important information globally , e.g. meta-data, link information, and javascript.</iscomment>
+	<title>
+		<isif condition=${!empty(pdict.CurrentPageMetaData.title)}>
+			<isprint value="${pdict.CurrentPageMetaData.title}"/>
+		<iselseif condition=${pdict.pageTitle != null}>
+			<isprint value ="${pdict.pageTitle}"/>
+		<iselse>
+			<isprint value="${Resource.msg('title.baremineral.mineral.makeup','common',null)}"/>
+		</isif>
+	</title>
+
+	<iscomment>Add page specific header information here.</iscomment>
+
+
+	<link rel="stylesheet" type="text/css"  href="${URLUtils.staticURL('/css/!/Fonts.css')}" />
+	<!--- <link rel="stylesheet" type="text/css"  href="/css/!/Fonts.css" /> --->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 769px)" href="${URLUtils.staticURL('/css/!/Desktop.css')}" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 768px)" href="${URLUtils.staticURL('/css/!/Mobile.css')}" />
+	<link rel="stylesheet" type="text/css" media="print" href="${URLUtils.staticURL('/css/!/Print.css')}" />
+
+<script language="JavaScript" type="text/javascript">
+	//setting domain to be.com, so that iframes opening up on this page can access the JS methods on this page.
+	//document.domain = "${dw.system.Site.current.preferences.custom.bvDocumentDomain}";
+</script>
+</head>
+<body class="to-start">
+	<isincludecoremetrics pagetype="${'SHADE_FINDER'}"/>
+	<header id="Navigation">
+		<nav class="nav-0 desktop-nav">
+			<div class="container">
+				<div class="center">
+					<span class="logo"></span>
+				</div>
+				<a class="close right" href="${'#'}Close"><isprint value="${(Resource.msg('shadefinder.header0','shadefinder',null))}" encoding="off" /></a>
+				<iscomment>
+				<a class="home right" data-id="Home" data-category="Navigation" href="Home-Show"><isprint value="${(Resource.msg('shadefinder.header6','shadefinder',null))}" encoding="off" /></a>
+				</iscomment>
+				<a class="mobile-toggle right" href="${'#'}ToggleMobileMenu">
+					<span class="top"></span>
+					<span class="mid"></span>
+					<span class="bottom"></span>
+				</a>
+			</div>
+		</nav>
+		<nav class="nav-1 desktop-nav">
+			<div class="container">
+				<div class="center">
+					<span class="logo"></span>
+					<iscomment>
+					<span class="label"><isprint value="${(Resource.msg('shadefinder.header1','shadefinder',null))}" encoding="off" /></span>
+					</iscomment>
+				</div>
+				<div class="left">
+					<a class="left back" data-id="Back" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.header2','shadefinder',null))}" encoding="off" /></a>
+				</div>
+				<a class="close right" href="${'#'}Close"><isprint value="${(Resource.msg('shadefinder.header0','shadefinder',null))}" encoding="off" /></a>
+				<iscomment>
+				<a class="home right" data-id="Home" data-category="Navigation" href="Home-Show"><isprint value="${(Resource.msg('shadefinder.header6','shadefinder',null))}" encoding="off" /></a>
+				</iscomment>
+				<a class="mobile-toggle right" href="${'#'}ToggleMobileMenu">
+					<span class="top"></span>
+					<span class="mid"></span>
+					<span class="bottom"></span>
+				</a>
+			</div>
+		</nav>
+		<nav class="nav-2 desktop-nav">
+			<div class="container">
+				<div class="center">
+					<span class="logo"></span>
+					<iscomment>
+					<span class="label"><isprint value="${(Resource.msg('shadefinder.header1','shadefinder',null))}" encoding="off" /></span>
+					</iscomment>
+				</div>
+				<div class="left">
+					<a class="back" data-id="Back" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.header2','shadefinder',null))}" encoding="off" /></a>
+					<a class="navigate reset" data-to="101" data-id="Start Over" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.header5','shadefinder',null))}" encoding="off" /></a>
+				</div>
+				<a class="close right" href="${'#'}Close"><isprint value="${(Resource.msg('shadefinder.header0','shadefinder',null))}" encoding="off" /></a>
+				<iscomment>
+				<a class="home right" data-id="Home" data-category="Navigation" href="Home-Show"><isprint value="${(Resource.msg('shadefinder.header6','shadefinder',null))}" encoding="off" /></a>
+				</iscomment>
+				<a class="mobile-toggle right" href="${'#'}ToggleMobileMenu">
+					<span class="top"></span>
+					<span class="mid"></span>
+					<span class="bottom"></span>
+				</a>
+			</div>
+		</nav>
+	</header>
+	<div class="side-menu">
+		<div class="progress progress-0">
+			<a class="dot dot-0 current" data-to="207" data-id="Track 1, Step 0" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile0','shadefinder',null))}" encoding="off" /></a>
+			<a class="dot dot-1 disabled" data-to="304" data-id="Track 1, Step 1" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile1','shadefinder',null))}" encoding="off" /></a>
+			<a class="dot dot-2 disabled" data-to="404" data-id="Track 1, Step 2" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile2','shadefinder',null))}" encoding="off" /></a>
+			<a class="dot dot-3 disabled" data-to="506" data-id="Track 1, Step 3" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile3','shadefinder',null))}" encoding="off" /></a>
+			<a class="dot dot-4 disabled" data-to="601" data-id="Track 1, Step 4" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile4','shadefinder',null))}" encoding="off" /></a>
+			<a class="dot dot-5 disabled terminal" data-to="901" data-id="Track 1, Step 5" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile5','shadefinder',null))}" encoding="off" /></a>
+			<div class="menu-toggle">
+				<a class="active toggle-open"><isprint value="${(Resource.msg('shadefinder.progress.open','shadefinder',null))}" encoding="off" /></a>
+				<a class="toggle-close"><isprint value="${(Resource.msg('shadefinder.progress.close','shadefinder',null))}" encoding="off" /></a>
+			</div>
+		</div>
+		<div class="progress progress-1">
+			<a class="dot dot-0 current" data-to="701" data-id="Track 2, Step 0" data-category="Navigation"></a>
+			<a class="dot dot-1 disabled" data-to="801" data-id="Track 2, Step 1" data-category="Navigation"></a>
+			<a class="dot dot-2 disabled terminal" data-to="901" data-id="Track 2, Step 2" data-category="Navigation"></a>
+			<div class="menu-toggle">
+				<a class="active toggle-open"><isprint value="${(Resource.msg('shadefinder.progress.open','shadefinder',null))}" encoding="off" /></a>
+				<a class="toggle-close"><isprint value="${(Resource.msg('shadefinder.progress.close','shadefinder',null))}" encoding="off" /></a>
+			</div>
+		</div>
+		<div class="sidebar sidebar-0">
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-0" data-to="207" data-id="Track 1, Step 0" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile0','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-1 disabled" data-to="304" data-id="Track 1, Step 1" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile1','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-2 disabled" data-to="404" data-id="Track 1, Step 2" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile2','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-3 disabled" data-to="506" data-id="Track 1, Step 3" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile3','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-4 disabled" data-to="601" data-id="Track 1, Step 4" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile4','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-5 disabled terminal" data-to="901" data-id="Track 1, Step 5" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile5','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-cart">
+				<h3><isprint value="${(Resource.msg('shadefinder.progress.cart0','shadefinder',null))}" encoding="off" /></h3>
+				<div class="cart-items"></div>
+				<div class="subtotal">
+					<p class="item-name"><isprint value="${(Resource.msg('shadefinder.progress.cart1','shadefinder',null))}" encoding="off" /></p>
+					<p class="item-price"></p>
+				</div>
+				<div class="more-items">
+					<a class="checkout"href="${URLUtils.https('Cart-SecureShow')}" target="_top"><span class="item-count"></span><p><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></p></a>
+				</div>
+			</div>
+		</div>
+		<div class="sidebar sidebar-1">
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-0" data-to="700" data-id="Track 2, Step 0" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile6','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-1 disabled" data-to="801" data-id="Track 2, Step 1" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile4','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-label-wrapper"><a class="sidebar-label dot-2 disabled terminal" data-to="901" data-id="Track 2, Step 2" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile5','shadefinder',null))}" encoding="off" /></a></div>
+			<div class="sidebar-cart">
+				<h3><isprint value="${(Resource.msg('shadefinder.progress.cart0','shadefinder',null))}" encoding="off" /></h3>
+				<div class="cart-items"></div>
+				<div class="subtotal">
+					<p class="item-name"><isprint value="${(Resource.msg('shadefinder.progress.cart1','shadefinder',null))}" encoding="off" /></p>
+					<p class="item-price"></p>
+				</div>
+				<div class="more-items">
+					<a class="checkout"href="${URLUtils.https('Cart-SecureShow')}" target="_top"><span class="item-count"></span><p><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></p></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="mobile-nav hidden">
+		<div class="list">
+			<div class="finder">
+				<div class="progress progress-0">
+					<a class="dot dot-0 current" data-to="207" data-id="${'#'}MobileProgress1Step0" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile0','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-1 disabled" data-to="304" data-id="${'#'}MobileProgress1Step1" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile1','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-2 disabled" data-to="404" data-id="${'#'}MobileProgress1Step2" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile2','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-3 disabled" data-to="506" data-id="${'#'}MobileProgress1Step3" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile3','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-4 disabled" data-to="601" data-id="${'#'}MobileProgress1Step4" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile4','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-5 disabled terminal" data-to="901" data-id="${'#'}MobileProgress1Step5" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile5','shadefinder',null))}" encoding="off" /></a>
+				</div>
+				<div class="progress progress-1">
+					<a class="dot dot-0" data-to="701" data-id="${'#'}MobileProgress2Step0" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile6','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-1 disabled" data-to="801" data-id="${'#'}MobileProgress2Step1" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile4','shadefinder',null))}" encoding="off" /></a>
+					<a class="dot dot-2 disabled terminal" data-to="901" data-id="${'#'}MobileProgress2Step2" data-category="Navigation"><isprint value="${(Resource.msg('shadefinder.mobile5','shadefinder',null))}" encoding="off" /></a>
+				</div>
+			</div>
+			<div class="sidebar-cart">
+				<h3><isprint value="${(Resource.msg('shadefinder.progress.cart0','shadefinder',null))}" encoding="off" /></h3>
+				<div class="cart-items"></div>
+				<div class="subtotal">
+					<p class="item-name"><isprint value="${(Resource.msg('shadefinder.progress.cart1','shadefinder',null))}" encoding="off" /></p>
+					<p class="item-price"></p>
+				</div>
+				<div class="more-items">
+					<a class="checkout"href="${URLUtils.https('Cart-SecureShow')}" target="_top"><span class="item-count"></span><p><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></p></a>
+				</div>
+			</div>
+			<h4><a class="navigate reset" data-to="101" href="${'#'}MobileStartOver"><isprint value="${(Resource.msg('shadefinder.header5','shadefinder',null))}" encoding="off" /></a></h4>
+			<h4><a class="checkout" href="${URLUtils.https('Cart-SecureShow')}"><isprint value="${(Resource.msg('shadefinder.resolve16','shadefinder',null))}" encoding="off" /></a></h4>
+			<h4><a href="${URLUtils.https('CustomerService-ContactUs')}" target="_blank"><isprint value="${(Resource.msg('shadefinder.resolve10','shadefinder',null))}" encoding="off" /></a></h4>
+			<h4><a href="${URLUtils.http('Stores-Find')} " target="_blank"><isprint value="${(Resource.msg('shadefinder.resolve12','shadefinder',null))}" encoding="off" /></a></h4>
+		</div>
+	</nav>
+
+	<main role="main">
+		<div  class="blemish-remedy-wrapper">
+			<isreplace/>
+		</div>
+	</main>
+
+	<div id="VideoModal" class="modal hidden">
+		<div class="overlay"></div>
+		<a class="hide" data-id="Video Modal Close" data-category="Navigation">
+			<span class="top"></span>
+			<span class="mid"></span>
+			<span class="bottom"></span>
+		</a>
+	</div>
+	<div id="TipsModal" class="modal hidden">
+		<div class="overlay"></div>
+		<div class="content">
+			<div class="text-content">
+				<a class="hide" href="${'#'}CloseTipsModal">
+					<span class="top"></span>
+					<span class="mid"></span>
+					<span class="bottom"></span>
+				</a>
+				<h1 class="l1"><isprint value="${(Resource.msg('shadefinder.shade3','shadefinder',null))}" encoding="off" /></h1>
+				<h4><isprint value="${(Resource.msg('shadefinder.shade5','shadefinder',null))}" encoding="off" /></h4>
+			</div>
+			<div class="video-thumbnail">
+				<div class="video" data-video="${(Resource.msg('shadefinder.shadevideo','shadefinder',null))}" data-id="Video Modal Show" data-category="Navigation" encoding="off">
+					<div class="thumbnail"></div>
+				</div>
+			</div>
+			<div class="text-content">
+				<h4><isprint value="${(Resource.msg('shadefinder.shade6','shadefinder',null))}" encoding="off" /></h4>
+				<p><isprint value="${(Resource.msg('shadefinder.shade7','shadefinder',null))}" encoding="off" /></p>
+				<p><isprint value="${(Resource.msg('shadefinder.shade8','shadefinder',null))}" encoding="off" /></p>
+				<p><isprint value="${(Resource.msg('shadefinder.shade9','shadefinder',null))}" encoding="off" /></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var ShadeFinder = {
+			prefix: '${(Resource.msg('shadefinder.pidprefix','shadefinder',null))}',
+			refreshRegEx: ${(Resource.msg('shadefinder.refreshRegex','shadefinder',null))},
+			text: {
+				addedToBag: '<isprint value="${(Resource.msg('shadefinder.resolve9','shadefinder',null))}" encoding="off" />',
+				addToBag: '<isprint value="${(Resource.msg('shadefinder.resolve3','shadefinder',null))}" encoding="off" />',
+				currency:  '<isprint value="${(Resource.msg('shadefinder.currency1','shadefinder',null))}" encoding="off" />',
+				currencyPlacement: '<isprint value="${(Resource.msg('shadefinder.currency2','shadefinder',null))}" encoding="off" />',
+				moreItem: '<isprint value="${(Resource.msg('shadefinder.progress.cart2','shadefinder',null))}" encoding="off" />',
+				moreItems: '<isprint value="${(Resource.msg('shadefinder.progress.cart3','shadefinder',null))}" encoding="off" />',
+				youMightAlso: '<isprint value="${(Resource.msg('shadefinder.resolve4','shadefinder',null))}" encoding="off" />',
+				returnToOur: '<isprint value="${(Resource.msg('shadefinder.resolve5','shadefinder',null))}" encoding="off" />',
+				notAvailable: '<isprint value="${(Resource.msg('shadefinder.resolve6','shadefinder',null))}" encoding="off" />',
+				notFound: '<isprint value="${(Resource.msg('shadefinder.resolve7','shadefinder',null))}" encoding="off" />',
+				watchVideo: '<isprint value="${(Resource.msg('shadefinder.resolve8','shadefinder',null))}" encoding="off" />',
+				watchVideo2: '<isprint value="${(Resource.msg('shadefinder.resolve17','shadefinder',null))}" encoding="off" />',
+				learnMore: '<isprint value="${(Resource.msg('shadefinder.resolve14','shadefinder',null))}" encoding="off" />',
+				addBoth: '<isprint value="${(Resource.msg('shadefinder.resolve1','shadefinder',null))}" encoding="off" />',
+				addedBoth: '<isprint value="${(Resource.msg('shadefinder.resolve15','shadefinder',null))}" encoding="off" />',
+				family: {
+					matte: '<isprint value="${(Resource.msg('shadefinder.formulaMatte','shadefinder',null))}" encoding="off" />',
+					ready: '<isprint value="${(Resource.msg('shadefinder.formulaReady','shadefinder',null))}" encoding="off" />',
+					bareskin: '<isprint value="${(Resource.msg('shadefinder.formulaBareskin','shadefinder',null))}" encoding="off" />',
+					original: '<isprint value="${(Resource.msg('shadefinder.formulaOriginal','shadefinder',null))}" encoding="off" />'
+				},
+				productType: {
+					foundation: '<isprint value="${(Resource.msg('shadefinder.productType.foundation','shadefinder',null))}" encoding="off" />',
+					brush: '<isprint value="${(Resource.msg('shadefinder.productType.brush','shadefinder',null))}" encoding="off" />',
+					product: '<isprint value="${(Resource.msg('shadefinder.productType.product','shadefinder',null))}" encoding="off" />',
+				}
+			},
+			flashplayer: '${URLUtils.staticURL('/flash/jwplayer.flash.swf')}',
+			urls: {
+				products: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/ShadeFinder-Products?pid=',
+				cart: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/ShadeFinder-Cart',
+				addToCart: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/Cart-AddItems2Cart?items=',
+				video: '/on/demandware.store/Sites-BareMinerals_US_CA-Site/default/Video-View?videoName='
+			},
+			shades: {
+				'Light': '<isprint value="${(Resource.msg('shadefinder.shadeLight','shadefinder',null))}" encoding="off" />',
+				'Medium': '<isprint value="${(Resource.msg('shadefinder.shadeMedium','shadefinder',null))}" encoding="off" />',
+				'Tan': '<isprint value="${(Resource.msg('shadefinder.shadeTan','shadefinder',null))}" encoding="off" />',
+				'Dark': '<isprint value="${(Resource.msg('shadefinder.shadeDark','shadefinder',null))}" encoding="off" />',
+				'Deep': '<isprint value="${(Resource.msg('shadefinder.shadeDeep','shadefinder',null))}" encoding="off" />'
+			},
+			undertones: {
+				'Fair': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Fair.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Fair.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Fair.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Fair.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Fair': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenFair.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenFair.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenFair.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenFair.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Fairly Light': {
+					title: '<isprint value="${(Resource.msg('shadefinder.FairlyLight.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.FairlyLight.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.FairlyLight.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.FairlyLight.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Light': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Light.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Light.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Light.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Light.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Fairly Medium': {
+					title: '<isprint value="${(Resource.msg('shadefinder.FairlyMedium.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.FairlyMedium.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.FairlyMedium.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.FairlyMedium.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Medium Beige': {
+					title: '<isprint value="${(Resource.msg('shadefinder.MediumBeige.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.MediumBeige.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.MediumBeige.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.MediumBeige.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Medium': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenMedium.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenMedium.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenMedium.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenMedium.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Medium': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Medium.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Medium.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Medium.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Medium.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Medium Tan': {
+					title: '<isprint value="${(Resource.msg('shadefinder.MediumTan.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.MediumTan.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.MediumTan.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.MediumTan.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Tan': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Tan.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Tan.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Tan.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Tan.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Tan': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenTan.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenTan.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenTan.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenTan.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Warm Tan': {
+					title: '<isprint value="${(Resource.msg('shadefinder.WarmTan.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.WarmTan.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.WarmTan.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.WarmTan.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Medium Dark': {
+					title: '<isprint value="${(Resource.msg('shadefinder.MediumDark.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.MediumDark.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.MediumDark.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.MediumDark.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Dark': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Dark.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Dark.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Dark.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Dark.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Dark': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenDark.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenDark.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenDark.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenDark.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Warm Dark': {
+					title: '<isprint value="${(Resource.msg('shadefinder.WarmDark.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.WarmDark.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.WarmDark.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.WarmDark.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Deep': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenDeep.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenDeep.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenDeep.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenDeep.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Medium Deep': {
+					title: '<isprint value="${(Resource.msg('shadefinder.MediumDeep.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.MediumDeep.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.MediumDeep.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.MediumDeep.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Warm Deep': {
+					title: '<isprint value="${(Resource.msg('shadefinder.WarmDeep.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.WarmDeep.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.WarmDeep.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.WarmDeep.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Deepest Deep': {
+					title: '<isprint value="${(Resource.msg('shadefinder.DeepestDeep.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.DeepestDeep.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.DeepestDeep.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.DeepestDeep.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Porcelain': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BarePorcelain.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BarePorcelain.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BarePorcelain.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BarePorcelain.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Shell': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareShell.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareShell.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareShell.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareShell.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Linen': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareLinen.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareLinen.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareLinen.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareLinen.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Ivory': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareIvory.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareIvory.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareIvory.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareIvory.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Cream': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareCream.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareCream.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareCream.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareCream.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Satin': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareSatin.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareSatin.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareSatin.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareSatin.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Natural': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareNatural.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareNatural.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareNatural.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareNatural.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Beige': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareBeige.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareBeige.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareBeige.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareBeige.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Nude': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareNude.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareNude.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareNude.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareNude.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Buff': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareBuff.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareBuff.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareBuff.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareBuff.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Latte': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareLatte.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareLatte.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareLatte.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareLatte.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Sand': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareSand.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareSand.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareSand.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareSand.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Tan': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareTan.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareTan.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareTan.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareTan.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Caramel': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareCaramel.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareCaramel.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareCaramel.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareCaramel.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Honey': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareHoney.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareHoney.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareHoney.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareHoney.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Almond': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareAlmond.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareAlmond.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareAlmond.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareAlmond.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Maple': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareMaple.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareMaple.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareMaple.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareMaple.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Walnut': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareWalnut.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareWalnut.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareWalnut.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareWalnut.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Espresso': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareEspresso.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareEspresso.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareEspresso.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareEspresso.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bare Mocha': {
+					title: '<isprint value="${(Resource.msg('shadefinder.BareMocha.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.BareMocha.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.BareMocha.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.BareMocha.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Opal 01': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Opal01.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Opal01.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Opal01.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Opal01.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Birch 1_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Birch1_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Birch1_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Birch1_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Birch1_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Vanilla 02': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Vanilla02.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Vanilla02.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Vanilla02.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Vanilla02.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Buttercream 03': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Buttercream03.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Buttercream03.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Buttercream03.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Buttercream03.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Suede 04': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Suede04.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Suede04.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Suede04.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Suede04.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Wheat 4_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Wheat4_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Wheat4_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Wheat4_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Wheat4_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Natural 05': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Natural05.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Natural05.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Natural05.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Natural05.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Bamboo 5_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Bamboo5_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Bamboo5_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Bamboo5_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Bamboo5_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Ginger 06': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Ginger06.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Ginger06.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Ginger06.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Ginger06.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Desert 6_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Desert6_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Desert6_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Desert6_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Desert6_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Tan 07': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Tan07.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Tan07.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Tan07.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Tan07.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Dune 7_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Dune7_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Dune7_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Dune7_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Dune7_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Spice 08': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Spice08.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Spice08.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Spice08.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Spice08.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Terra 8_5': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Terra8_5.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Terra8_5.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Terra8_5.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Terra8_5.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Chestnut 09': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Chestnut09.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Chestnut09.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Chestnut09.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Chestnut09.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Sienna 10': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Sienna10.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Sienna10.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Sienna10.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Sienna10.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Porcelain 01': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyPorcelain01.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyPorcelain01.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyPorcelain01.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyPorcelain01.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Pearl 02': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyPearl02.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyPearl02.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyPearl02.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyPearl02.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Cream 03': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyCream03.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyCream03.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyCream03.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyCream03.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Medium 04': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyMedium04.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyMedium04.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyMedium04.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyMedium04.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Silk 05': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlySilk05.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlySilk05.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlySilk05.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlySilk05.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Beige 06': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyBeige06.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyBeige06.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyBeige06.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyBeige06.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Nude 07': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyNude07.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyNude07.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyNude07.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyNude07.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Latte 08': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyLatte08.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyLatte08.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyLatte08.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyLatte08.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Sand 09': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlySand09.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlySand09.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlySand09.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlySand09.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Amber 10': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyAmber10.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyAmber10.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyAmber10.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyAmber10.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Almond 11': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyAlmond11.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyAlmond11.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyAlmond11.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyAlmond11.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clearly Espresso 12': {
+					title: '<isprint value="${(Resource.msg('shadefinder.ClearlyEspresso12.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.ClearlyEspresso12.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.ClearlyEspresso12.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.ClearlyEspresso12.color','shadefinder',null))}" encoding="off" />'
+				},
+
+				'Fair 01': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Fair01.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Fair01.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Fair01.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Fair01.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Dawn 02': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Dawn02.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Dawn02.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Dawn02.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Dawn02.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Champagne 03': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Champagne03.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Champagne03.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Champagne03.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Champagne03.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Aspen 04': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Aspen04.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Aspen04.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Aspen04.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Aspen04.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Sateen 05': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Sateen05.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Sateen05.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Sateen05.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Sateen05.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Cashmere 06': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Cashmere06.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Cashmere06.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Cashmere06.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Cashmere06.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Warm Light 07': {
+					title: '<isprint value="${(Resource.msg('shadefinder.WarmLight07.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.WarmLight07.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.WarmLight07.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.WarmLight07.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Ivory 08': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenIvory08.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenIvory08.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenIvory08.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenIvory08.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Light Natural 09': {
+					title: '<isprint value="${(Resource.msg('shadefinder.LightNatural09.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.LightNatural09.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.LightNatural09.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.LightNatural09.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Cool Beige 10': {
+					title: '<isprint value="${(Resource.msg('shadefinder.CoolBeige10.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.CoolBeige10.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.CoolBeige10.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.CoolBeige10.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Natural 11': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Natural11.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Natural11.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Natural11.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Natural11.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Warm Natural 12': {
+					title: '<isprint value="${(Resource.msg('shadefinder.WarmNatural12.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.WarmNatural12.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.WarmNatural12.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.WarmNatural12.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Golden Nude 13': {
+					title: '<isprint value="${(Resource.msg('shadefinder.GoldenNude13.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.GoldenNude13.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.GoldenNude13.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.GoldenNude13.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Silk 14': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Silk14.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Silk14.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Silk14.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Silk14.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Sandalwood 15': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Sandalwood15.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Sandalwood15.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Sandalwood15.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Sandalwood15.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Sandstone 16': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Sandstone16.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Sandstone16.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Sandstone16.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Sandstone16.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Camel 17': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Camel17.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Camel17.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Camel17.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Camel17.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Pecan 18': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Pecan18.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Pecan18.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Pecan18.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Pecan18.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Toffee 19': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Toffee19.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Toffee19.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Toffee19.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Toffee19.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Honeycomb 20': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Honeycomb20.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Honeycomb20.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Honeycomb20.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Honeycomb20.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Sable 21': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Sable21.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Sable21.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Sable21.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Sable21.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Teak 22': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Teak22.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Teak22.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Teak22.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Teak22.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Cardamom 23': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Cardamom23.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Cardamom23.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Cardamom23.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Cardamom23.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Nutmeg 24': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Nutmeg24.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Nutmeg24.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Nutmeg24.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Nutmeg24.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Hazelnut 25': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Hazelnut25.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Hazelnut25.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Hazelnut25.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Hazelnut25.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Chai 26': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Chai26.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Chai26.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Chai26.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Chai26.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Cappuccino 27': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Cappuccino27.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Cappuccino27.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Cappuccino27.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Cappuccino27.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Clove 28': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Clove28.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Clove28.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Clove28.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Clove28.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Truffle 29': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Truffle29.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Truffle29.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Truffle29.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Truffle29.color','shadefinder',null))}" encoding="off" />'
+				},
+				'Cocoa 30': {
+					title: '<isprint value="${(Resource.msg('shadefinder.Cocoa30.title','shadefinder',null))}" encoding="off" />',
+					description: '<isprint value="${(Resource.msg('shadefinder.Cocoa30.desc','shadefinder',null))}" encoding="off" />',
+					undertone: '<isprint value="${(Resource.msg('shadefinder.Cocoa30.tone','shadefinder',null))}" encoding="off" />',
+					color: '<isprint value="${(Resource.msg('shadefinder.Cocoa30.color','shadefinder',null))}" encoding="off" />'
+				}
+			}
+		};
+
+	</script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/require.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/jquery-1.7.2.min.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/underscore.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/backbone.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/!/Data.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/!/ShadeFinder.js')}"></script>
+	<script type="text/javascript" src="${URLUtils.staticURL('/js/!/ShadeSlider.js')}"></script>
+	
+	<isif condition="${dw.system.Site.getCurrent().preferences.custom.enableForseeTracking}">
+		<isinclude template="analytics/forsee-trigger.isml"/>
+		<script>
+			window.top.acsReady(function() {
+	  		 // Foresee CPP API
+	  		window.top.FSR.CPPS.set('FoundationFinder','true');
+	  		console.log("forsee foundationfinder working");
+			});
+		</script> 
+	</isif>
+	<iscomment>
+
+		JW Player
+
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/jwplayer.js')}"></script>
+		<script>jwplayer.key="+Cf8Qd0fivMuA8kDM1CzuWJr3VpF0+4UhO+sDvbZPgo="</script>
+		<script src="https://p.jwpcdn.com/6/2/jwpsrv.js"></script>
+		<script type="text/javascript" src="${URLUtils.staticURL('/js/Libraries/jwplayer.html5.js')}"></script>
+
+	</iscomment>
+
+</body>
+</html>

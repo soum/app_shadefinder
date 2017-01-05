@@ -1,0 +1,76 @@
+/*---------------------------------------
+::
+:: 	Blemish Remedy Override
+:: 	Finder > Sections > Section 5
+::
+-----------------------------------------*/
+
+.blemish-remedy-wrapper {
+	.section-5 {
+		.background {
+			background-size: 42% auto;
+			margin-top: 8.5%;
+		}
+
+		.wrapper {
+			h5 {
+				font-size: 2.4em;
+				top: 14.5%;
+			}
+		}
+
+		button { background: none; color: #000; }
+
+		.left, .right { width: 40%; }
+
+		div[class^='button-'] {
+			width:35vw;
+		}
+
+		.button-0 {
+			left:33%; top: 60%;
+			&:before { content: ""; }
+		}
+		.button-1 {
+			right:16%; top: 50%; text-align: right;
+			.family { margin-left: 50px; }
+			&:before { content: ""; }
+		}
+		.button-2 {
+			right:8%; top: 83%; text-align: right; width: 28vw !important;
+			&:before { content: ""; }
+		}
+		.button-3 {
+			left:23%; top: 87%;
+			&:before { content: ""; }
+		}
+		.button-4 {
+			left:29%; top: 41%;
+			&:before { content: ""; }
+		}
+		.button-5 {
+			right: -10.5%; top: 29.5%; text-align: right;
+		}
+
+		.family {
+			@include transition(color 400ms);
+
+			&:hover {
+				color: $magenta;
+			}
+		}
+
+		// @media screen and (min-width: 1450px) {
+		// 	.button-3 {
+		// 		top: 87%;
+		// 		left: 23%;
+		// 	}
+		// }
+
+		@include tablet() {
+			div[class^='button-'] {
+				width: 30vw !important;
+			}
+		}
+	}
+}

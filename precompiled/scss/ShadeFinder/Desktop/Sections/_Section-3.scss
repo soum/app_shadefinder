@@ -1,0 +1,118 @@
+/*---------------------------------------
+::
+:: 	Section-3 Desktop Overrides
+::
+-----------------------------------------*/
+@import '../../Core/Sections/Section-3.scss';
+
+.section-3 {
+
+	h5, small.count, .mobile-bottom { display:none; }
+
+	.wrapper { @include transform(none !important); }
+
+	.desktop-top {
+		position: absolute; top: 15px;
+	}
+}
+
+
+/*---------------------------------------
+::
+:: 	States
+::
+-----------------------------------------
+:: 	Mixins
+-----------------------------------------*/
+@mixin page-4-visible() {
+	.background .inner { @extend %faded-in; }
+	.top, .bottom { @extend %faded-in; }
+	.content {
+		.left, .right, .center { @extend %faded-in; }
+	}
+}
+
+/*---------------------------------------
+:: 	To 4
+-----------------------------------------*/
+.from-page-start.to-page-4 .section-3 {
+	@extend %upped-in; @include page-4-visible(); @extend %fade-in;
+	.background { display:block; }
+}
+.from-page-2.to-page-4 .section-3 { @extend %left-in; @include page-4-visible(); }
+.from-page-3.to-page-4 .section-3 {
+	@extend %upped-in;
+	.background { @extend %flip-in; }
+}
+.from-page-5.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+.from-page-6.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+.from-page-9.to-page-4 .section-3 { @extend %right-in; @include page-4-visible(); }
+
+/*---------------------------------------
+:: 	From 4
+-----------------------------------------*/
+.from-page-4 .section-3 { @include page-4-visible(); }
+.from-page-4.to-page-1 .section-3 { z-index:0; @extend %upped-in; }
+.from-page-4.to-page-2 .section-3 { @extend %right-out; }
+.from-page-4.to-page-3 .section-3 { @extend %right-out; }
+.from-page-4.to-page-5 .section-3 { @extend %left-out; }
+.from-page-4.to-page-6 .section-3 { @extend %left-out; }
+.from-page-4.to-page-9 .section-3 { @extend %left-out; }
+
+
+/*---------------------------------------
+:: 	Customizations
+-----------------------------------------*/
+.to-402, .to-403, .to-404  {
+	.section-3 {
+		.background.center .inner, .content .center { @extend %faded-in; }
+	}
+}
+
+.from-304.to-401 {
+	.section-3 {
+		.overlays .box { border-color: transparent; @include transition(none); }
+	}
+}
+
+.from-401.to-402 {
+	.section-3 {
+		.overlays { .left, .right { border-color: transparent; } }
+	}
+}
+
+.from-402.to-403 {
+	.section-3 {
+		.overlays { .right { border-color: transparent; } }
+	}
+}
+
+.from-401.to-402, .from-402.to-403, .from-403.to-404  {
+	.section-3 {
+		.background.center .inner, .content .center, .top, .bottom { @extend %fade-in-medium; }
+	}
+}
+
+.to-403, .to-404  {
+	.section-3 {
+		.background.left .inner, .content .left { @extend %faded-in; }
+	}
+}
+
+.from-402.to-403, .from-403.to-404  {
+	.section-3 {
+		.background.left .inner, .content .left { @extend %fade-in-medium; }
+	}
+}
+
+.to-404  {
+	.section-3 {
+		.background.right .inner, .content .right { @extend %faded-in; }
+	}
+}
+
+.from-403.to-404  {
+	.section-3 {
+		.background.right .inner, .content .right { @extend %fade-in-medium; }
+	}
+}
